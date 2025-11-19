@@ -4,7 +4,7 @@ Welcome! I'm Liz Marlowe, a Senior Technical Writer specialing in API and SDK do
 # 📂 Portfolio Sections
 - [User Guides](user-guides/README.md)
 - [API Documentation](API-docs/README.md)
-- [Techncial Reference Guides](technical-reference/README.md)
+- [Technical Reference Guides](technical-reference/README.md)
 - [Release Notes](release-notes/README.md)
 
 ## Contact
