@@ -14,22 +14,18 @@ This portfolio showcases examples of my work across different documentation type
 - [User Guide 3](../../wiki/User-Guide-3)
 
 ### 🔗 [API Docs](../../wiki/API-Docs)
-- ../../wiki/API-Docs-Authentication
-- [Endpoints](../../wiki/API-Docs-Endpoints)
-- [Error Handling](../../wiki/API-Docs-Error-Handling)
-
-### 🎓 ../../wiki/Tutorials
-- [Quick Start](../../wiki/Tutorials-Quick-Start)
-- [Integration](../../wiki/Tutorials-Integration)
-
-### 📝 [Release Notes](../../wiki/Release-Notes)
-- [Version 1.0](../../wiki/Release-Notes-v1.0)
-- [Version 2.0](../../wiki/Release-Notes-v2.0)
+- [API Doc 1](../../wiki/API-Doc-1)
+- [API Doc 2](../../wiki/API-Doc-2)
+- [API Doc 3](../../wiki/API-Doc-3)
 
 ### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides)
-- [Architecture](../../wiki/Tech-Ref-Guide-Architecture)
-- [Configuration](../../wiki/Tech-Ref-Guide-Configuration)
-- [Standards](../../wiki/Tech-Ref-Guide-Standards)
+- [Technical Reference Guide 1](../../wiki/Tech-Ref-1)
+- [Technical Reference Guide 2](../../wiki/Tech-Ref-2)
+- [Technical Reference Guide 3](../../wiki/Tech-Ref-3)
+
+### 📝 [Release Notes](../../wiki/Release-Notes)
+- [Release Notes Version 1.0](../../wiki/Release-Notes-v1.0)
+- [Release Notes Version 2.0](../../wiki/Release-Notes-v2.0)
 
 ---
 
