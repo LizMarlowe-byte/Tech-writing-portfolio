@@ -1,11 +1,12 @@
 # Liz Marlowe - Technical Writing Portfolio
-Welcome! I'm Liz Marlowe, a Senior Technical Writer specialing in API and SDK documentation, user guides, and all types of technical reference guides. This portfolio highlights my original work.
+Hi! My name is Liz Marlowe. Welcome to my technical writing portfolio. 
+Here you will find samples of my original work, including user guides, API guides, technical reference guides, and release notes.
 
 # 📂 Portfolio Sections
-- [User Guides](User-Guides)
-- [API Documentation](API-docs/README.md)
-- [Technical Reference Guides](technical-reference/README.md)
-- [Release Notes](release-notes/README.md)
+- [User Guides](user-guides)
+- [API Documentation](api-docs)
+- [Technical Reference Guides](technical-reference)
+- [Release Notes](release-notes)
 
 ## Contact
 [LinkedIn](https://linkedin.com/in/liz-marlowe-3397833) | [Email](mailto:Liz.Marlowe@gmail.com)
