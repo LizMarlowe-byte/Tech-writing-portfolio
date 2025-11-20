@@ -9,7 +9,7 @@ This portfolio showcases examples of my work across different documentation type
 ## 📖 Documentation Index
 
 ### 📚 [User Guides](../../wiki/User-Guides)
-- [User Guide 1](../../wiki/User-Guide-1)
+- [User Guide 1](../../wiki/Docmost-User-Guide)
 - [User Guide 2](../../wiki/User-Guides-2)
 - [User Guide 3](../../wiki/User-Guide-3)
 
