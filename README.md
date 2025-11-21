@@ -19,9 +19,9 @@ This portfolio showcases examples of my work across different documentation type
 - [API Doc 3](../../wiki/API-Doc-3)
 
 ### 🛠️ [How-To Articles](../../wiki/How-To-Articles)
-- [How To Article 1](../../wiki/How-To-1)
-- [How To Article 2](../../wiki/How-To-2)
-- [How To Article 3](../../wiki/How-To-3)
+- [How to create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare)
+- [How to create an in-app guide in Pendo](../../wiki/How-to-create-an-in-app-guide-in-Pendo)
+- [How to create an e-learning video in Camtasia](../../wiki/How-to-create-an-e-learning-video-in-Camtasia)
 
 ### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides)
 - [Technical Reference Guide 1](../../wiki/Tech-Ref-1)
