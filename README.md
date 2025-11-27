@@ -10,7 +10,7 @@ This portfolio showcases examples of my work across different documentation type
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide)
-- [User Guide 2](../../wiki/User-Guides-2)
+- [Taiga User Guide 2](../../wiki/Taiga-User_Guide)
 - [User Guide 3](../../wiki/User-Guide-3)
 
 ### 🔗 [API Docs](../../wiki/API-Docs)
