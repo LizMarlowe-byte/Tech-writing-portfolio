@@ -1,6 +1,6 @@
 # Liz Marlowe - Technical Writing Portfolio
 
-Welcome! I'm **Liz Marlowe**, a Senior Technical Writer and Content Developer specializing in crafting impactful user-centric documentation across diverse platforms.
+Welcome! I'm **Liz Marlowe**, a Principal Technical Writer specializing in crafting impactful user-centric documentation across diverse platforms.
 
 This portfolio showcases examples of my work across different documentation types. Each category links to detailed pages in the **Wiki**.
 
