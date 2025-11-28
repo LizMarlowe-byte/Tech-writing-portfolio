@@ -12,8 +12,8 @@ With 20+ years of experience in technical content development, I craft clear, ta
 
 This portfolio showcases examples of my work, including different types of user guides, API documentation, knowledge base articles, technical reference guides, and release notes. Due to the proprietary nature of my work as a Principal Technical Writer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source projects or fictional applications, designed to showcase my writing style, structure, and technical communication skills.
 
-< [!NOTE]
-< The Knowledge Base articles provide tutorials for accomplishing specific tasks in real, publicly available applications. All content is my original work, created to address gaps in the existing documentation.
+> [!NOTE]
+> The Knowledge Base articles provide tutorials for accomplishing specific tasks in real, publicly available applications. All content is my original work, created to address gaps in the existing documentation.
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide)
