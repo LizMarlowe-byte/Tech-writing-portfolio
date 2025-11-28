@@ -10,7 +10,10 @@ With 20+ years of experience in technical content development, I craft clear, ta
 
 ## 📖 Documentation Index
 
-This portfolio showcases examples of my work, including different types of user guides, API documentation, how to articles, technical reference guides, and release notes. Due to the proprietary nature of my work as a Principal Technical Writer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source projects or fictional applications, designed to showcase my writing style, structure, and technical communication skills.
+This portfolio showcases examples of my work, including different types of user guides, API documentation, knowledge base articles, technical reference guides, and release notes. Due to the proprietary nature of my work as a Principal Technical Writer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source projects or fictional applications, designed to showcase my writing style, structure, and technical communication skills.
+
+<!NOTE>
+< The Knowledge Base articles provide tutorials for accomplishing specific tasks in real, publicly available applications. All content is my original work, created to address gaps in the existing documentation.
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide)
@@ -22,7 +25,7 @@ This portfolio showcases examples of my work, including different types of user 
 - [API Doc 2](../../wiki/API-Doc-2)
 - [API Doc 3](../../wiki/API-Doc-3)
 
-### 🛠️ [How-To Articles](../../wiki/How-To-Articles)
+### 🛠️ [Knowledge Base Articles](../../wiki/How-To-Articles)
 - [How to create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare)
 - [How to create an in-app guide in Pendo](../../wiki/How-to-create-an-in-app-guide-in-Pendo)
 - [How to create an e-learning video in Camtasia](../../wiki/How-to-create-an-e-learning-video-in-Camtasia)
