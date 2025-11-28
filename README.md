@@ -9,11 +9,11 @@ With 20+ years of experience in technical content development, I craft clear, ta
 
 From editing bug and feature descriptions for release notes to writing complex integration guides from scratch, my goal is to simplify complex technology and help users accomplish tasks with confidence. 
 
-For more information about my work experience and skills, [View My Resume](Liz%20Marlowe%20Resume.pdf).
+For more information about my work experience and skills, 📄 [View My Resume](Liz%20Marlowe%20Resume.pdf).
 
 ---
 
-## Skills & Tools
+## 🛠 Skills & Tools
 - **Tools:** MadCap Flare, GitHub, Confluence, Snagit, Camtasia
 - **Languages:** Markdown, HTML, XML
 - **Specialities:** SaaS documentation, API reference guides, UI/UX writing
