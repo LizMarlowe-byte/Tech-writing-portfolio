@@ -2,16 +2,20 @@
 
 Welcome! I'm **Liz Marlowe**, a Principal Technical Writer specializing in crafting impactful user-centric documentation across diverse platforms.
 
-This portfolio showcases examples of my work across different documentation types. Each category links to detailed pages in the **Wiki**.
+## About me
+
+With 20+ years of experience in technical content development, I craft clear, task-focused, accessible documentation that empowers users and accelerates product adoption. From editing bug and feature descriptions for release notes to writing full complex integration guides from scratch, my goal is to simplify complex technology and help users accomplish tasks with confidence. For more information about my work experience and skills, see my resume at.
 
 ---
 
 ## 📖 Documentation Index
 
+This portfolio showcases examples of my work, including different types of user guides, API documentation, how to articles, technical reference guides, and release notes. Due to the proprietary nature of my work as a Principal Technical Writer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source projects or fictional applications, designed to showcase my writing style, structure, and technical communication skills.
+
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide)
-- [Taiga User Guide 2](../../wiki/Taiga-User_Guide)
-- [User Guide 3](../../wiki/User-Guide-3)
+- [Taiga User Guide](../../wiki/Taiga-User_Guide)
+- [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide)
 
 ### 🔗 [API Docs](../../wiki/API-Docs)
 - [API Doc 1](../../wiki/API-Doc-1)
@@ -36,8 +40,8 @@ This portfolio showcases examples of my work across different documentation type
 
 ## ✅ About This Portfolio
 - **Format:** Markdown for portability and GitHub rendering.
-- **Tools Used:** GitHub Wiki, Markdown, diagrams.
-- **Focus Areas:** API documentation, user guides, tutorials, and technical references.
+- **Tools Used:** GitHub Wiki, Markdown, Snagit, MadCap Capture, MS PowerPoint.
+- **Focus Areas:** User guides, API documentation, how to articles, technical reference guides, and release notes.
 
 ---
 
