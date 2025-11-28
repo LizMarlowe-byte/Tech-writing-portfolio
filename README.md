@@ -1,4 +1,5 @@
 # Liz Marlowe - Technical Writing Portfolio
+*Clear, user-focused documentation that simplifies complexity.*
 
 Welcome! I'm **Liz Marlowe**, a Principal Technical Writer specializing in crafting impactful user-centric documentation across diverse platforms.
 
@@ -6,9 +7,16 @@ Welcome! I'm **Liz Marlowe**, a Principal Technical Writer specializing in craft
 
 With 20+ years of experience in technical content development, I craft clear, task-focused, accessible documentation that empowers users and accelerates product adoption. 
 
-From editing bug and feature descriptions for release notes to writing full complex integration guides from scratch, my goal is to simplify complex technology and help users accomplish tasks with confidence. 
+From editing bug and feature descriptions for release notes to writing complex integration guides from scratch, my goal is to simplify complex technology and help users accomplish tasks with confidence. 
 
-For more information about my work experience and skills, [view my resume](Liz%20Marlowe%20Resume.pdf).
+For more information about my work experience and skills, [View My Resume](Liz%20Marlowe%20Resume.pdf).
+
+---
+
+## Skills & Tools
+- **Tools:** MadCap Flare, GitHub, Confluence, Snagit, Camtasia
+- **Languages:** Markdown, HTML, XML
+- **Specialities:** SaaS documentation, API reference guides, UI/UX writing
 
 ---
 
@@ -16,8 +24,7 @@ For more information about my work experience and skills, [view my resume](Liz%2
 
 This portfolio showcases examples of my work, including different types of user guides, API documentation, knowledge base articles, technical reference guides, and release notes. Due to the proprietary nature of my work as a Principal Technical Writer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source projects or fictional applications, designed to showcase my writing style, structure, and technical communication skills.
 
-> [!NOTE]
-> The Knowledge Base articles provide tutorials for accomplishing specific tasks in real, publicly available applications. All content is my original work, created to address gaps in the existing documentation.
+> **Note:** The Knowledge Base articles provide tutorials for accomplishing specific tasks in real, publicly available applications. All content is my original work, created to address gaps in the existing documentation.
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide)
@@ -48,7 +55,7 @@ This portfolio showcases examples of my work, including different types of user 
 ## ✅ About This Portfolio
 - **Format:** Markdown for portability and GitHub rendering.
 - **Tools Used:** GitHub Wiki, Markdown, Snagit, MadCap Capture, MS PowerPoint.
-- **Focus Areas:** User guides, API documentation, how to articles, technical reference guides, and release notes.
+- **Focus Areas:** User guides, API documentation, knowledge base articles, technical reference guides, and release notes.
 
 ---
 
