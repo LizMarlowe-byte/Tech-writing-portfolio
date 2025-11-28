@@ -4,7 +4,7 @@ Welcome! I'm **Liz Marlowe**, a Principal Technical Writer specializing in craft
 
 ## About me
 
-With 20+ years of experience in technical content development, I craft clear, task-focused, accessible documentation that empowers users and accelerates product adoption. From editing bug and feature descriptions for release notes to writing full complex integration guides from scratch, my goal is to simplify complex technology and help users accomplish tasks with confidence. For more information about my work experience and skills, see my resume at.
+With 20+ years of experience in technical content development, I craft clear, task-focused, accessible documentation that empowers users and accelerates product adoption. From editing bug and feature descriptions for release notes to writing full complex integration guides from scratch, my goal is to simplify complex technology and help users accomplish tasks with confidence. For more information about my work experience and skills, [view my resume](Liz Marlowe Resume.pdf).
 
 ---
 
