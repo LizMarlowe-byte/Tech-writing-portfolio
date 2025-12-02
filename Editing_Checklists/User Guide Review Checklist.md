@@ -1,6 +1,6 @@
 
 ## User Guide Review Checklist
-Use this checklist to make sure that the user guide follows the defined style, structure and writing guidelines.
+Use this checklist to make sure that a user guide follows the defined style, structure and writing guidelines.
 
 ### Global User Guide Checklist
 
