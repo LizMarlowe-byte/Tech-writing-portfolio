@@ -13,6 +13,10 @@ This user guide is based on a real open-source application and was created exclu
       
 - [ ] Verify that the Introduction to the application chapter includes an **Overview**, any other relevant concept topics, **Key features**, and **Target audience**.
 
+- [ ] Verify that the Key features topic only includes a bulleted list of features, where the feature is summed up in a few words and bold, then colon (:), and then there's a detailed explanation of the feature. For example: **Collaborative real-time, rich text editor**: Work together with other users on the same pages in real time using a rich text editor.
+
+- [ ] Verify that the **Target audience** topic has the following syntax: This guide is designed for users who want to create and share content in a wiki format and collaborate with other users.
+
 - [ ] For all proprietary UI elements, make sure they are initial-capped.
       
 - [ ] Review all graphics:
