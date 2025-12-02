@@ -11,7 +11,7 @@ This user guide is based on a real open-source application and was created exclu
 
 - [ ] Verify Table of Contents comes after the disclaimer, and includes all accurate heading 1s in the guide.
       
-- [ ] Verify that the Introduction to the appliation chapter includes an **Overview**, any other relevant concept topics, **Key features**, and **Target audience**.
+- [ ] Verify that the Introduction to the application chapter includes an **Overview**, any other relevant concept topics, **Key features**, and **Target audience**.
 
 - [ ] For all proprietary UI elements, make sure they are initial-capped.
       
