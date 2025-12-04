@@ -62,3 +62,7 @@ This user guide is based on a real open-source application and was created exclu
    - [ ] --- and --- between text and graphics
          
    - [ ] From the x screen: with a bulleted or numbered list of actions.
+     
+   - [ ] Make sure bulleted lists within procedures represent non-sequential steps.
+     
+   - [ ] Make sure numbered lists within procedures represent sequential steps.
