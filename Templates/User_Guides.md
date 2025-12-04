@@ -66,6 +66,8 @@ This guide is designed for {type of users the guide is for - such as: "users who
      
    3. {Describe what to do on the screen.}
   
+      > **Note:** {Text of note}
+  
 3. Do one of the following:
 
    - Describe what to do (option)
