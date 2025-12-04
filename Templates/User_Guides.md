@@ -51,11 +51,33 @@ This guide is designed for {type of users the guide is for - such as: "users who
 * [Set your preferences](#Set-your-preferences)
 
 ## Set up your account
+
 {1-2 sentences that describe the task.}
 
 **Procedure**
 
-{Numbered steps}
+1. {Describe the step.}
+
+2. From the **x** screen:
+
+   1. {Describe what to do on the screen.}
+
+   2. {Describe what to do on the screen.}
+     
+   3. {Describe what to do on the screen.}
+  
+3. Do one of the following:
+
+   - Describe what to do (option)
+  
+   - Describe what to do (option)
+
+---
+
+![Create workspace](https://raw.githubusercontent.com/LizMarlowe-byte/Tech-writing-portfolio/main/Images/DocMost2.png "Create workspace")
+
+---
+
 
 
 ## Set up your profile
