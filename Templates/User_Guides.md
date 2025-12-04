@@ -72,6 +72,8 @@ This guide is designed for {type of users the guide is for - such as: "users who
   
    - Describe what to do (option)
 
+> 💡 **Tip:** {Provide an alternate way of doing something or something  that helps the user in another way.}
+
 ---
 
 ![Create workspace](https://raw.githubusercontent.com/LizMarlowe-byte/Tech-writing-portfolio/main/Images/DocMost2.png "Create workspace")
@@ -93,6 +95,13 @@ This guide is designed for {type of users the guide is for - such as: "users who
 **Procedure**
 
 {Numbered steps}
+
+|Field          |Description|
+|:--------------|:----------| 
+|{Name of field}|{Description of field}
+|{Name of field}|{Description of field}
+|{Name of field}|{Description of field}
+|{Name of field}|The values can be one of the following:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
 
 # Group of similar tasks 1
 
