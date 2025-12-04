@@ -6,10 +6,10 @@ This user guide is based on a real open-source application and was created exclu
 # Table of Contents
 1. [Introduction to {Name of application}](#introduction-to-{Name-of-application})
 2. [Getting started with {Name of application}](#getting-started-with-{Name-of-application}))
-3. [Heading 1e](#heading-1c)
-4. [Heading 1d](#heading-1d)
-5. [Heading 1e](#heading-1e)
-6. [Heading 1f](#heading-1f)
+3. [Group of similar tasks 1](#group-of-similar=-tasks-1)
+4. [Group of similar tasks 2](#group-of-similar=-tasks-2)
+5. [Group of similar tasks 3](#group-of-similar=-tasks-3)
+6. [Group of similar tasks 4](#group-of-similar=-tasks-4)
 
 # Introduction to {Name of application}
 
@@ -72,4 +72,33 @@ This guide is designed for {type of users the guide is for - such as: "users who
 
 {Numbered steps}
 
+# Group of similar tasks 1
 
+{1-2 sentences that summarize the tasks that you're doing within this heading 1.]
+
+**Topics**:
+
+* [Task 1](#task-1)
+* [Task 2](#task-2)
+* [Task 3](#task-3)
+
+## Task 1
+{1-2 sentences that describe the task.}
+
+**Procedure**
+
+{Numbered steps}
+
+## Task 2
+{1-2 sentences that describe the task.}
+
+**Procedure**
+
+{Numbered steps}
+
+## Task 3
+{1-2 sentences that describe the task.}
+
+**Procedure**
+
+{Numbered steps}
