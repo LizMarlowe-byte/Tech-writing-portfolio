@@ -5,8 +5,8 @@ This user guide is based on a real open-source application and was created exclu
 
 # Table of Contents
 1. [Introduction to {Name of application}](#introduction-to-{Name-of-application})
-2. [Heading 1b](#heading-1b)
-3. [Heading 1c](#heading-1c)
+2. [Getting started with {Name of application}](#getting-started-with-{Name-of-application}))
+3. [Heading 1e](#heading-1c)
 4. [Heading 1d](#heading-1d)
 5. [Heading 1e](#heading-1e)
 6. [Heading 1f](#heading-1f)
