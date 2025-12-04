@@ -89,14 +89,23 @@ This guide is designed for {type of users the guide is for - such as: "users who
 
 **Procedure**
 
-{Numbered steps}
+1. {Describe the step.}
+
+2. {Describe the step.}
+
+>[!NOTE]
+> {Text of the note.}
 
 ## Set up your preferences
 {1-2 sentences that describe the task.}
 
 **Procedure**
 
-{Numbered steps}
+1. {Describe the step.}
+
+2. {Describe the step.}
+
+3. {Describe the step.}
 
 |Field          |Description|
 |:--------------|:----------| 
