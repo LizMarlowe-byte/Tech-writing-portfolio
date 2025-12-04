@@ -17,7 +17,7 @@ This user guide is based on a real open-source application and was created exclu
 
 **Topics**:
 
-* [Overview]{#overview)
+* [Overview](#overview)
 * [Heading 2a Concept topic](#heading-2a-Concept-topic)
 * [Key features](#Key-features)
 * [Target audience](#Target-audience)
