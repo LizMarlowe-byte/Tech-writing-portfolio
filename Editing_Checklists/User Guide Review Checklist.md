@@ -66,3 +66,5 @@ This user guide is based on a real open-source application and was created exclu
    - [ ] Make sure bulleted lists within procedures represent non-sequential steps.
      
    - [ ] Make sure numbered lists within procedures represent sequential steps.
+     
+   - [ ] Make sure all numbered steps are correct.
