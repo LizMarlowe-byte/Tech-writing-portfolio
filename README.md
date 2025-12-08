@@ -27,9 +27,9 @@ This portfolio showcases examples of my work, including different types of user 
 > **Note:** The Knowledge Base articles provide tutorials for accomplishing specific tasks in real, publicly available applications. All content is my original work, created to address gaps in the existing documentation.
 
 ### 📚 [User Guides](../../wiki/User-Guides)
-- [Docmost User Guide](../../wiki/Docmost-User-Guide): Collaborative wiki platform for end users
-- [Taiga User Guide](../../wiki/Taiga-User_Guide): Agile project management tool for Agile scrum and Kanban project managers
-- [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): IT asset management system for system administrators
+- [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes how to use a collaborative wiki platform for end users.
+- [Taiga User Guide](../../wiki/Taiga-User_Guide): Describes how to use an agile project management tool for project managers.
+- [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes how to use an IT asset management system for system administrators.
 
 ### 🔗 [API Docs](../../wiki/API-Docs)
 - [API Doc 1](../../wiki/API-Doc-1)
