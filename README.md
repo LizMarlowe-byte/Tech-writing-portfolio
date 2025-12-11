@@ -28,7 +28,7 @@ This portfolio showcases examples of my work, including different types of user 
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes how to use a collaborative wiki platform for end users. - **Done**
-- [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes how to use an agile project management tool for project managers. - **In Progress**
+- [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes how to use an Agile project management tool for project managers. - **In Progress**
 - [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes how to use an IT asset management system for system administrators. - **Not Started**
 
 ### 🔗 [API Docs](../../wiki/API-Docs) - TBD
