@@ -64,7 +64,9 @@ The rate limits are different, depending on whether you are an authenticated or 
     "request_id": "req_xR72m3"
   }
 }
+```
 
+---
 ## Status codes and errors
 Errors and statuses are returned with appropriate HTTP status codes and a structured JSON body.
 
