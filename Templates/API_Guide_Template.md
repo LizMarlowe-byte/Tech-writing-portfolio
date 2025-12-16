@@ -37,7 +37,7 @@ https://sandbox.api.example.com
 {Describe the authentication method(s) used for the API, such as using an API key, OAuth, Bearer token, etc.}
 
 Example 1:
-The {Name of API} uses [API keys](#get-an-api-key) to authenticate requests. All API requests must be made over HTTPS. Calls made over plain HTTP will fail. API requests without authentication will also fail.
+The {Name of API} uses [API keys](#get-an-api-key) to authenticate requests. All API requests must be made over HTTPS. Calls made over plain HTTP and API requests without authentication will also fail.
 
 Example 2:
 All requests require a **Bearer token** in the `Authorization` header.
