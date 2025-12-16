@@ -13,10 +13,19 @@ The {Name of API} is organized around REST. It has resource-oriented URLs, form-
 
 ## Base URL
 
-- **Production:** `https://api.example.com`
-- **Sandbox:** `https://sandbox.api.example.com`
+All API requests are made to the following base URL. Append the endpoint paths to this root URL when constructing requests. The API is served over HTTPS for security, and all endpoints are versioned.
 
-All endpoints are prefixed with the version: `/v1/...`
+**Production:**
+
+'''
+https://api.example.com
+'''
+
+**Sandbox (for testing):** 
+
+'''
+https://sandbox.api.example.com
+'''
 
 ---
 
