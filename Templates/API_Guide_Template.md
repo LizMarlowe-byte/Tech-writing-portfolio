@@ -304,7 +304,10 @@ The API Reference provides detailed information about each endpoint, grouped by 
 Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints related to obtaining and managing access tokens._
 
 **Endpoints:**
-[{Method}{Endpoint}](#-{Method]-{Endpoint])
+
+- [{Method}{Endpoint}](#-{Method]-{Endpoint])
+- [{Method}{Endpoint}](#-{Method]-{Endpoint])
+- [{Method}{Endpoint}](#-{Method]-{Endpoint])
 
 
 ### {Method}{Endpoint] Example: _POST /v1/auth/token_
@@ -413,10 +416,13 @@ Example:
 ---
 Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints for creating, retrieving, updating and deleting widgets._
 
-**Endpoints**
-- [POST /v1/widgets (Create a Widget)](#POST-/v1/widgets-(create-a-widget)
+**Endpoints:**
 
-### {Method} {Endpoint} (Function) Example: _POST /v1/widgets (Create a Widget)_
+- [{Method}{Endpoint}](#-{Method]-{Endpoint])
+- [{Method}{Endpoint}](#-{Method]-{Endpoint])
+- [{Method}{Endpoint}](#-{Method]-{Endpoint])
+
+### {Method} {Endpoint} Example: _POST /v1/widgets_
 
 **Description:** {Goal of the function.} For example: _Creates a new widget._
 
@@ -426,13 +432,17 @@ Endpoints related to {describe what the endpoints are used for}. For example: _E
 
 ### Sample Request
 
-```json
+```
 
 {Method} http(s)://{domain}/resources?query1=value1&query2=value2
 
 Header1: Value1
 
 Header2: Value2
+
+```
+
+```json
 
 {
 
@@ -444,6 +454,12 @@ Header2: Value2
 
 ```
 Example:
+
+```
+
+POST https://api.example.com/v1/widgets
+
+```
 
 ```json
 
