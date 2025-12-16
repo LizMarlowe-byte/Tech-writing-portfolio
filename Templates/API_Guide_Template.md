@@ -440,10 +440,6 @@ Header1: Value1
 
 Header2: Value2
 
-```
-
-```json
-
 {
 
   "element1": "value1",
@@ -453,6 +449,7 @@ Header2: Value2
 }
 
 ```
+
 Example:
 
 ```
