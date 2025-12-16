@@ -42,7 +42,7 @@ https://sandbox.api.example.com
 The {Name of API} uses [API keys](#get-an-api-key) to authenticate requests. All API requests must be made over HTTPS. Calls made over plain HTTP and API requests without authentication will fail.
 
 **Example 2:**
-All requests require a **Bearer token** in the `Authorization` header. All API requests must be made over HTTPS. Calls made over plain HTTP and API requests without an **Authorization** header will fail.
+All requests require a **Bearer token** in the `Authorization` header. All API requests must be made over HTTPS. Calls made over plain HTTP and API requests without an `Authorization` header will fail.
 
 **Header:**
 ```
