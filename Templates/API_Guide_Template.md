@@ -9,7 +9,7 @@
 4. [Rate limits](#rate-limits)
 5. [Status and error codes](#status-and-error-codes)
 6. [Pagination](#pagination)
-7. [Getting Started](#getting-started)
+7. [Getting started](#getting-started)
 8. [Tutorials](#tutorials)
 9. [API Reference](#api-reference)
 
@@ -165,7 +165,7 @@ Two patterns are supported in the {Name of API} API:
   
 - [Cursor Pagination](#cursor-pagination): In the request, specify a cursor or token representing a position in the dataset. You pass the cursor to get to the next page. For example, you can use the query parameters **limit=50&cursor=c_abc** to limit the response to 50 items a page, starting with the position c_abc in the dataset.
 
-### Offset Pagination
+### Offset pagination
 **Request:** `GET /v1/widgets?limit=50&page=2`
 
 **Response:**
@@ -180,7 +180,7 @@ Two patterns are supported in the {Name of API} API:
 }
 ```
 
-### Cursor Pagination
+### Cursor pagination
 **Request:** `GET /v1/widgets?limit=50&cursor=c_abc`
 
 **Response:**
@@ -196,7 +196,7 @@ Two patterns are supported in the {Name of API} API:
 
 ---
 
-## Getting Started
+## Getting started
 
 To get started using the <Name of API>, do the following:
 
@@ -289,7 +289,7 @@ A successful response returns a 201 Created status code and a JSON object contai
 
 ---
 
-## API Reference
+## API reference
 
 The API Reference provides detailed information about each endpoint, grouped by functionality for easier navigation. Each endpoint includes supported HTTP methods, required and optional query parameters, request and response formats, and example payloads to help you integrate efficiently.
 
