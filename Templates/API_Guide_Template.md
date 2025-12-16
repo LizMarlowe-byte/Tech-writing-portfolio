@@ -9,14 +9,32 @@ For REST APIs:
 The {Name of API} is organized around REST. It has resource-oriented URLs, form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes and authentication. 
 
 ## Base URL
-The root endpoint for all API calls is:
-{URL}
+
+- **Production:** `https://api.example.com`
+- **Sandbox:** `https://sandbox.api.example.com`
+
+All endpoints are prefixed with the version: `/v1/...`
 
 ## Authentication
 {Describe the authentication method(s) used for the API, such as using an API key, OAuth, Bearer token, etc.}
 
-{For example:
+{Example 1:
 The {Name of API} uses [API keys](#get-an-api-key) to authenticate requests. All API requests must be made over HTTPS. Calls made over plain HTTP will fail. API requests without authentication will also fail.}
+
+{Example 2:
+All requests require a **Bearer token** in the `Authorization` header.
+
+**Header:**
+```
+Authorization: Bearer <YOUR_TOKEN>
+```
+
+Include:
+- `Authorization` header on every request
+- `Content-Type: application/json` for requests with JSON bodies
+- `Accept: application/json` to request JSON responses
+
+> How to obtain a token: Refer to your account or developer portal. Tokens typically expire; handle refresh per your auth system.}
 
 ## Rate limits
 A rate limit is the number of requests the API can receive in a specific time period. API rate limiting helps ensure that the API runs efficiently and is available to all users. It also prevents abuse and denial-of-service attacks. Once the limit is reached, API requests from the client fail.
@@ -29,8 +47,43 @@ The rate limits are different, depending on whether you are an authenticated or 
   
 - Rate limit for _unauthenticated_ users: You can only make unauthenticated requests if you are only retrieving public data. The primary rate limit for unauthenticated requests is 50 requests per hour.}
 
+### Rate limit headers
+
+- `X-RateLimit-Limit`: total quota
+- `X-RateLimit-Remaining`: remaining quota in the current window
+- `X-RateLimit-Reset`: UNIX timestamp when the window resets
+
+**Example 429 error response:**
+
+```json
+{
+  "error": {
+    "code": "rate_limited",
+    "message": "Too many requests. Try again later.",
+    "retry_after": 30,
+    "request_id": "req_xR72m3"
+  }
+}
+
 ## Status codes and errors
-Statuses are returned with appropriate HTTP status codes and a structured JSON body.
+Errors and statuses are returned with appropriate HTTP status codes and a structured JSON body.
+
+### Example error JSON response
+
+```json
+{
+  "error": {
+    "code": "invalid_request",
+    "message": "Field 'name' is required.",
+    "details": [
+      { "field": "name", "issue": "missing" }
+    ],
+    "request_id": "req_8fA7ka"
+  }
+}
+```
+
+### Common HTTP status codes
 
 |Code           |Description|When it occurs|
 |:--------------|:----------|:-------------|
@@ -44,6 +97,38 @@ Statuses are returned with appropriate HTTP status codes and a structured JSON b
 |409            |Conflict    |duplicate or version conflict|
 |429            |Too Many Requests|Rate limited|
 |500            |Server Error|Unexpected server-side error
+
+## Pagination
+Two patterns may be supported:
+
+### Offset Pagination
+**Request:** `GET /v1/widgets?limit=50&page=2`
+
+**Response:**
+```json
+{
+  "items": [
+    { "id": "w_12345", "name": "Example Widget" }
+  ],
+  "page": 2,
+  "limit": 50,
+  "total": 317
+}
+```
+
+### Cursor Pagination
+**Request:** `GET /v1/widgets?limit=50&cursor=c_abc`
+
+**Response:**
+```json
+{
+  "items": [
+    { "id": "w_12345", "name": "Example Widget" }
+  ],
+  "next_cursor": "c_def",
+  "prev_cursor": "c_xyz"
+}
+```
 
 # Getting Started
 To get started using the <Name of API>, do the following:
