@@ -1,18 +1,17 @@
 # {API Name} Guide
 
----
+***
 
-**Contents**
-
-- [Overview](#overview)
-- [Base URL](#base-URL)
-- [Authentication](#authentication)
-- [Rate limits](#rate-limits)
-- [Status and error codes](#status-and-error-codes)
-- [Pagination](#pagination)
-- [Getting Started](#getting-started)
-- [Tutorials](#tutorials)
-- [API Reference](#api-reference)
+# Table of Contents
+1. [Overview](#overview)
+2. [Base URL](#base-URL)
+3. [Authentication](#authentication)
+4. [Rate limits](#rate-limits)
+5. [Status and error codes](#status-and-error-codes)
+6. [Pagination](#pagination)
+7. [Getting Started](#getting-started)
+8. [Tutorials](#tutorials)
+9. [API Reference](#api-reference)
 
 ---
 
