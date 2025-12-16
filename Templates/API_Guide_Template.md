@@ -38,11 +38,11 @@ https://sandbox.api.example.com
 ## Authentication
 {Describe the authentication method(s) used for the API, such as using an API key, OAuth, Bearer token, etc.}
 
-Example 1:
-The {Name of API} uses [API keys](#get-an-api-key) to authenticate requests. All API requests must be made over HTTPS. Calls made over plain HTTP and API requests without authentication will also fail.
+**Example 1:**
+The {Name of API} uses [API keys](#get-an-api-key) to authenticate requests. All API requests must be made over HTTPS. Calls made over plain HTTP and API requests without authentication will fail.
 
-Example 2:
-All requests require a **Bearer token** in the `Authorization` header.
+**Example 2:**
+All requests require a **Bearer token** in the `Authorization` header. All API requests must be made over HTTPS. Calls made over plain HTTP and API requests without an **Authorization** header will fail.
 
 **Header:**
 ```
@@ -54,7 +54,7 @@ Include:
 - `Content-Type: application/json` for requests with JSON bodies
 - `Accept: application/json` to request JSON responses
 
-> How to obtain a token: Refer to your account or developer portal. Tokens typically expire; handle refresh per your auth system.}
+> How to obtain a token: Refer to your account or developer portal. Tokens typically expire; handle refresh per your authentication system.}
 >
 
 ---
@@ -62,13 +62,17 @@ Include:
 ## Rate limits
 A rate limit is the number of requests the API can receive in a specific time period. API rate limiting helps ensure that the API runs efficiently and is available to all users. It also prevents abuse and denial-of-service attacks. Once the limit is reached, API requests from the client fail.
 
-{Describe the rate limits for the API - for example:
+{Describe the rate limits for the API}
+
+**Example 1:**
 
 The rate limits are different, depending on whether you are an authenticated or unauthenticated user:
 
 - Rate limit for _authenticated_ users: You can use a personal access token to make API requests. Additionally, you can authorize an OAuth app to make API requests on your behalf. When using a personal access token, you have a personal rate limit of 6,000 requests per hour. Requests made on your behalf have a higher rate limit of 16,000 requests per hour.
   
-- Rate limit for _unauthenticated_ users: You can only make unauthenticated requests if you are only retrieving public data. The primary rate limit for unauthenticated requests is 50 requests per hour.}
+- Rate limit for _unauthenticated_ users: You can only make unauthenticated requests if you are only retrieving public data. The primary rate limit for unauthenticated requests is 50 requests per hour.
+
+**Example 2:**
 
 ### Rate limit headers
 
