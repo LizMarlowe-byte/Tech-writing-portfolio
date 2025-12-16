@@ -17,19 +17,19 @@ All API requests are made to the following base URL. Append the endpoint paths t
 
 **Production:**
 
-'''
+```
 
 https://api.example.com
 
-'''
+```
 
 **Sandbox (for testing):** 
 
-'''
+```
 
 https://sandbox.api.example.com
 
-'''
+```
 
 ---
 
