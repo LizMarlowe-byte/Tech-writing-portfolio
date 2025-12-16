@@ -6,12 +6,12 @@
 1. [Overview](#overview)
 2. [Base URL](#base-URL)
 3. [Authentication](#authentication)
-4. [Rate limits](#rate-limits)
-5. [Status and error codes](#status-and-error-codes)
+4. [Rate Limits](#rate-limits)
+5. [Status and Error Codes](#status-and-error-codes)
 6. [Pagination](#pagination)
-7. [Getting started](#getting-started)
+7. [Getting Started](#getting-started)
 8. [Tutorials](#tutorials)
-9. [API reference](#api-reference)
+9. [API Reference](#api-reference)
 
 ---
 
@@ -75,7 +75,7 @@ Include:
 
 ---
 
-## Rate limits
+## Rate Limits
 
 A rate limit is the number of requests the API can receive in a specific time period. API rate limiting helps ensure that the API runs efficiently and is available to all users. It also prevents abuse and denial-of-service attacks. Once the limit is reached, API requests from the client fail.
 
@@ -116,7 +116,7 @@ These headers are included in every response to help you monitor your current qu
 
 ---
 
-## Status and error codes
+## Status and Error Codes
 Errors and statuses are returned with appropriate HTTP status codes and a structured JSON body.
 
 ### Example: JSON error response
@@ -136,7 +136,7 @@ Errors and statuses are returned with appropriate HTTP status codes and a struct
 
 ### Common HTTP status codes
 
-|Code           |Description|When it occurs|
+|Code           |Description|When It Occurs|
 |:--------------|:----------|:-------------|
 |200            |OK         |Successful requests|
 |201            |Created    |Resource created (POST)  |
@@ -196,7 +196,7 @@ Two patterns are supported in the {Name of API} API:
 
 ---
 
-## Getting started
+## Getting Started
 
 To get started using the <Name of API>, do the following:
 
@@ -207,7 +207,7 @@ To get started using the <Name of API>, do the following:
 ### Set up your account
 {Describes how to set up your account, either free or fee-based, in order to use the API.}
 
-### Get an API Key
+### Get an API key
 {Describes how to get an API key.}
 
 ---
@@ -289,7 +289,7 @@ A successful response returns a 201 Created status code and a JSON object contai
 
 ---
 
-## API reference
+## API Reference
 
 The API Reference provides detailed information about each endpoint, grouped by functionality for easier navigation. Each endpoint includes supported HTTP methods, required and optional query parameters, request and response formats, and example payloads to help you integrate efficiently.
 
