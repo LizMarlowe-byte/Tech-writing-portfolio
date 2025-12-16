@@ -67,7 +67,43 @@ Header2: Value2
 
 |Parameter      |Description|Type  |Required|Notes|
 |:--------------|:----------|:-----|:-------|-----| 
-|{Text}         |{Text}     |{Text}|{Text}--|{Text}|
-|{Text}         |{Text}     |{Text}|{Text}--|{Text}|
-|{Text}         |{Text}     |{Text}|{Text}--|{Text}|
-|{Text}         |{Text}     |{Text}|{Text}--|Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
+
+## Headers
+
+|Header Name    |Description|Required|Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+## POST or PUT Body
+
+|Element        |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+
+### Sample Response
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+## Response Elements
+
+|Element        |Description|Type    |Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
