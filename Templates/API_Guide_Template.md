@@ -303,7 +303,11 @@ The API Reference provides detailed information about each endpoint, grouped by 
 ---
 Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints related to obtaining and managing access tokens._
 
-### {Goal of Endpoint #1} Example: _Create an Access Token_
+**Endpoints:**
+[{Method}{Endpoint](Function)](#-{Method]-{Endpoint]-(Function))
+
+
+### {Method}{Endpoint](Function) Example: _POST /v1/auth/token (Create a token)_
 
 **Description:** {Goal of the function.} For example: _Generate an access token for API requests._
 
