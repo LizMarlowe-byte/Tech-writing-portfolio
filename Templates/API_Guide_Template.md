@@ -49,7 +49,7 @@ To get started using the <Name of API>, do the following:
 
 ### Sample Request
 
-{Method} https://{domain}/resources?query1=value1&query2=value2
+{Method} http(s)://{domain}/resources?query1=value1&query2=value2
 
 Header1: Value1
 
@@ -63,3 +63,11 @@ Header2: Value2
   
 }
 
+## Query Parameters
+
+|Parameter      |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}--|{Text}|
+|{Text}         |{Text}     |{Text}|{Text}--|{Text}|
+|{Text}         |{Text}     |{Text}|{Text}--|{Text}|
+|{Text}         |Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
