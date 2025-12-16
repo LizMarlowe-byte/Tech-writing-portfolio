@@ -304,10 +304,10 @@ The API Reference provides detailed information about each endpoint, grouped by 
 Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints related to obtaining and managing access tokens._
 
 **Endpoints:**
-[{Method}{Endpoint](Function)](#-{Method]-{Endpoint]-(Function))
+[{Method}{Endpoint}](#-{Method]-{Endpoint])
 
 
-### {Method}{Endpoint](Function) Example: _POST /v1/auth/token (Create a token)_
+### {Method}{Endpoint] Example: _POST /v1/auth/token_
 
 **Description:** {Goal of the function.} For example: _Generate an access token for API requests._
 
@@ -317,13 +317,17 @@ Endpoints related to {describe what the endpoints are used for}. For example: _E
 
 ### Sample Request
 
-```json
+```
 
-{Method} http(s)://{domain}/resources?query1=value1&query2=value2
+Method http(s)://{domain}/resources?query1=value1&query2=value2
 
 Header1: Value1
 
 Header2: Value2
+
+```
+
+```json
 
 {
 
