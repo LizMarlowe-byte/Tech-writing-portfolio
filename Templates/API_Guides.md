@@ -32,3 +32,27 @@ To get started using the <Name of API>, do the following:
 {Describe the authentication method(s) used for the API.}
 
 # Requests & Responses
+{Intro about that these are common requests and responses used by the API, etc.}
+
+## Actions
+- [Action 1](#Action-1)
+- [Action 2](#Action-2)
+- [Action 3](#Action-3)
+
+## Action 1
+---
+{Description}
+
+### URL
+
+{Method}  http(s): / / {domain} / resources
+
+### Sample Request
+{Method}  http (s) : / / {domain} / resources?query1=value1&query2=value2
+Header1: Value1
+Header2:  Value
+{
+        “element1”: value1,
+        “element2”:value2
+}
+
