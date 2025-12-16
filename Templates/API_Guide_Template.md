@@ -13,7 +13,7 @@ The {Name of API} is organized around REST. It has resource-oriented URLs, form-
 
 ## Base URL
 
-All API requests are made to the following base URL. (There are different URLs for Production and testing in a sandbox environment.) 
+All API requests are made to the following base URL. (There are different URLs for Production versus testing in a sandbox environment.) 
 
 When constructing requests, append the endpoint paths to this root URL. For security, the API is served over HTTPS, and all endpoints are versioned.
 
