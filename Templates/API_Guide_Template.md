@@ -4,15 +4,15 @@
 
 **Contents**
 
-[Overview](#overview)
-[Base URL](#base-URL)
-[Authentication](#authentication)
-[Rate limits](#rate-limits)
-[Status and error codes](#status-and-error-codes)
-[Pagination](#pagination)
-[Getting Started](#getting-started)
-[Tutorials](#tutorials)
-[API Reference](#api-reference)
+- [Overview](#overview)
+- [Base URL](#base-URL)
+- [Authentication](#authentication)
+- [Rate limits](#rate-limits)
+- [Status and error codes](#status-and-error-codes)
+- [Pagination](#pagination)
+- [Getting Started](#getting-started)
+- [Tutorials](#tutorials)
+- [API Reference](#api-reference)
 
 ---
 
