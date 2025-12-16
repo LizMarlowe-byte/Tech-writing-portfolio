@@ -211,7 +211,13 @@ To get started using the <Name of API>, do the following:
 
 **Step 1: {Title of Step 1}. For example: _Authenticate Your Request_.**
 
-Set up the `Authorization` header to `Bearer YOUR_API_KEY.`
+Set up the `Authorization` header to `Bearer YOUR_API_KEY.`:
+
+```json
+
+Authorization: Bearer 876toq9945
+
+```
 
 **Step 2: {Title of Step 2}. For example: _Format the Request Body_.**
 
@@ -237,7 +243,12 @@ curl -X POST https://api.example.com/v1/users \
 
 -H "Content-Type: application/json" \
 
--d '{"name": "Jane Doe", "email": "jane@example.com"}'
+-d '{
+
+      "name": "Jane Doe",
+
+      "email": "jane@example.com"
+}'
 
 ```
 
