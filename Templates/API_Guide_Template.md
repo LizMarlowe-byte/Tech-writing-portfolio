@@ -299,8 +299,8 @@ The API Reference provides detailed information about each endpoint, grouped by 
 - [Function 2](#Function-2)
 - [Function 3](#Function-3)
 
-## Function 1, such as _Managing Access Tokens_
----
+## Function 1, such as Managing Access Tokens
+
 Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints related to obtaining and managing access tokens._
 
 **Endpoints:**
@@ -310,7 +310,7 @@ Endpoints related to {describe what the endpoints are used for}. For example: _E
 - [{Method}{Endpoint}](#-{Method]-{Endpoint])
 
 
-### {Method}{Endpoint] Example: _POST /v1/auth/token_
+### {Method}{Endpoint} Example: POST /v1/auth/token
 
 **Description:** {Goal of the function.} For example: _Generate an access token for API requests._
 
@@ -321,16 +321,11 @@ Endpoints related to {describe what the endpoints are used for}. For example: _E
 ### Sample Request
 
 ```
-
 Method http(s)://{domain}/resources?query1=value1&query2=value2
 
 Header1: Value1
 
 Header2: Value2
-
-```
-
-```json
 
 {
 
@@ -341,6 +336,7 @@ Header2: Value2
 }
 
 ```
+
 Example:
 
 ```curl
@@ -412,7 +408,7 @@ Example:
 |{Text}         |{Text}     |{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}  |{Text}|
 
-## Function 2, such as _Managing Widgets_
+## Function 2, such as Managing Widgets
 ---
 Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints for creating, retrieving, updating and deleting widgets._
 
@@ -422,18 +418,17 @@ Endpoints related to {describe what the endpoints are used for}. For example: _E
 - [{Method}{Endpoint}](#-{Method]-{Endpoint])
 - [{Method}{Endpoint}](#-{Method]-{Endpoint])
 
-### {Method} {Endpoint} Example: _POST /v1/widgets_
+### {Method} {Endpoint} Example: POST /v1/widgets
 
-**Description:** {Goal of the function.} For example: _Creates a new widget._
+**Description:** {Goal of the function.} For example: Creates a new widget.
 
 **Method:** {Method, such as GET, POST, PUT, DELETE, etc.}
 
-**URL:** {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/widgets_}  
+**URL:** {URL, in the format: https: / / {domain} / resources. Example: https://api.example.com/v1/widgets}  
 
 ### Sample Request
 
 ```
-
 {Method} http(s)://{domain}/resources?query1=value1&query2=value2
 
 Header1: Value1
@@ -453,12 +448,7 @@ Header2: Value2
 Example:
 
 ```
-
 POST https://api.example.com/v1/widgets
-
-```
-
-```json
 
 {
   "name": "Example Widget",
