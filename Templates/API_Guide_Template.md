@@ -215,7 +215,7 @@ Set up the `Authorization` header to `Bearer YOUR_API_KEY.`:
 
 ```json
 
-"Authorization: Bearer 876toq9945"
+"Authorization: Bearer YOUR_API_KEY"
 
 ```
 
