@@ -70,4 +70,4 @@ Header2: Value2
 |{Text}         |{Text}     |{Text}|{Text}--|{Text}|
 |{Text}         |{Text}     |{Text}|{Text}--|{Text}|
 |{Text}         |{Text}     |{Text}|{Text}--|{Text}|
-|{Text}         |Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
+|{Text}         |{Text}     |{Text}|{Text}--|Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
