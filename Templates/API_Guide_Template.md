@@ -179,9 +179,16 @@ GET /v1/widgets?limit=50&page=2
 
 In the request, specify a cursor or token representing a position in the dataset. You pass the cursor to get to the next page. For example, you can use the query parameters **limit=50&cursor=c_abc** to limit the response to 50 items a page, starting with the position c_abc in the dataset.
 
-**Request:** `GET /v1/widgets?limit=50&cursor=c_abc`
+**Request:** 
+
+```
+
+GET /v1/widgets?limit=50&cursor=c_abc
+
+```
 
 **Response:**
+
 ```json
 {
   "items": [
@@ -190,6 +197,7 @@ In the request, specify a cursor or token representing a position in the dataset
   "next_cursor": "c_def",
   "prev_cursor": "c_xyz"
 }
+
 ```
 
 ---
@@ -212,7 +220,7 @@ To get started using the <Name of API>, do the following:
 
 ## Tutorials
 
-### {Title of the Task, such as _Add Your First User to the Database_}
+### {Tutorial Title, such as Add Your First User to the Database}
 
 **Introduction**
 
@@ -226,9 +234,9 @@ To get started using the <Name of API>, do the following:
 
 Set up the `Authorization` header to `Bearer YOUR_API_KEY.`:
 
-```json
+```
 
-"Authorization: Bearer YOUR_API_KEY"
+Authorization: Bearer YOUR_API_KEY
 
 ```
 
@@ -248,7 +256,7 @@ Create a JSON object with required user details:
 
 Use curl to send the POST request to the endpoint:
 
-```curl
+```
 
 curl -X POST https://api.example.com/v1/users \
 
@@ -289,7 +297,7 @@ A successful response returns a 201 Created status code and a JSON object contai
 
 ## API Reference
 
-The API Reference provides detailed information about each endpoint, grouped by functionality for easier navigation. Each endpoint includes supported HTTP methods, required and optional query parameters, request and response formats, and example payloads to help you integrate efficiently.
+The API Reference provides detailed information about each endpoint, grouped by functionality. Each endpoint includes supported HTTP methods, query parameters, request and response formats, and example payloads.
 
 ## Endpoints by Function
 
