@@ -1,8 +1,17 @@
 # Overview
+
 The {Name of API} allows you to {describe what it allows you to do}. You can use the {Name of API} to {describe examples, use cases, etc.}.
 
-## Requirements
-{Provide any requirements needed in order to use the API.}
+The {Name of API} is organized around REST. It has resource-oriented URLs, form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes and authentication. 
+
+## Rate limits
+There are a limited number of REST API requests that you can make within a specific amount of time. This limit helps prevent abuse and denial-of-service attacks, and ensures that the API is available for all users.
+
+The rate limits are different, depending on whether you are an authenticated or unauthenticated user:
+
+- Rate limit for _authenticated_ users: You can use a personal access token to make API requests. Additionally, you can authorize an OAuth app to make API requests on your behalf. When using a personal access token, you have a personal rate limit of 6,000 requests per hour. Requests made on your behalf have a higher rate limit of 16,000 requests per hour.
+  
+- Rate limit for _unauthenticated_ users: You can only make unauthenticated requests if you are only retrieving public data. The primary rate limit for unauthenticated requests is 50 requests per hour.
 
 ## Key concepts
 {Explain key concepts of the API, including terms specific to the API. For each concept, write a paragraph.}
@@ -17,16 +26,12 @@ The {Name of API} allows you to {describe what it allows you to do}. You can use
 To get started using the <Name of API>, do the following:
 - [Register in the development portal](#register-in-the-development-portal)
 - [Get an App Key](#get-an-app-key)
-- [Authorization](#authorization)
 
 ## Register in the development portal
 {Describes how to register in the dev portal.}
 
 ## Get an App Key
 {Describes how to get an app key.}
-
-## Authorization
-{Describe making one or two HTTP requests that return a response.}
 
 # Authentication
 {Describe the authentication method(s) used for the API.}
@@ -90,7 +95,7 @@ Header2: Value2
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 
-### Sample Response
+## Sample Response
 {
 
   "element1": "value1",
