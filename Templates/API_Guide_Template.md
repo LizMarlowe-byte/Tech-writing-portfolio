@@ -214,8 +214,11 @@ To get started using the <Name of API>, do the following:
 Set up the `Authorization` header to `Bearer YOUR_API_KEY.`:
 
 ```json
+{
 
 Authorization: Bearer 876toq9945
+
+}
 
 ```
 
