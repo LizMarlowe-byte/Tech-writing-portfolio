@@ -32,9 +32,9 @@ This portfolio showcases examples of my work, including different types of user 
 - [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes how to use an IT asset management system for system administrators. - **Not Started**
 
 ### 🔗 [API Docs](../../wiki/API-Docs) - TBD
-- [API Doc 1](../../wiki/API-Doc-1)
-- [API Doc 2](../../wiki/API-Doc-2)
-- [API Doc 3](../../wiki/API-Doc-3)
+- [JSONPlaceholder API Guide](../../wiki/JSONPlaceholder-API-Guide)
+- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide)
+- [GitHub API Guide](../../wiki/GitHub-API-Guide)
 
 ### 🛠️ [Knowledge Base Articles](../../wiki/How-To-Articles) - TBD
 - [How to create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare)
