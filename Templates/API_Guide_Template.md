@@ -55,7 +55,7 @@ Include:
 - `Content-Type: application/json` for requests with JSON bodies
 - `Accept: application/json` to request JSON responses
 
-> How to obtain a token: Refer to your account or developer portal. Tokens typically expire; handle refresh per your authentication system.}
+> To obtain a token, refer to your account or developer portal. Tokens typically have an expiration. Handle refresh per your authentication system.
 >
 
 ---
@@ -104,7 +104,7 @@ These headers are included in every response to help you monitor your current qu
 ## Status codes and errors
 Errors and statuses are returned with appropriate HTTP status codes and a structured JSON body.
 
-### Example error JSON response
+### Example: JSON error response
 
 ```json
 {
@@ -137,6 +137,13 @@ Errors and statuses are returned with appropriate HTTP status codes and a struct
 ---
 
 ## Pagination
+
+Pagination allows you to retrieve large sets of data in smaller, manageable chunks by specifying limits and navigation parameters, ensuring efficient and consistent responses.
+
+{Describe the pagination requirements of the API.}
+
+**Example:**
+
 Two patterns are supported in the {Name of API} API:
 
 - [Offset Pagination](#offset-pagination): In the request, specify a limit (number of items per page) and an offset or page number. For example, you can use the query parameters **limit=50&page=2** to limit the response to 50 items a page, starting with page 2.
@@ -187,6 +194,8 @@ To get started using the <Name of API>, do the following:
 
 ## Get an API Key
 {Describes how to get an API key.}
+
+---
 
 # API Reference
 {Intro about that these are common requests and responses used by the API, etc.}
