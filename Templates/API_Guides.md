@@ -2,7 +2,7 @@
 The {Name of API} allows you to {describe what it allows you to do}. You can use the {Name of API} to {describe examples, use cases, etc.}.
 
 ## Requirements
-<Provide any requirements needed in order to use the API.>
+{Provide any requirements needed in order to use the API.}
 
 ## Key concepts
 <Explain key concepts of the API, including terms specific to the API. For each concept, write a paragraph.>
