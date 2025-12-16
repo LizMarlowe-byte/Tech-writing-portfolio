@@ -101,7 +101,7 @@ These headers are included in every response to help you monitor your current qu
 
 ---
 
-## Status codes and errors
+## Status and error codes
 Errors and statuses are returned with appropriate HTTP status codes and a structured JSON body.
 
 ### Example: JSON error response
@@ -197,20 +197,88 @@ To get started using the <Name of API>, do the following:
 
 ---
 
+## Tutorials
+
+### {Title of the Task, such as _Add Your First User to the Database_}
+
+**Introduction**
+
+{Describe the goal of the tutorial. For example: _This tutorial describes how to set up your authentication, send a `POST` request, and verify that a new user has been successfully added to your database._)
+
+**Prerequisites**
+
+{Define what the user needs before starting, with a link to the necessary tools or resources. For example: _1. An API Key (obtain from your developer dashboard). 2. A command-line tool like curl or an API client like Postman._}
+
+**Step 1: {Title of Step 1}. For example: _Authenticate Your Request_.**
+
+Set up the `Authorization` header to `Bearer YOUR_API_KEY.`
+
+**Step 2: {Title of Step 2}. For example: _Format the Request Body_.**
+
+Create a JSON object with required user details:
+
+```json
+{
+   "name": "Jane Doe",
+
+  "email": "jane@example.com"
+}
+```
+
+**Step 3: {Title of Step 3}. For example: _Structure and Send the Request_.**
+
+Use curl to send the POST request to the endpoint:
+
+```curl
+
+curl -X POST https://api.example.com/v1/users \
+
+-H "Authorization: Bearer YOUR_API_KEY" \
+
+-H "Content-Type: application/json" \
+
+-d '{"name": "Jane Doe", "email": "jane@example.com"}'
+
+```
+
+**Step 4: {Title of Step 4}. For example: _Verify the response_.**
+
+Verify that the response is successful. 
+
+A successful response returns a 201 Created status code and a JSON object containing the new user's ID:
+
+```json
+{
+
+   "id": "user_abc123",
+   "name": "Jane Doe",
+   "email": "jane@example.com"
+}
+
+```
+
+**Next Steps**
+
+{Include a link to the next logical task, or to more complex functionality.}
+
+---
+
 ## API Reference
 
 The API Reference provides detailed information about each endpoint, grouped by functionality for easier navigation. Each endpoint includes supported HTTP methods, required and optional query parameters, request and response formats, and example payloads to help you integrate efficiently.
 
-## Actions
-- [Action 1](#Action-1)
-- [Action 2](#Action-2)
-- [Action 3](#Action-3)
+## Endpoints by Function
+- [Function 1](#Function-1)
+- [Function 2](#Function-2)
+- [Function 3](#Function-3)
 
-## Action 1
+## Function 1
 ---
-{Description}
+Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints related to obtaining and managing access tokens._
 
-### URL
+### {Method} {Endpoint}
+
+**Description:** 
 
 {Method}  http(s): / / {domain} / resources
 
