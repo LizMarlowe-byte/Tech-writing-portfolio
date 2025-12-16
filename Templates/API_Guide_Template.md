@@ -408,6 +408,105 @@ Example:
 |{Text}         |{Text}     |{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}  |{Text}|
 
+
+### {Method}{Endpoint} Example: GET /v1/auth/token
+
+**Description:** {Goal of the function.} For example: _Get a list of access tokens for API requests._
+
+**Method:** {Method, such as GET, POST, PUT, DELETE, etc.}
+
+**URL:** {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/tokens_}  
+
+### Sample Request
+
+```
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+Header1: Value1
+
+Header2: Value2
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```curl
+
+curl -X POST "https://api.example.com/v1/auth/tokens" \
+  -H "Content-Type: application/json" \
+  -d '{ "client_id": "<ID>", "client_secret": "<SECRET>" }'
+
+```
+
+## Query Parameters
+
+|Parameter      |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
+
+## Headers
+
+|Header Name    |Description|Required|Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+## POST or PUT Body
+
+|Element        |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+
+## Sample Response
+
+```json
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```json
+
+{
+  "list_of_access_tokens": "abc123", "fgh876", "iuh243"
+  "expires_in": 3600
+}
+
+```
+
+## Response Elements
+
+|Element        |Description|Type    |Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
 ## Function 2, such as Managing Widgets
 ---
 Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints for creating, retrieving, updating and deleting widgets._
