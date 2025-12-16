@@ -48,11 +48,16 @@ To get started using the <Name of API>, do the following:
 {Method}  http(s): / / {domain} / resources
 
 ### Sample Request
-{Method}  http (s) : / / {domain} / resources?query1=value1&query2=value2
+
+{Method} https://{domain}/resources?query1=value1&query2=value2
+
 Header1: Value1
-Header2:  Value
+
+Header2: Value2
+
 {
-        “element1”: value1,
-        “element2”:value2
+  "element1": "value1",
+  
+  "element2":  "value2"
 }
 
