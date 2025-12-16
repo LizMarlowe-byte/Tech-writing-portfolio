@@ -11,7 +11,7 @@
 6. [Pagination](#pagination)
 7. [Getting started](#getting-started)
 8. [Tutorials](#tutorials)
-9. [API Reference](#api-reference)
+9. [API reference](#api-reference)
 
 ---
 
