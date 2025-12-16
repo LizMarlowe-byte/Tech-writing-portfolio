@@ -1,5 +1,5 @@
 # Overview
-The {Name of API} allows you to <describe what it allows you to do>. You can use the {Name of API} to <describe examples, use cases, etc.>.
+The {Name of API} allows you to {describe what it allows you to do}. You can use the {Name of API} to <describe examples, use cases, etc.>.
 
 ## Requirements
 <Provide any requirements needed in order to use the API.>
