@@ -294,21 +294,26 @@ A successful response returns a 201 Created status code and a JSON object contai
 The API Reference provides detailed information about each endpoint, grouped by functionality for easier navigation. Each endpoint includes supported HTTP methods, required and optional query parameters, request and response formats, and example payloads to help you integrate efficiently.
 
 ## Endpoints by Function
+
 - [Function 1](#Function-1)
 - [Function 2](#Function-2)
 - [Function 3](#Function-3)
 
-## Function 1
+## Function 1, such as _Managing Access Tokens_
 ---
 Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints related to obtaining and managing access tokens._
 
-### {Method} {Endpoint}
+### {Goal of Endpoint #1} Example: _Create an Access Token_
 
-**Description:** 
+**Description:** {Goal of the function.} For example: _Generate an access token for API requests._
 
-{Method}  http(s): / / {domain} / resources
+**Method:** {Method, such as GET, POST, PUT, DELETE, etc.}
+
+**URL:** {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/token_}  
 
 ### Sample Request
+
+```json
 
 {Method} http(s)://{domain}/resources?query1=value1&query2=value2
 
@@ -323,6 +328,17 @@ Header2: Value2
   "element2":  "value2"
   
 }
+
+```
+Example:
+
+```curl
+
+curl -X POST "https://api.example.com/v1/auth/token" \
+  -H "Content-Type: application/json" \
+  -d '{ "client_id": "<ID>", "client_secret": "<SECRET>" }'
+
+```
 
 ## Query Parameters
 
@@ -352,6 +368,9 @@ Header2: Value2
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 
 ## Sample Response
+
+```json
+
 {
 
   "element1": "value1",
@@ -359,6 +378,19 @@ Header2: Value2
   "element2":  "value2"
   
 }
+
+```
+
+Example:
+
+```json
+
+{
+  "access_token": "abc123",
+  "expires_in": 3600
+}
+
+```
 
 ## Response Elements
 
@@ -368,3 +400,112 @@ Header2: Value2
 |{Text}         |{Text}     |{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}  |{Text}|
+
+## Function 2, such as _Managing Widgets_
+---
+Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints for creating, retrieving, updating and deleting widgets._
+
+**Endpoints**
+- [POST /v1/widgets (Create a Widget)](#POST-/v1/widgets-(create-a-widget)
+
+### {Method} {Endpoint} (Function) Example: _POST /v1/widgets (Create a Widget)_
+
+**Description:** {Goal of the function.} For example: _Creates a new widget._
+
+**Method:** {Method, such as GET, POST, PUT, DELETE, etc.}
+
+**URL:** {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/widgets_}  
+
+### Sample Request
+
+```json
+
+{Method} http(s)://{domain}/resources?query1=value1&query2=value2
+
+Header1: Value1
+
+Header2: Value2
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+Example:
+
+```json
+
+{
+  "name": "Example Widget",
+  "metadata": {"color": "blue", "size": "medium" }
+}
+
+```
+
+## Query Parameters
+
+|Parameter      |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
+
+## Headers
+
+|Header Name    |Description|Required|Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+## POST or PUT Body
+
+|Element        |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+
+## Sample Response
+
+```json
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```json
+
+{
+  "id": "w_12345",
+  "name": "Example Widget",
+  "metadata": { "color": "blue", "size": "medium" },
+  "created_at": "2025-12-16T15:35:12Z"
+}
+
+```
+
+## Response Elements
+
+|Element        |Description|Type    |Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
