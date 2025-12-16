@@ -19,7 +19,7 @@
 
 The {Name of API} allows you to {describe what it allows you to do}. You can use the {Name of API} to {describe examples, use cases, etc.}. 
 
-> For example: The Widgets API allows you to create, retrieve, update, and delete widgets. It supports pagination, filtering, and authentication via Bearer tokens.
+For example: The Widgets API allows you to create, retrieve, update, and delete widgets. It supports pagination, filtering, and authentication via Bearer tokens.
 
 For REST APIs:
 The {Name of API} is organized around REST. It has resource-oriented URLs, form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes and authentication.
@@ -28,9 +28,7 @@ The {Name of API} is organized around REST. It has resource-oriented URLs, form-
 
 ## Base URL
 
-All API requests are made to the following base URL. (There are different URLs for Production versus testing in a sandbox environment.) 
-
-When constructing requests, append the endpoint paths to this root URL. For security, the API is served over HTTPS, and all endpoints are versioned.
+All API requests are made to the following base URL. When constructing requests, append the endpoint paths to this root URL. For security, the API is served over **HTTPS**, and all endpoints are versioned.
 
 **Production:**
 
@@ -52,7 +50,7 @@ https://sandbox.api.example.com
 
 ## Authentication
 
-{Describe the authentication method(s) used for the API, such as using an API key, OAuth, Bearer token, etc.}
+Describe the authentication method(s) used for the API, such as an API key, OAuth, or Bearer token.
 
 **Example 1:**
 The {Name of API} uses [API keys](#get-an-api-key) to authenticate requests. All API requests must be made over HTTPS. Calls made over plain HTTP and API requests without authentication will fail.
@@ -70,16 +68,13 @@ Include:
 - `Content-Type: application/json` for requests with JSON bodies
 - `Accept: application/json` to request JSON responses
 
-> To obtain a token, refer to your account or developer portal. Tokens typically have an expiration. Handle refresh per your authentication system.
->
+To obtain a token, refer to your account or developer portal. Tokens typically have an expiration. Handle refresh per your authentication system.
 
 ---
 
 ## Rate Limits
 
-A rate limit is the number of requests the API can receive in a specific time period. API rate limiting helps ensure that the API runs efficiently and is available to all users. It also prevents abuse and denial-of-service attacks. Once the limit is reached, API requests from the client fail.
-
-{Describe the rate limits for the API.}
+A rate limit is the number of requests the API can receive in a specific time period. Rate limiting ensures efficient API performance and prevents abuse. Once the limit is reached, API requests from the client will fail.
 
 **Example 1:**
 
@@ -93,7 +88,7 @@ The rate limits are different, depending on whether you are an authenticated or 
 
 Default quota: 100 requests per minute per token (unless otherwise configured)
 
-### Rate limit headers
+### Rate Limit Headers
 
 These headers are included in every response to help you monitor your current quota and plan retries if needed.
 
@@ -101,7 +96,7 @@ These headers are included in every response to help you monitor your current qu
 - `X-RateLimit-Remaining`: Remaining quota in the current window
 - `X-RateLimit-Reset`: UNIX timestamp when the window resets
 
-**Example 429 error response:**
+### Example 429 Error Response:**
 
 ```json
 {
@@ -119,7 +114,7 @@ These headers are included in every response to help you monitor your current qu
 ## Status and Error Codes
 Errors and statuses are returned with appropriate HTTP status codes and a structured JSON body.
 
-### Example: JSON error response
+### Example: JSON Error Response
 
 ```json
 {
@@ -134,7 +129,7 @@ Errors and statuses are returned with appropriate HTTP status codes and a struct
 }
 ```
 
-### Common HTTP status codes
+### Common HTTP Status Codes
 
 |Code           |Description|When It Occurs|
 |:--------------|:----------|:-------------|
@@ -153,22 +148,22 @@ Errors and statuses are returned with appropriate HTTP status codes and a struct
 
 ## Pagination
 
-Pagination allows you to retrieve large sets of data in smaller, manageable chunks by specifying limits and navigation parameters.
+Pagination allows you to retrieve large sets of data in smaller, manageable chunks by using `limit` and `page` or cursor-based navigation.
 
-{Describe the pagination requirements of the API.}
+### Offset Pagination
 
-**Example:**
+In the request, specify a limit (number of items per page) and an offset or page number. For example, you can use the query parameters **limit=50&page=2** to limit the response to 50 items a page, starting with page 2.
 
-Two patterns are supported in the {Name of API} API:
+**Request:** 
 
-- [Offset Pagination](#offset-pagination): In the request, specify a limit (number of items per page) and an offset or page number. For example, you can use the query parameters **limit=50&page=2** to limit the response to 50 items a page, starting with page 2.
-  
-- [Cursor Pagination](#cursor-pagination): In the request, specify a cursor or token representing a position in the dataset. You pass the cursor to get to the next page. For example, you can use the query parameters **limit=50&cursor=c_abc** to limit the response to 50 items a page, starting with the position c_abc in the dataset.
+```
 
-### Offset pagination
-**Request:** `GET /v1/widgets?limit=50&page=2`
+GET /v1/widgets?limit=50&page=2
+
+```
 
 **Response:**
+
 ```json
 {
   "items": [
@@ -181,6 +176,9 @@ Two patterns are supported in the {Name of API} API:
 ```
 
 ### Cursor pagination
+
+In the request, specify a cursor or token representing a position in the dataset. You pass the cursor to get to the next page. For example, you can use the query parameters **limit=50&cursor=c_abc** to limit the response to 50 items a page, starting with the position c_abc in the dataset.
+
 **Request:** `GET /v1/widgets?limit=50&cursor=c_abc`
 
 **Response:**
