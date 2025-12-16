@@ -138,7 +138,7 @@ Errors and statuses are returned with appropriate HTTP status codes and a struct
 
 ## Pagination
 
-Pagination allows you to retrieve large sets of data in smaller, manageable chunks by specifying limits and navigation parameters, ensuring efficient and consistent responses.
+Pagination allows you to retrieve large sets of data in smaller, manageable chunks by specifying limits and navigation parameters.
 
 {Describe the pagination requirements of the API.}
 
