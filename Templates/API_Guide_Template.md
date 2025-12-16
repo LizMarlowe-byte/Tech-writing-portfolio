@@ -181,7 +181,7 @@ Two patterns are supported in the {Name of API} API:
 
 ---
 
-# Getting Started
+## Getting Started
 
 To get started using the <Name of API>, do the following:
 
@@ -189,16 +189,17 @@ To get started using the <Name of API>, do the following:
   
 - [Get an API Key](#get-an-api-key)
 
-## Set up your account
+### Set up your account
 {Describes how to set up your account, either free or fee-based, in order to use the API.}
 
-## Get an API Key
+### Get an API Key
 {Describes how to get an API key.}
 
 ---
 
-# API Reference
-{Intro about that these are common requests and responses used by the API, etc.}
+## API Reference
+
+The API Reference provides detailed information about each endpoint, grouped by functionality for easier navigation. Each endpoint includes supported HTTP methods, required and optional query parameters, request and response formats, and example payloads to help you integrate efficiently.
 
 ## Actions
 - [Action 1](#Action-1)
