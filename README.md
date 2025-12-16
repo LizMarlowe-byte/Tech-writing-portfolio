@@ -32,7 +32,7 @@ This portfolio showcases examples of my work, including different types of user 
 - [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes how to use an IT asset management system for system administrators. - **Not Started**
 
 ### 🔗 [API Docs](../../wiki/API-Docs) - TBD
-- [JSONPlaceholder API Guide](../../wiki/JSONPlaceholder-API-Guide)
+- [OpenWeather API Guide](../../wiki/OpenWeather-API-Guide)
 - [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide)
 - [GitHub API Guide](../../wiki/GitHub-API-Guide)
 
