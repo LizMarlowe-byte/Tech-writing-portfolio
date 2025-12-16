@@ -17,13 +17,15 @@ The {Name of API} is organized around REST. It has resource-oriented URLs, form-
 
 All endpoints are prefixed with the version: `/v1/...`
 
+---
+
 ## Authentication
 {Describe the authentication method(s) used for the API, such as using an API key, OAuth, Bearer token, etc.}
 
-{Example 1:
+Example 1:
 The {Name of API} uses [API keys](#get-an-api-key) to authenticate requests. All API requests must be made over HTTPS. Calls made over plain HTTP will fail. API requests without authentication will also fail.}
 
-{Example 2:
+Example 2:
 All requests require a **Bearer token** in the `Authorization` header.
 
 **Header:**
@@ -37,6 +39,9 @@ Include:
 - `Accept: application/json` to request JSON responses
 
 > How to obtain a token: Refer to your account or developer portal. Tokens typically expire; handle refresh per your auth system.}
+>
+
+---
 
 ## Rate limits
 A rate limit is the number of requests the API can receive in a specific time period. API rate limiting helps ensure that the API runs efficiently and is available to all users. It also prevents abuse and denial-of-service attacks. Once the limit is reached, API requests from the client fail.
@@ -69,6 +74,7 @@ The rate limits are different, depending on whether you are an authenticated or 
 ```
 
 ---
+
 ## Status codes and errors
 Errors and statuses are returned with appropriate HTTP status codes and a structured JSON body.
 
@@ -102,8 +108,14 @@ Errors and statuses are returned with appropriate HTTP status codes and a struct
 |429            |Too Many Requests|Rate limited|
 |500            |Server Error|Unexpected server-side error
 
+---
+
 ## Pagination
-Two patterns may be supported:
+Two patterns are supported in the {Name of API} API:
+
+- [Offset Pagination](#offset-pagination): You specify in the request a limit (number of items per page) and an offset or page number. For example, you can use the query parameters **limit=50&page=2** to limit the response to 50 items a page, starting with page 2.
+  
+- [Cursor Pagination](#cursor-pagination): You specify in the request a cursor or token representing a position in the dataset. You pass the cursor to get to the next page. For example, you can use the query parameters **limit=50&cursor=c_abc** to limit the response to 50 items a page, starting with the position c_abc in the dataset.
 
 ### Offset Pagination
 **Request:** `GET /v1/widgets?limit=50&page=2`
@@ -133,6 +145,8 @@ Two patterns may be supported:
   "prev_cursor": "c_xyz"
 }
 ```
+
+---
 
 # Getting Started
 To get started using the <Name of API>, do the following:
