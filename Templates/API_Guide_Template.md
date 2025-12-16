@@ -5,6 +5,7 @@
 The {Name of API} allows you to {describe what it allows you to do}. You can use the {Name of API} to {describe examples, use cases, etc.}. 
 Example:
 > The Widgets API allows you to create, retrieve, update, and delete widgets. It supports pagination, filtering, and authentication via Bearer tokens.
+
 For REST APIs:
 The {Name of API} is organized around REST. It has resource-oriented URLs, form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes and authentication.
 
