@@ -31,8 +31,8 @@ This portfolio showcases examples of my work, including different types of user 
 - [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes how to use an Agile project management tool for project managers. - **In Progress**
 - [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes how to use an IT asset management system for system administrators. - **Not Started**
 
-### 🔗 [API Docs](../../wiki/API-Docs) - TBD
-- [OpenWeather API Guide](../../wiki/OpenWeather-API-Guide)
+### 🔗 [API Docs](../../wiki/API-Docs) - In Progress
+- [OpenWeather API Guide](../../wiki/OpenWeather-API-Guide) - In Progress
 - [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide)
 - [GitHub API Guide](../../wiki/GitHub-API-Guide)
 
