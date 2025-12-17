@@ -37,8 +37,8 @@ I create and use specific templates for every content project I develop. Once I 
 The following resources ensure consistency and quality across all deliverables:
 
 - [User Guide Template](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Templates/User_Guide_Template.md)
-- [User Guide Editing Checklist](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists/User_Guide_Review_Checklist.md)
 - [API Guide Template](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Templates/API_Guide_Template.md)
+- [Editing Checklists](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists)
 
 ---
 
