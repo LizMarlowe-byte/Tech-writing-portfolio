@@ -30,12 +30,12 @@ Here's how I approach every content development project:
 - **Information architecture**: Organize content into task, concept and reference topics into logical user workflows.
 - **Tools**: Use templates, checklists, and version control for consistency
 
-**Resources:**
+### Resources
 
 I use specific templates for every content project I develop. Once I complete a first draft, I use editing checklists to verify style, consistency, verbiage and other writing guidelines.
 
 - [User Guide Template](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Templates/User_Guide_Template.md)
-- [User Guide Template](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists/User_Guide_Review_Checklist.md)
+- [User Guide Editing Checklist](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists/User_Guide_Review_Checklist.md)
 - [API Guide Template](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Templates/API_Guide_Template.md)
 
 ---
