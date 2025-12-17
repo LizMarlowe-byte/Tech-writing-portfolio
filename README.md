@@ -34,7 +34,7 @@ Here's how I approach every content development project:
 
 I create and use specific templates for every content project I develop. Once I complete a first draft, I use editing checklists to verify style, consistency, verbiage, and other writing guidelines. This structured approach ensures every deliverable is accurate, user-focused, and aligned with product goals.
 
-The following **resources** ensure consistency and quality across all deliverables:
+The following resources ensure consistency and quality across all deliverables:
 
 - [User Guide Template](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Templates/User_Guide_Template.md)
 - [API Guide Template](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Templates/API_Guide_Template.md)
