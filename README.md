@@ -20,6 +20,15 @@ For more information about my work experience and skills, 📄 [View My Resume](
 
 ---
 
+## 🗂 Planning & Process
+
+I use specific templates for every content project I develop. Once I complete a first draft, I use editing checklists to verify style, consistency, verbiage and other writing guidelines.
+
+- [User Guide Template]((https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Templates/User_Guide_Template.md):
+- [API Guide Template]((https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Templates/API_Guide_Template.md):
+
+---
+
 ## 📖 Documentation Index
 
 This portfolio showcases examples of my work, including different types of user guides, API documentation, knowledge base articles, technical reference guides, and release notes. Due to the proprietary nature of my work as a Principal Technical Writer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source projects or fictional applications, designed to showcase my writing style, structure, and technical communication skills.
