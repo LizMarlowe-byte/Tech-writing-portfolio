@@ -27,12 +27,12 @@ Clear, thorough documentation starts with strong planning.
 Here's how I approach every content development project:
 
 - **Content Strategy**: Define audience, goals, and scope before writing.
-- **Information Architecture**: Organize content into task, concept and reference topics into logical user workflows.
+- **Information Architecture**: Organize content into task, concept, and reference topics into logical user workflows.
 - **Tools**: Use templates, checklists, and version control for consistency
 
 ### Resources
 
-I create and use specific templates for every content project I develop. Once I complete a first draft, I use editing checklists to verify style, consistency, verbiage and other writing guidelines.
+I create and use specific templates for every content project I develop. Once I complete a first draft, I use editing checklists to verify style, consistency, verbiage and other writing guidelines. This structured approach ensures every deliverable is accurate, user-focused, and aligned with product goals.
 
 The following resources ensure consistency and quality across all deliverables:
 
