@@ -17,4 +17,8 @@ Use this checklist to make sure that an API Guide follows the defined style, str
  
 - [ ] Make sure all topic titles are initial-capped and not in sentence case.
 
- 
+ - [ ] Make sure parameter names are included in the `backtick` style.
+
+ - [ ] Make sure parameter values are in **bold**.
+
+ - [ ] For top-level parameters, the description should be: "Top-level x key" where "x" is the top-level key for the object. For example, "Top-level weather key."
