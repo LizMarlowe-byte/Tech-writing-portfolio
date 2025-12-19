@@ -16,3 +16,5 @@ Use this checklist to make sure that an API Guide follows the defined style, str
 - [ ] Make sure to use the proper Note Markdown syntax throughout the guide: > **Note:** {TEXT OF NOTE}
  
 - [ ] Make sure all topic titles are initial-capped and not in sentence case.
+
+ 
