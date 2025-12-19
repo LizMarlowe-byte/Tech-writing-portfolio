@@ -14,4 +14,4 @@ Use this checklist to make sure that an API Guide follows the defined style, str
 - [ ] Adhere to the API Guide template, even if the information for a specific section is limited. For example, for the Pagination section, if the API does not support traditional pagination mechanisms, state that in this section. In addition, provide information about another way the API controls the number of returned results.
 
 - [ ] Make sure to use the proper Note Markdown syntax throughout the guide: > **Note:** {TEXT OF NOTE}
-
+ 
