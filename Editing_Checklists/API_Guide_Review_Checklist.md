@@ -22,3 +22,5 @@ Use this checklist to make sure that an API Guide follows the defined style, str
  - [ ] Make sure parameter values are in **bold**.
 
  - [ ] For top-level parameters, the description should be: "Top-level x key" where "x" is the top-level key for the object. For example, "Top-level weather key."
+
+ - [ ] Make sure all related parameters are described using similar language with similarly constructed sentences.
