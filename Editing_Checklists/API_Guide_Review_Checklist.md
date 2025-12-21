@@ -24,3 +24,5 @@ Use this checklist to make sure that an API Guide follows the defined style, str
  - [ ] For top-level parameters, the description should be: "Top-level x key" where "x" is the top-level key for the object. For example, "Top-level weather key."
 
  - [ ] Make sure all related parameters are described using similar language with similarly constructed sentences.
+
+ - [ ] If there are no "notes" for a table of parameters or elements, remove the **Notes** column.
