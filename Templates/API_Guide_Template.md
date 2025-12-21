@@ -1,5 +1,8 @@
 # {API Name} Guide
 
+:warning: **DISCLAIMER**  
+This API guide is based on a real commercial API and was created exclusively for portfolio purposes. Certain details have been adapted to showcase technical writing best practices and might not represent the API's current or complete functionality. For comprehensive, accurate and up-to-date information, refer to the official project repository and documentation for the API.
+
 ***
 
 # Table of Contents
@@ -17,13 +20,25 @@
 
 ## Overview
 
-The {Name of API} allows you to {describe what it allows you to do}. You can use the {Name of API} to {describe examples, use cases, etc.}. 
+The {Name of API} allows you to {describe what it allows you to do}. You can use the {Name of API} to {describe the type of data it provides, the sources, and in general, how developers can use it}. 
 
-For example: The Widgets API allows you to create, retrieve, update, and delete widgets. It supports pagination, filtering, and authentication via Bearer tokens.
+For example: The Widgets API allows you to create, retrieve, update, and delete widgets. 
 
-For REST APIs:
-The {Name of API} is organized around REST. It has resource-oriented URLs, form-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes and authentication.
+## Common Use Cases
 
+{Bulleted list of use cases for the API}
+
+## Technical Details
+
+{Bulleted list that describes the features related to the API type. 
+
+For example:
+
+- Organized around REST principles with resource-oriented URLs.
+- Supports JSON by default, with optional XML and HTML formats.
+- Uses form-encoded request bodies, standard HTTP response codes and API key-based authentication.
+
+}
 ---
 
 ## Base URL
@@ -148,7 +163,11 @@ Errors and statuses are returned with appropriate HTTP status codes and a struct
 
 ## Pagination
 
-Pagination allows you to retrieve large sets of data in smaller, manageable chunks by using `limit` and `page` or cursor-based navigation.
+Pagination allows you to retrieve large sets of data in smaller, manageable chunks by using specific parameters to limit the amount of data sent in each API response. 
+
+{Describe pagination for the specific API.}
+
+For example:
 
 ### Offset Pagination
 
@@ -218,11 +237,7 @@ To get started using the <Name of API>, do the following:
 
 ---
 
-## Tutorials
-
-### {Tutorial Title, such as Add Your First User to the Database}
-
-**Introduction**
+## Tutorial: {Name of Tutorial}
 
 {Describe the goal of the tutorial. For example: _This tutorial describes how to set up your authentication, send a `POST` request, and verify that a new user has been successfully added to your database._)
 
@@ -295,36 +310,46 @@ A successful response returns a 201 Created status code and a JSON object contai
 
 ---
 
-## API Reference
+# API Reference
 
-The API Reference provides detailed information about each endpoint, grouped by functionality. Each endpoint includes supported HTTP methods, query parameters, request and response formats, and example payloads.
+The API Reference provides detailed information about each API request, grouped by collection:
 
-## Endpoints by Function
+- [API Collection 1](#api-collection-1)
+- [API Collection 2](#api-collection-2)
+- [API Collection 3](#api-collection-3)
 
-- [Function 1](#Function-1)
-- [Function 2](#Function-2)
-- [Function 3](#Function-3)
+## API Request Details
 
-## Function 1, such as Managing Access Tokens
+Each API request includes the following data:
 
-Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints related to obtaining and managing access tokens._
+- Description or purpose of the API request
+- HTTP method (GET for all OpenWeatherMap API requests)
+- URL
+- Request syntax
+- Query parameters
+- Sample request
+- Sample response
+- Response elements
 
-**Endpoints:**
+## API Collection 2
 
-- [{Method}{Endpoint}](#-{Method]-{Endpoint])
-- [{Method}{Endpoint}](#-{Method]-{Endpoint])
-- [{Method}{Endpoint}](#-{Method]-{Endpoint])
+API requests related to {describe what the requests are used for}. For example: API requests related to obtaining and managing access tokens.
 
+### API Requests:
 
-### {Method}{Endpoint} Example: POST /v1/auth/token
+- [API Request 1](#api-request-1)
+- [API Request 2](#api-request-2)
+- [API Request 3](#api-request-3)
 
-**Description:** {Goal of the function.} For example: _Generate an access token for API requests._
+### API Request 1
 
-**Method:** {Method, such as GET, POST, PUT, DELETE, etc.}
+{Goal of the function.} For example: _Generate an access token for API requests._
 
-**URL:** {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/token_}  
+### Method: {Method, such as GET, POST, PUT, DELETE, etc.}
 
-### Sample Request
+### URL: {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/token_}  
+
+### Request Syntax
 
 ```
 Method http(s)://{domain}/resources?query1=value1&query2=value2
@@ -353,7 +378,7 @@ curl -X POST "https://api.example.com/v1/auth/token" \
 
 ```
 
-## Query Parameters
+### Query Parameters
 
 |Parameter      |Description|Type  |Required|Notes|
 |:--------------|:----------|:-----|:-------|-----| 
@@ -379,6 +404,14 @@ curl -X POST "https://api.example.com/v1/auth/token" \
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+
+### Sample Request (JSON)
+
+```json
+
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+```
 
 ## Sample Response
 
@@ -405,7 +438,7 @@ Example:
 
 ```
 
-## Response Elements
+### Response Elements
 
 |Element        |Description|Type    |Notes|
 |:--------------|:----------|:-------|-----| 
@@ -414,16 +447,15 @@ Example:
 |{Text}         |{Text}     |{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}  |{Text}|
 
+### API Request 2
 
-### {Method}{Endpoint} Example: GET /v1/auth/token
+{Goal of the function.} For example: _Generate an access token for API requests._
 
-**Description:** {Goal of the function.} For example: _Get a list of access tokens for API requests._
+### Method: {Method, such as GET, POST, PUT, DELETE, etc.}
 
-**Method:** {Method, such as GET, POST, PUT, DELETE, etc.}
+### URL: {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/token_}  
 
-**URL:** {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/tokens_}  
-
-### Sample Request
+### Request Syntax
 
 ```
 Method http(s)://{domain}/resources?query1=value1&query2=value2
@@ -446,13 +478,13 @@ Example:
 
 ```curl
 
-curl -X POST "https://api.example.com/v1/auth/tokens" \
+curl -X POST "https://api.example.com/v1/auth/token" \
   -H "Content-Type: application/json" \
   -d '{ "client_id": "<ID>", "client_secret": "<SECRET>" }'
 
 ```
 
-## Query Parameters
+### Query Parameters
 
 |Parameter      |Description|Type  |Required|Notes|
 |:--------------|:----------|:-----|:-------|-----| 
@@ -479,6 +511,14 @@ curl -X POST "https://api.example.com/v1/auth/tokens" \
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 
+### Sample Request (JSON)
+
+```json
+
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+```
+
 ## Sample Response
 
 ```json
@@ -498,13 +538,13 @@ Example:
 ```json
 
 {
-  "list_of_access_tokens": "abc123", "fgh876", "iuh243"
+  "access_token": "abc123",
   "expires_in": 3600
 }
 
 ```
 
-## Response Elements
+### Response Elements
 
 |Element        |Description|Type    |Notes|
 |:--------------|:----------|:-------|-----| 
@@ -513,28 +553,18 @@ Example:
 |{Text}         |{Text}     |{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}  |{Text}|
 
-## Function 2, such as Managing Widgets
----
-Endpoints related to {describe what the endpoints are used for}. For example: _Endpoints for creating, retrieving, updating and deleting widgets._
+### API Request 3
 
-**Endpoints:**
+{Goal of the function.} For example: _Generate an access token for API requests._
 
-- [{Method}{Endpoint}](#-{Method]-{Endpoint])
-- [{Method}{Endpoint}](#-{Method]-{Endpoint])
-- [{Method}{Endpoint}](#-{Method]-{Endpoint])
+### Method: {Method, such as GET, POST, PUT, DELETE, etc.}
 
-### {Method} {Endpoint} Example: POST /v1/widgets
+### URL: {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/token_}  
 
-**Description:** {Goal of the function.} For example: Creates a new widget.
-
-**Method:** {Method, such as GET, POST, PUT, DELETE, etc.}
-
-**URL:** {URL, in the format: https: / / {domain} / resources. Example: https://api.example.com/v1/widgets}  
-
-### Sample Request
+### Request Syntax
 
 ```
-{Method} http(s)://{domain}/resources?query1=value1&query2=value2
+Method http(s)://{domain}/resources?query1=value1&query2=value2
 
 Header1: Value1
 
@@ -552,17 +582,15 @@ Header2: Value2
 
 Example:
 
-```
-POST https://api.example.com/v1/widgets
+```curl
 
-{
-  "name": "Example Widget",
-  "metadata": {"color": "blue", "size": "medium" }
-}
+curl -X POST "https://api.example.com/v1/auth/token" \
+  -H "Content-Type: application/json" \
+  -d '{ "client_id": "<ID>", "client_secret": "<SECRET>" }'
 
 ```
 
-## Query Parameters
+### Query Parameters
 
 |Parameter      |Description|Type  |Required|Notes|
 |:--------------|:----------|:-----|:-------|-----| 
@@ -589,6 +617,14 @@ POST https://api.example.com/v1/widgets
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}|{Text}  |{Text}|
 
+### Sample Request (JSON)
+
+```json
+
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+```
+
 ## Sample Response
 
 ```json
@@ -608,15 +644,13 @@ Example:
 ```json
 
 {
-  "id": "w_12345",
-  "name": "Example Widget",
-  "metadata": { "color": "blue", "size": "medium" },
-  "created_at": "2025-12-16T15:35:12Z"
+  "access_token": "abc123",
+  "expires_in": 3600
 }
 
 ```
 
-## Response Elements
+### Response Elements
 
 |Element        |Description|Type    |Notes|
 |:--------------|:----------|:-------|-----| 
@@ -624,4 +658,335 @@ Example:
 |{Text}         |{Text}     |{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}  |{Text}|
 |{Text}         |{Text}     |{Text}  |{Text}|
+
+## API Collection 1
+
+API requests related to {describe what the requests are used for}. For example: API requests related to obtaining and managing access tokens.
+
+### API Requests:
+
+- [API Request 1](#api-request-1)
+- [API Request 2](#api-request-2)
+- [API Request 3](#api-request-3)
+
+### API Request 1
+
+{Goal of the function.} For example: _Generate an access token for API requests._
+
+### Method: {Method, such as GET, POST, PUT, DELETE, etc.}
+
+### URL: {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/token_}  
+
+### Request Syntax
+
+```
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+Header1: Value1
+
+Header2: Value2
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```curl
+
+curl -X POST "https://api.example.com/v1/auth/token" \
+  -H "Content-Type: application/json" \
+  -d '{ "client_id": "<ID>", "client_secret": "<SECRET>" }'
+
+```
+
+### Query Parameters
+
+|Parameter      |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
+
+## Headers
+
+|Header Name    |Description|Required|Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+## POST or PUT Body
+
+|Element        |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+
+### Sample Request (JSON)
+
+```json
+
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+```
+
+## Sample Response
+
+```json
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```json
+
+{
+  "access_token": "abc123",
+  "expires_in": 3600
+}
+
+```
+
+### Response Elements
+
+|Element        |Description|Type    |Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+### API Request 2
+
+{Goal of the function.} For example: _Generate an access token for API requests._
+
+### Method: {Method, such as GET, POST, PUT, DELETE, etc.}
+
+### URL: {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/token_}  
+
+### Request Syntax
+
+```
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+Header1: Value1
+
+Header2: Value2
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```curl
+
+curl -X POST "https://api.example.com/v1/auth/token" \
+  -H "Content-Type: application/json" \
+  -d '{ "client_id": "<ID>", "client_secret": "<SECRET>" }'
+
+```
+
+### Query Parameters
+
+|Parameter      |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
+
+## Headers
+
+|Header Name    |Description|Required|Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+## POST or PUT Body
+
+|Element        |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+
+### Sample Request (JSON)
+
+```json
+
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+```
+
+## Sample Response
+
+```json
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```json
+
+{
+  "access_token": "abc123",
+  "expires_in": 3600
+}
+
+```
+
+### Response Elements
+
+|Element        |Description|Type    |Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+### API Request 3
+
+{Goal of the function.} For example: _Generate an access token for API requests._
+
+### Method: {Method, such as GET, POST, PUT, DELETE, etc.}
+
+### URL: {URL, in the format: https: / / {domain} / resources. Example: _https://api.example.com/v1/auth/token_}  
+
+### Request Syntax
+
+```
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+Header1: Value1
+
+Header2: Value2
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```curl
+
+curl -X POST "https://api.example.com/v1/auth/token" \
+  -H "Content-Type: application/json" \
+  -d '{ "client_id": "<ID>", "client_secret": "<SECRET>" }'
+
+```
+
+### Query Parameters
+
+|Parameter      |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |Valid values include:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
+
+## Headers
+
+|Header Name    |Description|Required|Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+## POST or PUT Body
+
+|Element        |Description|Type  |Required|Notes|
+|:--------------|:----------|:-----|:-------|-----| 
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}|{Text}  |{Text}|
+
+### Sample Request (JSON)
+
+```json
+
+Method http(s)://{domain}/resources?query1=value1&query2=value2
+
+```
+
+## Sample Response
+
+```json
+
+{
+
+  "element1": "value1",
+  
+  "element2":  "value2"
+  
+}
+
+```
+
+Example:
+
+```json
+
+{
+  "access_token": "abc123",
+  "expires_in": 3600
+}
+
+```
+
+### Response Elements
+
+|Element        |Description|Type    |Notes|
+|:--------------|:----------|:-------|-----| 
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+|{Text}         |{Text}     |{Text}  |{Text}|
+
+
+
 
