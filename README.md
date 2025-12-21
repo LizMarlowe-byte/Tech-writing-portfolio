@@ -54,8 +54,8 @@ This portfolio showcases examples of my work, including different types of user 
 - [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes how to use an IT asset management system for system administrators. - **Not Started**
 
 ### 🔗 [API Docs](../../wiki/API-Docs) - In Progress
-- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide) - In Progress
-- [Stripe Terminal API Guide](../../wiki/Stripe-Terminal-API-Guide)
+- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide) - **Done**
+- [Stripe Terminal API Guide](../../wiki/Stripe-Terminal-API-Guide) - **In Progress**
 - [Twilio Conversations API Guide](../../wiki/Twilio-Conversations-API-Guide)
 
 ### 🛠️ [Knowledge Base Articles](../../wiki/How-To-Articles) - TBD
