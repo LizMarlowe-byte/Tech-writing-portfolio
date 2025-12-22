@@ -56,7 +56,7 @@ This portfolio showcases examples of my work, including different types of user 
 ### 🔗 [API Docs](../../wiki/API-Docs) - In Progress
 - [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide) - **Done**
 - [Spotify API Guide](../../wiki/Spotify-API-Guide) - **In Progress**
-- [Twilio Conversations API Guide](../../wiki/Twilio-Conversations-API-Guide)
+- [Strava API Guide](../../wiki/Strava-API-Guide) - **In Progress**
 
 ### 🛠️ [Knowledge Base Articles](../../wiki/How-To-Articles) - TBD
 - [How to create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare)
