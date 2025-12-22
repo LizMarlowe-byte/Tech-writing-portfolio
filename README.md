@@ -55,7 +55,7 @@ This portfolio showcases examples of my work, including different types of user 
 
 ### 🔗 [API Docs](../../wiki/API-Docs) - In Progress
 - [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide) - **Done**
-- [Stripe Terminal API Guide](../../wiki/Stripe-Terminal-API-Guide) - **In Progress**
+- [Spotify API Guide](../../wiki/Spotify-API-Guide) - **In Progress**
 - [Twilio Conversations API Guide](../../wiki/Twilio-Conversations-API-Guide)
 
 ### 🛠️ [Knowledge Base Articles](../../wiki/How-To-Articles) - TBD
