@@ -49,9 +49,9 @@ This portfolio showcases examples of my work, including different types of user 
 > **Note:** The Knowledge Base articles provide tutorials for accomplishing specific tasks in real, publicly available applications. All content is my original work, created to address gaps in the existing documentation.
 
 ### 📚 [User Guides](../../wiki/User-Guides)
-- [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes how to use a collaborative wiki platform for end users. - **Done**
-- [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes how to use an Agile project management tool for project managers. - **In Progress**
-- [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes how to use an IT asset management system for system administrators. - **Not Started**
+- [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes a collaborative wiki platform for end users. - **Done**
+- [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes an Agile project management tool for project managers. - **In Progress**
+- [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes an IT asset management system for system administrators. - **Not Started**
 
 ### 🔗 [API Docs](../../wiki/API-Docs) - In Progress
 - [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide) - **Done**
