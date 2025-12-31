@@ -50,33 +50,24 @@ This portfolio showcases examples of my work, including different types of user 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes a collaborative wiki platform for end users. - **Done**
 - [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes an Agile project management tool for project managers. - **In Progress**
-- [Snipe-IT User Guide](../../wiki/Snipe-IT-User-Guide): Describes an IT asset management system for system administrators. - **Not Started**
 
 ### 🔗 [API Docs](../../wiki/API-Docs) - In Progress
 - [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide) - **Done**
 - [Spotify API Guide](../../wiki/Spotify-API-Guide) - **In Progress**
-- [Strava API Guide](../../wiki/Strava-API-Guide) - **In Progress**
 
-### 🛠️ [Knowledge Base Articles](../../wiki/How-To-Articles) - TBD
+### 🛠️ [Knowledge Base Article](../../wiki/How-To-Article) - TBD
 - [How to create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare)
-- [How to create an in-app guide in Pendo](../../wiki/How-to-create-an-in-app-guide-in-Pendo)
-- [How to create an e-learning video in Camtasia](../../wiki/How-to-create-an-e-learning-video-in-Camtasia)
 
 ### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides) - TBD
-- [Technical Reference Guide 1](../../wiki/Tech-Ref-1)
-- [Technical Reference Guide 2](../../wiki/Tech-Ref-2)
-- [Technical Reference Guide 3](../../wiki/Tech-Ref-3)
-
-### 📝 [Release Notes](../../wiki/Release-Notes) - TBD
-- [Release Notes Version 1.0](../../wiki/Release-Notes-v1.0)
-- [Release Notes Version 2.0](../../wiki/Release-Notes-v2.0)
-
+- [Integration Guide](../../wiki/Integration-Guide)
+- [Release Notes](../../wiki/Release-Notes)
+- 
 ---
 
 ## ✅ About This Portfolio
 - **Format:** Markdown for portability and GitHub rendering.
-- **Tools Used:** GitHub Wiki, Markdown, Snagit, MadCap Capture, MS PowerPoint.
-- **Focus Areas:** User guides, API documentation, knowledge base articles, technical reference guides, and release notes.
+- **Tools Used:** GitHub Wiki, Markdown, Snagit, MadCap Capture, Visio, MS PowerPoint.
+- **Focus Areas:** User guides, API guides, knowledge base articles, and technical reference guides.
 
 ---
 
