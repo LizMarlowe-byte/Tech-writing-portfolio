@@ -61,7 +61,6 @@ This portfolio showcases examples of my work, including different types of user 
 ### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides) - TBD
 - [Integration Guide](../../wiki/Integration-Guide)
 - [Release Notes](../../wiki/Release-Notes)
-- 
 ---
 
 ## ✅ About This Portfolio
