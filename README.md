@@ -16,7 +16,7 @@ For more information about my work experience and skills, 📄 [View My Resume](
 ## 🛠 Skills & Tools
 - **Tools:** MadCap Flare, GitHub Desktop, Git/GitHub, M365 Copilot, Swagger, Jira, Confluence, Snagit, MadCap Capture, Adobe CC, Camtasia, Audacity, Zeplin, Figma, Pendo
 - **Languages:** Markdown, HTML, XML
-- **Specialities:** SaaS documentation, API reference guides, user guides, configuration guides, integration guides, release notes, UI/UX writing
+- **Specialities:** SaaS documentation, API guides, user guides, configuration guides, integration guides, release notes, UI/UX writing
 
 ---
 
