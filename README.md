@@ -1,7 +1,7 @@
 # Liz Marlowe - Technical Writing Portfolio
 *Clear, user-focused documentation that simplifies complexity.*
 
-Welcome! I'm **Liz Marlowe**, a Principal Technical Writer specializing in crafting impactful user-centric documentation across diverse platforms.
+Welcome! I'm **Liz Marlowe**, a Senior Content Developer specializing in crafting impactful user-centric documentation across diverse platforms.
 
 ## About me
 
