@@ -41,19 +41,19 @@ I create and use specific [templates](https://github.com/LizMarlowe-byte/Tech-wr
 This portfolio showcases examples of my work, including different types of user guides, API guides, a knowledge base article, and technical reference guides. Due to the proprietary nature of my work as a Senior Content Developer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source, commercial or fictional applications, designed to showcase my writing style, structure, and content development skills.
 
 ### 📚 [User Guides](../../wiki/User-Guides)
-- [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes a collaborative wiki platform for end users. - **Done**
-- [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes an Agile project management tool for project managers. - **In Progress**
+- [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes a collaborative wiki platform for end users.
+- [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes an Agile project management tool for project managers. 
 
-### 🔗 [API Docs](../../wiki/API-Docs) - In Progress
-- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide) - **Done**
-- [Spotify API Guide](../../wiki/Spotify-API-Guide) - **In Progress**
+### 🔗 [API Docs](../../wiki/API-Docs)
+- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide): Describes a RESTful Web API providing JSON weather data for current, forecast, and historical conditions.
+- [Spotify API Guide](../../wiki/Spotify-API-Guide): Describes a RESTful API delivering JSON-formatted music metadata, playback control, and user data via OAuth.
 
-### 🛠️ [Knowledge Base Article](../../wiki/How-To-Article) - TBD
+### 🛠️ [Knowledge Base Article](../../wiki/How-To-Article) 
 - [How to create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare)
 
-### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides) - TBD
-- [Integration Guide](../../wiki/Integration-Guide)
-- [Release Notes](../../wiki/Release-Notes)
+### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides)
+- [Integration Guide](../../wiki/Integration-Guide): Describes the integration of two systems, where data feeds push data from one system to another.
+- [Release Notes](../../wiki/Release-Notes): Describes new features, resolved bugs and known issues for a specific software release.
 ---
 
 ## ✅ About This Portfolio
