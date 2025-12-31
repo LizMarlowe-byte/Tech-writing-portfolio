@@ -44,7 +44,7 @@ This portfolio showcases examples of my work, including different types of user 
 - [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes a collaborative wiki platform for end users.
 - [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes an Agile project management tool for project managers. 
 
-### 🔗 [API Docs](../../wiki/API-Docs)
+### 🔗 [API Guides](../../wiki/API-Docs)
 - [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide): Describes a RESTful Web API providing JSON-formatted comprehensive weather data for multiple locations.
 - [Spotify API Guide](../../wiki/Spotify-API-Guide): Describes a RESTful API delivering JSON-formatted music metadata, playback control, and user data via OAuth.
 
