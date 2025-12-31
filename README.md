@@ -32,20 +32,13 @@ Here's how I approach every content development project:
 
 ### Resources
 
-I create and use specific templates for every content project I develop. Once I complete a first draft, I use editing checklists to verify style, consistency, verbiage, and other writing guidelines. This structured approach ensures every deliverable is accurate, user-focused, and aligned with product goals.
-
-The following resources ensure consistency and quality across all deliverables:
-
-- [Templates](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates)
-- [Editing Checklists](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists)
+I create and use specific [templates](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates) for every content project I develop. Once I complete a first draft, I use [editing checklists](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists) to verify style, consistency, verbiage, and other writing guidelines. This structured approach ensures every deliverable is accurate, user-focused, and aligned with product goals.
 
 ---
 
 ## 📖 Documentation Index
 
-This portfolio showcases examples of my work, including different types of user guides, API documentation, knowledge base articles, technical reference guides, and release notes. Due to the proprietary nature of my work as a Principal Technical Writer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source projects or fictional applications, designed to showcase my writing style, structure, and technical communication skills.
-
-> **Note:** The Knowledge Base articles provide tutorials for accomplishing specific tasks in real, publicly available applications. All content is my original work, created to address gaps in the existing documentation.
+This portfolio showcases examples of my work, including different types of user guides, API guides, a knowledge base article, and technical reference guides. Due to the proprietary nature of my work as a Senior Content Developer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on open-source, commercial or fictional applications, designed to showcase my writing style, structure, and content development skills.
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes a collaborative wiki platform for end users. - **Done**
