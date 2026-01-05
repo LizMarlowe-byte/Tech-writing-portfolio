@@ -1,7 +1,7 @@
 # Liz Marlowe - Technical Writing Portfolio
-**Clear, developer-first documentation that drives adoption and simplifies complexity.**
+**Clear, user-first documentation that drives adoption and simplifies complexity.**
 
-Welcome! I'm **Liz Marlowe**, a Senior Content Developer specializing in crafting impactful user-centric documentation across diverse platforms. This portfolio demonstrates my ability to create structured, developer-focused documentation that improves usability and accelerates adoption. Explore the samples below to see how I transform complex technical concepts into clear, actionable documentation.
+Welcome! I'm **Liz Marlowe**, a Senior Content Developer specializing in crafting impactful user-centric documentation across diverse platforms. This portfolio demonstrates my ability to create structured, user-focused documentation that improves usability and accelerates adoption. Explore the samples below to see how I transform complex technical concepts into clear, actionable documentation.
 
 ## About me
 
