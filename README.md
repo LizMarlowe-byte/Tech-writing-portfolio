@@ -1,7 +1,7 @@
 # Liz Marlowe - Technical Writing Portfolio
-*Clear, user-focused documentation that simplifies complexity.*
+*Clear, developer-first and user-focused documentation that drives adoption and simplifies complexity.*
 
-Welcome! I'm **Liz Marlowe**, a Senior Content Developer specializing in crafting impactful user-centric documentation across diverse platforms.
+Welcome! I'm **Liz Marlowe**, a Senior Content Developer specializing in crafting impactful user-centric documentation across diverse platforms. This portfolio demonstrates my ability to create clear, developer-focused and user-centric documentation that improves usability and accelerates adoption.
 
 ## About me
 
@@ -34,7 +34,9 @@ Here's how I approach every content development project:
 
 ## 📖 Documentation Index
 
-This portfolio showcases examples of my work, including different types of user guides, API guides, a knowledge base article, and technical reference guides. Due to the proprietary nature of my work as a Senior Content Developer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on real open-source, commercial, or fictional products, designed to showcase my writing style, structure, and content development skills.
+This portfolio highlights my ability to create structured, accessible documentation for diverse audiences—from end user guides to API guides. Each sample demonstrates best practices in technical writing, including logical organization, task-oriented workflows, and actionable examples that improve the developer and user experience. 
+
+> _**Note:** Due to the proprietary nature of my work as a Senior Content Developer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on real open-source, commercial, or fictional products, designed to showcase my writing style, structure, and content development skills._
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide): Comprehensive guide for end users of a collaborative wiki platform, showcasing clear task-based instructions and intuitive navigation.
