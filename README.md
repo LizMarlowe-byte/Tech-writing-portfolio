@@ -43,15 +43,15 @@ This portfolio highlights my ability to create structured, accessible documentat
 - [Taiga User Guide](../../wiki/Taiga-User-Guide): Agile project management tool guide designed for project managers, emphasizing usability and workflow clarity. 
 
 ### 🔗 [API Guides](../../wiki/API-Docs)
-- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide): RESTful API guide providing JSON-formatted weather data. Includes conceptual overviews, authentication details, rate-limit strategies, tutorials, and curated endpoint references—demonstrating best practices in developer documentation.
-- [Spotify API Guide](../../wiki/Spotify-API-Guide): RESTful API guide for integrating music metadata, playback control, and user data via OAuth. Highlights authentication flows, pagination, error handling, and real-world use cases to improve the developer experience.
+- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide): RESTful API guide for developers that provides JSON-formatted weather data. Includes conceptual overviews, authentication details, rate-limit strategies, tutorials, and curated endpoint references—demonstrating best practices in developer documentation.
+- [Spotify API Guide](../../wiki/Spotify-API-Guide): RESTful API guide for developers that integrates music metadata, playback control, and user data via OAuth. Highlights authentication flows, pagination, error handling, and real-world use cases to improve the developer experience.
 
 ### 🛠️ [Knowledge Base Article](../../wiki/How-To-Article) 
-- [Create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare): Step-by-step article with annotated screenshots and best practices for creating relationship tables in MadCap Flare.
+- [Create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare): Step-by-step article for content developers with annotated screenshots and best practices for creating relationship tables in MadCap Flare.
 
 ### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides)
-- [Integration Guide](../../wiki/Integration-Guide): Technical guide that describes a system integration using data feeds, with diagrams and structured workflows for technical audiences.
-- [Release Notes](../../wiki/Release-Notes): Reference document that summarizes new features, resolved issues, and known limitations for a specific software release, demonstrating clarity and precision in technical communication.
+- [Integration Guide](../../wiki/Integration-Guide): Technical guide for support and services personnel that describes a system integration using data feeds, with diagrams and structured workflows.
+- [Release Notes](../../wiki/Release-Notes): Reference document for a diverse audience that summarizes new features, resolved issues, and known limitations for a specific software release, demonstrating clarity and precision in technical communication.
 ---
 
 ## ✅ About This Portfolio
