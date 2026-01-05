@@ -1,7 +1,7 @@
 # Liz Marlowe - Technical Writing Portfolio
-**Clear, user-first documentation that drives adoption and simplifies complexity.**
+**Clear, user and developer documentation that drives adoption and simplifies complexity.**
 
-Welcome! I'm **Liz Marlowe**, a Senior Content Developer specializing in crafting impactful user-centric documentation across diverse platforms. This portfolio demonstrates my ability to create structured, user-focused documentation that improves usability and accelerates adoption. Explore the samples below to see how I transform complex technical concepts into clear, actionable documentation.
+Welcome! I'm **Liz Marlowe**, a Senior Technical Writer specializing in crafting impactful user-centric documentation across diverse platforms. This portfolio demonstrates my ability to create structured, user-focused documentation that improves usability and accelerates adoption. Explore the samples below to see how I transform complex technical concepts into intuitive, task-oriented documentation that accelerates user success.
 
 ## About me
 
@@ -40,7 +40,7 @@ This portfolio highlights my ability to create structured, accessible documentat
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide): Comprehensive guide for end users that describes a collaborative wiki platform, showcasing clear task-based instructions and intuitive navigation.
-- [Taiga User Guide](../../wiki/Taiga-User-Guide): Agile project management tool guide designed for project managers, emphasizing usability and workflow clarity. 
+- [Taiga User Guide](../../wiki/Taiga-User-Guide): Agile project management tool guide for project managers, emphasizing usability and workflow clarity. 
 
 ### 🔗 [API Guides](../../wiki/API-Docs)
 - [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide): RESTful API guide for developers that provides JSON-formatted weather data. Includes conceptual overviews, authentication details, rate-limit strategies, tutorials, and curated endpoint references—demonstrating best practices in developer documentation.
