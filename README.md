@@ -28,11 +28,7 @@ Here's how I approach every content development project:
 
 - **Content Strategy**: Define audience, goals, and scope before writing.
 - **Information Architecture**: Organize content into task, concept, and reference topics into logical user workflows.
-- **Tools**: Use templates, checklists, and version control for consistency
-
-### Resources
-
-I create and use specific [templates](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates) for every content project I develop. Once I complete a first draft, I use [editing checklists](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists) to verify style, consistency, verbiage, and other writing guidelines. This structured approach ensures every deliverable is accurate, user-focused, and aligned with product goals.
+- **Tools**: Use [templates](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates), [editing checklists](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists), and version control for consistency
 
 ---
 
@@ -41,19 +37,19 @@ I create and use specific [templates](https://github.com/LizMarlowe-byte/Tech-wr
 This portfolio showcases examples of my work, including different types of user guides, API guides, a knowledge base article, and technical reference guides. Due to the proprietary nature of my work as a Senior Content Developer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on real open-source, commercial, or fictional products, designed to showcase my writing style, structure, and content development skills.
 
 ### 📚 [User Guides](../../wiki/User-Guides)
-- [Docmost User Guide](../../wiki/Docmost-User-Guide): Describes a collaborative wiki platform for end users.
-- [Taiga User Guide](../../wiki/Taiga-User-Guide): Describes an Agile project management tool for project managers. 
+- [Docmost User Guide](../../wiki/Docmost-User-Guide): Comprehensive guide for end users of a collaborative wiki platform, showcasing clear task-based instructions and intuitive navigation.
+- [Taiga User Guide](../../wiki/Taiga-User-Guide): Agile project management tool guide designed for project managers, emphasizing usability and workflow clarity. 
 
 ### 🔗 [API Guides](../../wiki/API-Docs)
-- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide): Describes a RESTful Web API providing JSON-formatted comprehensive weather data for multiple locations.
-- [Spotify API Guide](../../wiki/Spotify-API-Guide): Describes a RESTful API delivering JSON-formatted music metadata, playback control, and user data via OAuth.
+- [OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide): RESTful API guide providing JSON-formatted weather data. Includes conceptual overviews, authentication details, rate-limit strategies, tutorials, and curated endpoint references—demonstrating best practices in developer documentation.
+- [Spotify API Guide](../../wiki/Spotify-API-Guide): RESTful API guide for integrating music metadata, playback control, and user data via OAuth. Highlights authentication flows, pagination, error handling, and real-world use cases to improve the developer experience.
 
 ### 🛠️ [Knowledge Base Article](../../wiki/How-To-Article) 
-- [Create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare): Provides detailed instructions on how to create a relationship table in MadCap Flare.
+- [Create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare): Step-by-step article with annotated screenshots and best practices for creating relationship tables in MadCap Flare.
 
 ### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides)
-- [Integration Guide](../../wiki/Integration-Guide): Describes the integration of two systems, where data feeds push data from one system to another.
-- [Release Notes](../../wiki/Release-Notes): Describes new features, resolved bugs and known issues for a specific software release.
+- [Integration Guide](../../wiki/Integration-Guide): Technical guide that describes a system integration using data feeds, with diagrams and structured workflows for technical audiences.
+- [Release Notes](../../wiki/Release-Notes): Reference document that summarizes new features, resolved issues, and known limitations for a specific software release, demonstrating clarity and precision in technical communication.
 ---
 
 ## ✅ About This Portfolio
