@@ -27,7 +27,7 @@ Clear, thorough documentation starts with strong planning.
 Here's how I approach every content development project:
 
 - **Content Strategy**: Define audience, goals, and scope before writing.
-- **Information Architecture**: Organize content into task, concept, and reference topics into logical user workflows.
+- **Information Architecture**: Structure content by content type (task, concept, or reference) to promote a structured, DITA, topic-based approach.
 - **Tools**: Use [templates](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates), [editing checklists](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists), and version control for consistency
 
 ---
@@ -39,7 +39,7 @@ This portfolio highlights my ability to create structured, accessible documentat
 > _**Note:** Due to the proprietary nature of my work as a Senior Content Developer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on real open-source, commercial, or fictional products, designed to showcase my writing style, structure, and content development skills._
 
 ### 📚 [User Guides](../../wiki/User-Guides)
-- [Docmost User Guide](../../wiki/Docmost-User-Guide): Comprehensive guide for end users of a collaborative wiki platform, showcasing clear task-based instructions and intuitive navigation.
+- [Docmost User Guide](../../wiki/Docmost-User-Guide): Comprehensive guide for end users that describes a collaborative wiki platform, showcasing clear task-based instructions and intuitive navigation.
 - [Taiga User Guide](../../wiki/Taiga-User-Guide): Agile project management tool guide designed for project managers, emphasizing usability and workflow clarity. 
 
 ### 🔗 [API Guides](../../wiki/API-Docs)
