@@ -34,7 +34,7 @@ Here's how I approach every content development project:
 
 ## 📖 Documentation Index
 
-This portfolio highlights my ability to create structured, accessible documentation for diverse audiences—from end user guides to API guides. Each sample demonstrates best practices in technical writing, including logical organization, task-oriented workflows, and actionable examples that improve the developer and user experience. 
+This portfolio highlights my ability to create structured, accessible documentation for diverse audiences. Each sample demonstrates best practices in technical writing, including logical organization, task-oriented workflows, and actionable examples that improve the developer and user experience. 
 
 > _**Note:** Due to the proprietary nature of my work as a Senior Content Developer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on real open-source, commercial, or fictional products, designed to showcase my writing style, structure, and content development skills._
 
