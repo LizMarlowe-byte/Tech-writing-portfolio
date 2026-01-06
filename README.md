@@ -36,7 +36,7 @@ Here's how I approach every content development project:
 
 This portfolio highlights my ability to create structured, accessible documentation for diverse audiences. Each sample demonstrates best practices in technical writing, including logical organization, task-oriented workflows, and actionable examples that improve the developer and user experience. 
 
-> _**Note:** Due to the proprietary nature of my work as a Senior Content Developer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on real open-source, commercial, or fictional products, designed to showcase my writing style, structure, and content development skills._
+> _**Note:** Due to the proprietary nature of my work as a Senior Technical Writer, I cannot share the actual documentation I developed for my current or previous employers. Therefore, all samples in this portfolio are based on real open-source, commercial, or fictional products, designed to showcase my writing style, structure, and content development skills._
 
 ### 📚 [User Guides](../../wiki/User-Guides)
 - [Docmost User Guide](../../wiki/Docmost-User-Guide): Comprehensive guide for end users that describes a collaborative wiki platform, showcasing clear task-based instructions and intuitive navigation.
