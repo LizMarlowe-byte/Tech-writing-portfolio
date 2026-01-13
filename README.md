@@ -16,26 +16,26 @@ Browse by category below or use the GitHub Wiki sidebar for full navigation.
 
 > **Note:** To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.
 
-### 📚 [User Guides](../../wiki/User-Guides)
-- **[Docmost User Guide](../../wiki/Docmost-User-Guide)**  
+### 📚 [User Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides)
+- **[Docmost User Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide)**  
   Comprehensive guide for end users that describes a collaborative wiki platform—task‑based instructions with intuitive navigation.
-- **[Taiga User Guide](../../wiki/Taiga-User-Guide)**  
+- **[Taiga User Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide)**  
   Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.
 
-### 🔗 [API Guides](../../wiki/API-Docs)
-- **[OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide)**  
+### 🔗 [API Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs)
+- **[OpenWeatherMap API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide)**  
   RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.
-- **[Spotify API Guide](../../wiki/Spotify-API-Guide)**  
+- **[Spotify API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide)**  
   Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.
 
-### 🛠️ [Knowledge Base Article](../../wiki/How-To-Article)
-- **[Create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare)**  
+### 🛠️ [Knowledge Base Article](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article)
+- **[Create a relationship table in MadCap Flare](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare))**  
   Step‑by‑step article with annotated screenshots and best practices.
 
-### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides)
+### 📖 [Technical Reference Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides)
 - **[Optiflow‑CloudSync CRM Integration Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide)**  
   Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.
-- **[Release Notes](../../wiki/Release-Notes)**  
+- **[Release Notes](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes)**  
   Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.
 
 ---
