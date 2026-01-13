@@ -20,7 +20,6 @@
   <meta property="og:description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption. View user guides, API docs, technical references, and writing samples." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://lizmarlowe-byte.github.io/Tech-writing-portfolio/" />
-  <!-- Replace with your actual image file -->
   <meta property="og:image" content="assets/img/og-preview.png" />
 
   <!-- Twitter Cards -->
@@ -29,18 +28,18 @@
   <meta name="twitter:description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption." />
   <meta name="twitter:image" content="assets/img/og-preview.png" />
 
-  <!-- Favicons (add actual files under assets/img/) -->
+  <!-- Favicons (add files in assets/img/) -->
   <link rel="icon" href="assets/img/favicon.ico" sizes="any" />
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 
   <!-- Styles (cache-busted) -->
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link rel="stylesheet" href="style.css?v=3" />
 
   <!-- Structured data (SEO) -->
   <script type="application/ld+json">
@@ -64,12 +63,14 @@
   <!-- Site Header / Nav -->
   <header class="site-header" role="banner">
     <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Home">
-        <!-- Inline SVG brand mark (accessible) -->
-        <svg class="brand-mark" width="32" height="32" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <circle cx="12" cy="7" r="4" fill="currentColor"></circle>
-          <path d="M4 21a8 8 0 0 1 16 0H4z" fill="currentColor"></path>
-        </svg>
+      <a class="brand" href="#top">
+        <!-- Headshot (replace with your own file) -->
+        <img
+          class="brand-headshot"
+          src="assets/img/headshot.jpg"
+          alt="Headshot of Liz Marlowe"
+          width="48" height="48"
+          loading="eager" decoding="async" />
         <div class="brand-text">
           <span class="brand-name">Liz Marlowe</span>
           <span class="brand-role">Senior Technical Writer</span>
@@ -101,8 +102,8 @@
 
       <div class="cta-group" role="group" aria-label="Key links">
         <a class="btn btn-primary" href="Liz%20Marlowe%20Resume.pdf" target="_blank" rel="noopener">📄 View My Resume</a>
-        <a class="btn btn-outline contact-link" href="https://linkedin.com/in/liz-marlowe-3397833" target="_blank" rel="noopener">🔗 LinkedIn</a>
-        <a class="btn btn-outline contact-link" href="mailto:LizMarlowe@gmail.com">✉️ Email</a>
+        <a class="btn btn-outline" href="https://linkedin.com/in/liz-marlowe-3397833" target="_blank" rel="noopener">🔗 LinkedIn</a>
+        <a class="btn btn-outline" href="mailto:LizMarlowe@gmail.com">✉️ Email</a>
       </div>
     </div>
   </section>
@@ -121,9 +122,7 @@
       <div class="grid two">
         <!-- User Guides -->
         <section aria-labelledby="user-guides">
-          <h3 id="user-guides">
-            <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides" target="_blank" rel="noopener">📚 User Guides</a>
-          </h3>
+          <h3 id="user-guides">📚 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides" target="_blank" rel="noopener">User Guides</a></h3>
           <ul class="list">
             <li>
               <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide" target="_blank" rel="noopener"><strong>Docmost User Guide</strong></a>
@@ -138,9 +137,7 @@
 
         <!-- API Guides -->
         <section aria-labelledby="api-guides">
-          <h3 id="api-guides">
-            <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs" target="_blank" rel="noopener">🔗 API Guides</a>
-          </h3>
+          <h3 id="api-guides">🔗 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs" target="_blank" rel="noopener">API Guides</a></h3>
           <ul class="list">
             <li>
               <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide" target="_blank" rel="noopener"><strong>OpenWeatherMap API Guide</strong></a>
@@ -155,9 +152,7 @@
 
         <!-- Knowledge Base -->
         <section aria-labelledby="kb-article">
-          <h3 id="kb-article">
-            <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article" target="_blank" rel="noopener">🛠️ Knowledge Base Article</a>
-          </h3>
+          <h3 id="kb-article">🛠️ <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article" target="_blank" rel="noopener">Knowledge Base Article</a></h3>
           <ul class="list">
             <li>
               <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare" target="_blank" rel="noopener"><strong>Create a relationship table in MadCap Flare</strong></a>
@@ -168,9 +163,7 @@
 
         <!-- Technical Reference Guides -->
         <section aria-labelledby="tech-reference">
-          <h3 id="tech-reference">
-            <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides" target="_blank" rel="noopener">📖 Technical Reference Guides</a>
-          </h3>
+          <h3 id="tech-reference">📖 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides" target="_blank" rel="noopener">Technical Reference Guides</a></h3>
           <ul class="list">
             <li>
               <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide" target="_blank" rel="noopener"><strong>Optiflow‑CloudSync CRM Integration Guide</strong></a>
@@ -237,9 +230,9 @@
     <section id="contact" aria-labelledby="contact-title">
       <h2 id="contact-title">📬 Contact</h2>
       <p>
-        <a href="https://linkedin.com/in/liz-marlowe-3397833" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="contact-link" href="https://linkedin.com/in/liz-marlowe-3397833" target="_blank" rel="noopener">LinkedIn</a>
         &middot;
-        <a href="mailto:LizMarlowe@gmail.com">Email</a>
+        <a class="contact-link" href="mailto:LizMarlowe@gmail.com">Email</a>
       </p>
     </section>
   </main>
@@ -270,7 +263,10 @@
         const link = document.querySelector('.nav-list a[href="#' + id + '"]');
         if (!link) return;
         if (entry.isIntersecting) {
-          navLinks.forEach(l => l.classList.remove('active'));
+          navLinks.forEach(l => {
+            l.classList.remove('active');
+            l.removeAttribute('aria-current');
+          });
           link.classList.add('active');
           link.setAttribute('aria-current', 'page');
         }
@@ -279,10 +275,5 @@
 
     sections.forEach(section => spy.observe(section));
   </script>
-
-  <!-- Optional analytics (uncomment one) -->
-  <!-- Plausible: <script defer data-domain="lizmarlowe-byte.github.io" src="https://plausible.io/js/script.js"></script> -->
-  <!-- Google Analytics: paste your GA4 tag here -->
-
 </body>
 </html>
