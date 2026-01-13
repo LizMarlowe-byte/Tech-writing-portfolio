@@ -24,7 +24,7 @@ Browse by category below or use the GitHub Wiki sidebar for full navigation.
 
 ### 🔗 [API Guides](../../wiki/API-Docs)
 - **[OpenWeatherMap API Guide](../../wiki/OpenWeatherMap-API-Guide)**  
-  RESTful API documentation for developers—conceptual overview, authentication, rate‑limits, tutorials, and curated endpoint references.
+  RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.
 - **[Spotify API Guide](../../wiki/Spotify-API-Guide)**  
   Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.
 
