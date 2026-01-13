@@ -1,8 +1,8 @@
 
 # Liz Marlowe — Technical Writing Portfolio
-**Clear, user-oriented documentation that drives adoption and simplifies complexity.**
+**Clear, user-focused documentation that simplifies complexity and accelerates adoption.**
 
-I’m **Liz Marlowe**, a Senior Technical Writer who specializes in crafting impactful user-centric documentation across diverse platforms. This portfolio demonstrates my ability to create structured, user-focused documentation that improves usability and accelerates adoption. Explore the samples below to see how I transform complex technical concepts into intuitive, task-oriented documentation that accelerates user success.
+I’m **Liz Marlowe**, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms. This portfolio demonstrates my ability to create structured documentation that improves usability and accelerates adoption. Explore the samples below to see how I transform complex technical concepts into intuitive, task-oriented documentation that accelerates user success.
 
 - 📄 **Resume:** [View My Resume](Liz%20Marlowe%20Resume.pdf)
 - 🔗 **LinkedIn:** [linkedin.com/in/liz-marlowe-3397833](https://linkedin.com/in/liz-marlowe-3397833)
@@ -12,7 +12,7 @@ I’m **Liz Marlowe**, a Senior Technical Writer who specializes in crafting imp
 
 ## 📖 Documentation Index
 
-This portfolio highlights my ability to deliver clear, accessible documentation for diverse audiences. Each sample demonstrates technical writing best practices—including logical structures, actionable workflows, and real‑world context.
+This portfolio highlights my ability to deliver clear, accessible documentation for diverse audiences. Each sample demonstrates technical writing best practices—including logical structures, actionable workflows, and real‑world context. _Browse by category below or use the GitHub Wiki sidebar for full navigation_.
 
 > **Note:** To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.
 
