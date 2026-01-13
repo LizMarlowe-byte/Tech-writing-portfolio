@@ -29,7 +29,7 @@ Browse by category below or use the GitHub Wiki sidebar for full navigation.
   Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.
 
 ### 🛠️ [Knowledge Base Article](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article)
-- **[Create a relationship table in MadCap Flare](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare))**  
+- **[Create a relationship table in MadCap Flare](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare)**  
   Step‑by‑step article with annotated screenshots and best practices.
 
 ### 📖 [Technical Reference Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides)
