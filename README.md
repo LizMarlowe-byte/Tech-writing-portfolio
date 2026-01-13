@@ -77,8 +77,3 @@ I approach every project with a repeatable framework that emphasizes clarity, co
 ## 📬 Contact
 
 [LinkedIn](https://linkedin.com/in/liz-marlowe-3397833) · [Email](mailto:LizMarlowe@gmail.com)
-
-## 📬 Contact
-[LinkedIn](https://linkedin.com/in/liz-marlowe-3397833) | [Email](mailto:Liz.Marlowe@gmail.com)
-
-
