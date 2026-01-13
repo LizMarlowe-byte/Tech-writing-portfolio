@@ -50,7 +50,7 @@ This portfolio highlights my ability to create structured, accessible documentat
 - [Create a relationship table in MadCap Flare](../../wiki/How-to-create-a-relationship-table-in-MadCap-Flare): Step-by-step article for content developers with annotated screenshots and best practices for creating relationship tables in MadCap Flare.
 
 ### 📖 [Technical Reference Guides](../../wiki/Technical-Reference-Guides)
-- [Optiflow-CloudSync CRM Integration Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow-CloudSync-CRM-Integration-Guide)
+- [Optiflow‑CloudSync CRM Integration Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide)
 : Technical guide for support and services personnel that describes a system integration using data feeds, with diagrams and structured workflows.
 - [Release Notes](../../wiki/Release-Notes): Reference document for a diverse audience that summarizes new features, resolved issues, and known limitations for a specific software release, demonstrating clarity and precision in technical communication.
 ---
