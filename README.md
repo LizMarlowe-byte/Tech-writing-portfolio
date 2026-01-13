@@ -40,7 +40,7 @@ Browse by category below or use the GitHub Wiki sidebar for full navigation.
 
 ---
 
-## About Me
+## 👤 About Me
 
 With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.
 
