@@ -106,7 +106,7 @@ a:hover, a:focus {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 12px; /* ensures nice spacing with avatar */
 }
 .brand-mark {
   color: var(--accent);
@@ -119,6 +119,16 @@ a:hover, a:focus {
 .brand-text .brand-role {
   font-size: .9rem;
   color: var(--muted);
+}
+
+/* Headshot in header */
+.brand-headshot {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;      /* circular */
+  object-fit: cover;       /* crops nicely if not perfectly square */
+  border: 2px solid var(--border);
+  box-shadow: var(--shadow-1);
 }
 
 .nav {
