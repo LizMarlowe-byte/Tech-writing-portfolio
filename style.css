@@ -17,7 +17,7 @@
   --shadow-1: 0 1px 2px rgba(0,0,0,.06);
   --shadow-2: 0 6px 20px rgba(0,0,0,.08);
 
-  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -64,6 +64,27 @@ a:hover, a:focus {
 }
 
 /* =========
+   Skip link (accessibility)
+   ========= */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-link:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 0.75rem;
+  background: #000;
+  color: #fff;
+  z-index: 1000;
+}
+
+/* =========
    Header / Nav
    ========= */
 .site-header {
@@ -83,7 +104,7 @@ a:hover, a:focus {
 }
 
 .brand {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 12px;
 }
@@ -117,9 +138,32 @@ a:hover, a:focus {
   padding: 8px 10px;
   border-radius: 8px;
 }
+.nav-list a.active {
+  border-bottom: 2px solid var(--accent);
+}
 .nav-list a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
+}
+.resume-btn {
+  margin-left: 6px;
+}
+
+/* Mobile nav */
+.menu-toggle {
+  display: none;
+  font-size: 1.25rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+@media (max-width: 768px) {
+  .menu-toggle { display: inline-block; }
+  .nav-list { display: none; width: 100%; }
+  .nav-list.open { display: block; }
+  .nav-list li { margin: 6px 0; }
+  .resume-btn { width: 100%; margin-top: 8px; }
 }
 
 /* =========
