@@ -6,79 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Liz Marlowe — Technical Writing Portfolio</title>
 
-  <!-- Absolutely force light mode for the UA and form controls -->
+  <!-- Force light UI colors for form controls / UA rendering -->
   <meta name="color-scheme" content="light">
-  <style>
-    /* 🔒 Nuclear light-mode lock */
-    :root { color-scheme: only light; }
-    @media (prefers-color-scheme: dark) {
-      :root { color-scheme: only light; }
-    }
 
-    /* ✅ Global light palette with !important to beat any leftover styles */
-    html, body {
-      background: #ffffff !important;
-      color: #1f2937 !important; /* slate-800 */
-      margin: 0;
-      font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    a { color: #0a66c2; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .wrap { max-width: 960px; margin: 0 auto; padding: 28px 20px 44px; }
-
-    /* Simple modern styling */
-    header, section {
-      background: #f7f9fc;
-      border: 1px solid #e5e7eb;
-      border-radius: 14px;
-      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
-      padding: 18px;
-      margin-top: 16px;
-    }
-    h1 { margin: 0 0 6px; font-size: clamp(1.8rem, 3vw + 1rem, 2.4rem); }
-    h2 { margin: 10px 0 8px; font-size: 1.45rem; }
-    h3 { margin: 12px 0 6px; font-size: 1.15rem; }
-    .tagline { margin: 4px 0 12px; color: #0b3b66; font-weight: 700; }
-    .intro, .subtle, .desc { color: #4b5563; } /* slate-600 */
-
-    /* Chips/badges */
-    .chips { display: flex; flex-wrap: wrap; gap: .6rem; padding: 0; margin: 14px 0 0; list-style: none; }
-    .chips li {
-      display: inline-flex; align-items: center; gap: .5rem;
-      background: #eaf6ff; color: #0b3b66;
-      border: 1px solid #cfeaff; border-radius: 999px;
-      padding: .55rem .9rem; font-size: .95rem;
-    }
-    .chips a { color: #0b3b66; }
-    .emoji, .icon { color: currentColor; font-weight: 700; line-height: 1; }
-
-    /* Lists / layout */
-    ul { padding-left: 1.15rem; margin: .4rem 0; }
-    .list { margin: .25rem 0 0; }
-    .list li { margin: .55rem 0; }
-    .desc { display: block; margin-top: 3px; }
-    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
-    @media (min-width: 760px) { .grid { grid-template-columns: 1fr 1fr; } }
-    .divider { border: 0; border-top: 1px solid #e5e7eb; margin: 26px 0; }
-    .callout {
-      background: #f2f7fe; border-left: 4px solid #007acc;
-      padding: 10px 12px; border-radius: 10px; color: #27364a; margin: 10px 0 12px;
-    }
-    footer { color: #4b5563; text-align: center; margin-top: 26px; }
-    a:focus-visible { outline: 3px solid #007acc; outline-offset: 3px; border-radius: 6px; }
-  </style>
+  <!-- Load ONLY this stylesheet (put it in the same folder as index.html) -->
+  <link rel="stylesheet" href="styles.css?v=20260113">
 </head>
 <body>
   <main class="wrap" role="main">
-    <header aria-labelledby="title">
+    <header aria-labelledby="title" class="panel">
       <h1 id="title">Liz Marlowe — Technical Writing Portfolio</h1>
       <p class="tagline"><strong>Clear, user-focused documentation that simplifies complexity and accelerates adoption.</strong></p>
       <p class="intro">
         I’m <strong>Liz Marlowe</strong>, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms.
         This portfolio showcases structured documentation that improves usability and accelerates adoption, with samples demonstrating best practices—logical structures, actionable workflows, and real‑world context.
       </p>
+
       <ul class="chips" aria-label="Key links">
         <li><span class="emoji" aria-hidden="true">📄</span>
           <strong>Resume:</strong> <a href="Liz%20Marlowe%20Resume.pdf">View My Resume</a>
@@ -94,7 +37,7 @@
 
     <hr class="divider" />
 
-    <section aria-labelledby="docs-index">
+    <section aria-labelledby="docs-index" class="panel">
       <h2 id="docs-index">📖 Documentation Index</h2>
       <p class="subtle">Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
       <div class="callout"><strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.</div>
@@ -154,20 +97,20 @@
       </div>
     </section>
 
-    <section aria-labelledby="about-me">
+    <section aria-labelledby="about-me" class="panel">
       <h2 id="about-me">👤 About Me</h2>
       <p>With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.</p>
       <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
     </section>
 
-    <section aria-labelledby="skills">
+    <section aria-labelledby="skills" class="panel">
       <h2 id="skills">🛠 Skills &amp; Tools</h2>
       <p><strong>Tools:</strong> MadCap Flare, GitHub Desktop, Git/GitHub, M365 Copilot, Swagger/OpenAPI, Jira, Confluence, Snagit, MadCap Capture, Adobe CC, Camtasia, Audacity, Zeplin, Figma, Pendo</p>
       <p><strong>Languages:</strong> Markdown, HTML, XML</p>
       <p><strong>Specialties:</strong> SaaS documentation, API guides, user guides, configuration guides, integration guides, release notes, UI/UX writing</p>
     </section>
 
-    <section aria-labelledby="process">
+    <section aria-labelledby="process" class="panel">
       <h2 id="process">🗂 Planning &amp; Process</h2>
       <p>I approach every project with a repeatable framework that emphasizes clarity, consistency, and measurable outcomes:</p>
       <ul>
@@ -177,7 +120,7 @@
       </ul>
     </section>
 
-    <section aria-labelledby="about-portfolio">
+    <section aria-labelledby="about-portfolio" class="panel">
       <h2 id="about-portfolio">✅ About This Portfolio</h2>
       <ul>
         <li><strong>Format:</strong> Markdown for portability and native GitHub rendering</li>
@@ -186,7 +129,7 @@
       </ul>
     </section>
 
-    <section aria-labelledby="contact">
+    <section aria-labelledby="contact" class="panel">
       <h2 id="contact">📬 Contact</h2>
       <p>
         <a href="https://linkedin.com/in/liz-marlowe-3397833">LinkedIn</a> ·
@@ -198,6 +141,9 @@
       <p>&copy; <span id="year"></span> Liz Marlowe</p>
     </footer>
   </main>
-  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
