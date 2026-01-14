@@ -144,8 +144,8 @@
 
     /* NEW: Headshot inside the H1, sized to heading line-height */
     .h1-avatar {
-      width: 1.2em;           /* scales with the <h1> text size */
-      height: 1.2em;
+      width: 2.5em;           /* scales with the <h1> text size */
+      height: 2.5em;
       border-radius: 50%;
       object-fit: cover;
       border: 2px solid var(--rule);
@@ -294,19 +294,22 @@
       <hr />
     </section>
 
-    <section aria-labelledby="about-me">
-      <h2 id="about-me">
-        <!-- Small avatar next to heading (tweak #2) -->
-        <img
-          src="assets/img/Liz-headshot.jpg"
-          alt=""
-          aria-hidden="true"
-          class="avatar--sm"
-          width="48" height="48"
-          loading="lazy" decoding="async"
-        />
-        About Me
-      </h2>
+   
+<section aria-labelledby="about-me">
+  <h2 id="about-me">
+    <!-- Larger avatar next to heading -->
+    <img
+      src="assets/img/Liz-headshot.jpg"
+      alt=""
+      aria-hidden="true"
+      class="avatar--sm"
+      width="58" height="58"
+      loading="lazy"
+      decoding="async"
+    />
+    About Me
+  </h2>
+
       <p>With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.</p>
       <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
       <hr />
