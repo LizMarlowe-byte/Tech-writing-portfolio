@@ -104,22 +104,16 @@
       color: var(--muted);
     }
 
-    /* NEW: Simple hero layout with left avatar */
+    /* Simple hero layout */
     .hero {
       display: flex;
       align-items: center;
       gap: 1rem;
       flex-wrap: wrap;
     }
-    .hero__avatar {
-      width: 64px; height: 64px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 2px solid var(--rule);
-      flex: 0 0 auto;
-    }
+    /* NOTE: .hero__avatar no longer used after tweaks; leaving as-is is harmless */
 
-    /* NEW: Compact button row replacing text links */
+    /* Compact button row replacing text links */
     .button-row {
       display: flex;
       flex-wrap: wrap;
@@ -148,9 +142,21 @@
       border-color: var(--rule);
     }
 
-    /* NEW: Tiny avatar next to "About Me" sized to the heading line-height */
-    h2 .avatar--sm {
-      width: 1.35em; height: 1.35em;
+    /* NEW: Headshot inside the H1, sized to heading line-height */
+    .h1-avatar {
+      width: 1.2em;           /* scales with the <h1> text size */
+      height: 1.2em;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--rule);
+      vertical-align: -0.2em; /* baseline alignment */
+      margin-right: 0.55rem;
+    }
+
+    /* UPDATED: Small avatar next to H2 headings, matching the old emoji size */
+    .avatar--sm {
+      width: 1.25em;
+      height: 1.25em;
       border-radius: 50%;
       object-fit: cover;
       border: 1px solid var(--rule);
@@ -158,7 +164,7 @@
       margin-right: 0.35em;
     }
 
-    /* Small screens: slightly smaller hero image */
+    /* Small screens: slightly smaller hero image (not used after move, kept harmless) */
     @media (max-width: 480px) {
       .hero__avatar { width: 56px; height: 56px; }
     }
@@ -180,23 +186,24 @@
 <body>
   <main class="container" role="main">
     <header>
-      <!-- NEW: Hero with left avatar + name -->
+      <!-- Hero with headshot inline in H1 (tweak #1) -->
       <div class="hero">
-        <!-- TODO: Replace src with your actual headshot path -->
-        <img
-          src="assets/img/liz-headshot.jpg"
-          alt="Headshot of Liz Marlowe"
-          class="hero__avatar"
-          width="64" height="64"
-          decoding="async"
-        />
         <div>
-          <h1>Liz Marlowe — Technical Writing Portfolio</h1>
+          <h1>
+            <img
+              src="assets/img/liz-headshot.jpg"
+              alt=""
+              aria-hidden="true"
+              class="h1-avatar"
+              decoding="async"
+            />
+            Liz Marlowe — Technical Writing Portfolio
+          </h1>
           <p class="lead">Clear, user-focused documentation that simplifies complexity and accelerates adoption.</p>
         </div>
       </div>
 
-      <!-- NEW: Button row replacing the three text links (same position) -->
+      <!-- Button row replacing the three text links (same position) -->
       <section aria-label="Primary links">
         <div class="button-row" role="group" aria-label="Primary actions">
           <a class="btn" href="Liz%20Marlowe%20Resume.pdf" aria-label="Open resume PDF">
@@ -289,15 +296,16 @@
 
     <section aria-labelledby="about-me">
       <h2 id="about-me">
-        <!-- NEW: small avatar next to heading; same visual size as icon text -->
+        <!-- Small avatar next to heading (tweak #2) -->
         <img
           src="assets/img/liz-headshot.jpg"
-          alt="Headshot of Liz Marlowe"
+          alt=""
+          aria-hidden="true"
           class="avatar--sm"
           width="48" height="48"
           loading="lazy" decoding="async"
         />
-        👤 About Me
+        About Me
       </h2>
       <p>With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.</p>
       <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
@@ -345,4 +353,3 @@
   </main>
 </body>
 </html>
-``
