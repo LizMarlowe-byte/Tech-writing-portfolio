@@ -282,3 +282,11 @@ a:hover, a:focus {
   margin: 0 0 10px;
 }
 .cta-group {
+
+   
+/* Quick fix: hide Download Resume button anywhere in header */
+.resume-btn,
+.site-header a[href*="resume"] {
+  display: none !important;
+}
+
