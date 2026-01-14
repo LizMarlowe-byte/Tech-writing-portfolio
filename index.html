@@ -1,79 +1,186 @@
 
-# Liz Marlowe — Technical Writing Portfolio
-**Clear, user-focused documentation that simplifies complexity and accelerates adoption.**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Liz Marlowe — Technical Writing Portfolio</title>
+  <meta name="description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption. Portfolio by Liz Marlowe, Senior Technical Writer." />
 
-I’m **Liz Marlowe**, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms. This portfolio showcases structured documentation that improves usability and accelerates adoption, with samples demonstrating best practices—logical structures, actionable workflows, and real‑world context.
+  <!-- Basic, light-mode styles (optional) -->
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #555;
+      --link: #0a66c2;   /* LinkedIn blue-ish */
+      --accent: #0a66c2;
+      --rule: #e6e6e6;
+      --card: #f8f9fb;
+      --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+    html, body {
+      background: var(--bg);
+      color: var(--fg);
+      margin: 0;
+      padding: 0;
+      font-family: var(--font);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    h1, h2, h3 {
+      line-height: 1.25;
+      margin: 0 0 0.75rem;
+    }
+    h1 { font-size: clamp(1.8rem, 3vw, 2.4rem); }
+    h2 { font-size: clamp(1.4rem, 2.4vw, 1.8rem); margin-top: 2.25rem; }
+    h3 { font-size: clamp(1.15rem, 2vw, 1.25rem); margin-top: 1.5rem; }
+    p { margin: 0 0 1rem; }
+    ul { margin: 0.5rem 0 1rem 1.25rem; }
+    li { margin: 0.35rem 0; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover, a:focus { text-decoration: underline; }
+    .lead {
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+    }
+    .intro {
+      background: var(--card);
+      padding: 1rem 1rem;
+      border-radius: 10px;
+      margin: 1rem 0 1.5rem;
+    }
+    .meta-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+      padding: 0;
+      list-style: none;
+      margin: 0 0 1.5rem;
+    }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 2rem 0;
+    }
+    blockquote {
+      margin: 1rem 0 1.25rem;
+      padding: 0.75rem 1rem;
+      border-left: 4px solid var(--accent);
+      background: #f5f8fc;
+      border-radius: 6px;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .section-note {
+      margin-top: 0.25rem;
+      margin-bottom: 0.25rem;
+    }
+    .category {
+      margin-top: 1rem;
+    }
+    .dotlinks a + a::before {
+      content: " · ";
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <header>
+      <h1>Liz Marlowe — Technical Writing Portfolio</h1>
+      <p class="lead">Clear, user-focused documentation that simplifies complexity and accelerates adoption.</p>
 
-- 📄 **Resume:** [View My Resume](Liz%20Marlowe%20Resume.pdf)
-- 🔗 **LinkedIn:** [linkedin.com/in/liz-marlowe-3397833](https://linkedin.com/in/liz-marlowe-3397833)
-- ✉️ **Email:** [LizMarlowe@gmail.com](mailto:LizMarlowe@gmail.com)
+      <section aria-label="Primary links">
+        <ul class="meta-links">
+          <li>📄 <strong>Resume:</strong> <a href="Liz%20Marlowe%20Resume.pdf">View My Resume</a></li>
+          <li>🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/liz-marlowe-3397833">linkedin.com/in/liz-marlowe-3397833</a></li>
+          <li>✉️ <strong>Email:</strong> <a href="mailto:LizMarlowe@gmail.com">LizMarlowe@gmail.com</a></li>
+        </ul>
+      </section>
 
----
+      <section class="intro" aria-label="Introduction">
+        <p>I’m <strong>Liz Marlowe</strong>, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms. This portfolio showcases structured documentation that improves usability and accelerates adoption, with samples demonstrating best practices—logical structures, actionable workflows, and real‑world context.</p>
+      </section>
+      <hr />
+    </header>
 
-## 📖 Documentation Index
+    <section aria-labelledby="docs-index">
+      <h2 id="docs-index">📖 Documentation Index</h2>
+      <p>Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
 
-Browse by category below or use the GitHub Wiki sidebar for full navigation.
+      <blockquote>
+        <p><strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.</p>
+      </blockquote>
 
-> **Note:** To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.
+      <div class="category">
+        <h3>📚 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides">User Guides</a></h3>
+        <ul>
+          <li>
+            <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide">Docmost User Guide</a></strong><br />
+            Comprehensive guide for end users that describes a collaborative wiki platform—task‑based instructions with intuitive navigation.
+          </li>
+          <li>
+            <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide">Taiga User Guide</a></strong><br />
+            Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.
+          </li>
+        </ul>
+      </div>
 
-### 📚 [User Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides)
-- **[Docmost User Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide)**  
-  Comprehensive guide for end users that describes a collaborative wiki platform—task‑based instructions with intuitive navigation.
-- **[Taiga User Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide)**  
-  Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.
+      <div class="category">
+        <h3>🔗 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs">API Guides</a></h3>
+        <ul>
+          <li>
+            <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide">OpenWeatherMap API Guide</a></strong><br />
+            RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.
+          </li>
+          <li>
+            <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide">Spotify API Guide</a></strong><br />
+            Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.
+          </li>
+        </ul>
+      </div>
 
-### 🔗 [API Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs)
-- **[OpenWeatherMap API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide)**  
-  RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.
-- **[Spotify API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide)**  
-  Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.
+      <div class="category">
+        <h3>🛠️ <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article">Knowledge Base Article</a></h3>
+        <ul>
+          <li>
+            <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare">Create a relationship table in MadCap Flare</a></strong><br />
+            Step‑by‑step article with annotated screenshots and best practices.
+          </li>
+        </ul>
+      </div>
 
-### 🛠️ [Knowledge Base Article](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article)
-- **[Create a relationship table in MadCap Flare](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare)**  
-  Step‑by‑step article with annotated screenshots and best practices.
+      <div class="category">
+        <h3>📖 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides">Technical Reference Guides</a></h3>
+        <ul>
+          <li>
+            <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide">Optiflow‑CloudSync CRM Integration Guide</a></strong><br />
+            Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.
+          </li>
+          <li>
+            <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes">Release Notes</a></strong><br />
+            Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.
+          </li>
+        </ul>
+      </div>
+      <hr />
+    </section>
 
-### 📖 [Technical Reference Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides)
-- **[Optiflow‑CloudSync CRM Integration Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide)**  
-  Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.
-- **[Release Notes](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes)**  
-  Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.
+    <section aria-labelledby="about-me">
+      <h2 id="about-me">👤 About Me</h2>
+      <p>With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.</p>
+      <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
+      <hr />
+    </section>
 
----
-
-## 👤 About Me
-
-With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.
-
-My goal is simple: **simplify complex technology and make it usable.**
-
----
-
-## 🛠 Skills & Tools
-
-- **Tools:** MadCap Flare, GitHub Desktop, Git/GitHub, M365 Copilot, Swagger/OpenAPI, Jira, Confluence, Snagit, MadCap Capture, Adobe CC, Camtasia, Audacity, Zeplin, Figma, Pendo  
-- **Languages:** Markdown, HTML, XML  
-- **Specialties:** SaaS documentation, API guides, user guides, configuration guides, integration guides, release notes, UI/UX writing
-
----
-
-## 🗂 Planning & Process
-
-I approach every project with a repeatable framework that emphasizes clarity, consistency, and measurable outcomes:
-
-- **Content Strategy:** Define audience, goals, success criteria, and scope before writing.  
-- **Information Architecture:** Organize by content type (task, concept, reference) to support a structured, topic‑based/DITA‑informed approach.  
-- **Tools & Quality:** Use [templates](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates), [editing checklists](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists), and version control to ensure consistency and maintainability.
-
----
-
-## ✅ About This Portfolio
-
-- **Format:** Markdown for portability and native GitHub rendering  
-- **Tools Used:** GitHub Wiki, Markdown, Snagit, MadCap Capture, Visio, Microsoft PowerPoint  
-- **Focus Areas:** User guides, API guides, knowledge base content, technical reference guides
-
----
-
-## 📬 Contact
-
-[LinkedIn](https://linkedin.com/in/liz-marlowe-3397833) · [Email](mailto:LizMarlowe@gmail.com)
