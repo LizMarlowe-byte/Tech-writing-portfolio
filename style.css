@@ -83,7 +83,7 @@ h3 { font-size: 1.05rem; margin-top: 1rem; }
 .brand .site-title {
   margin: 0;
   font-weight: 800;
-  white-space: nowrap;           /* <-- keep title on one line */
+  white-space: nowrap;           /* keep title on one line */
 }
 .brand .muted { color: var(--muted); font-weight: 700; }
 .tagline { margin: .35rem 0 0; color: var(--muted); }
@@ -108,4 +108,3 @@ h3 { font-size: 1.05rem; margin-top: 1rem; }
   display: inline-block;
   background: var(--accent);
   color: var(--accent-contrast);
-  padding: .65rem .9rem;
