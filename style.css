@@ -18,6 +18,12 @@
   --shadow-2: 0 6px 20px rgba(0,0,0,.08);
 
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
+
+  /* Header sizing baseline */
+  --header-h: 64px;
+  --nav-item-h: 40px;          /* uniform height for links & button */
+  --nav-item-px: 10px;         /* horizontal pad */
+  --nav-item-radius: 10px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,6 +50,8 @@ html, body {
   color: var(--text);
   font-family: var(--font-body);
   line-height: 1.65;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 img { max-width: 100%; height: auto; }
@@ -61,6 +69,22 @@ a:hover, a:focus {
   max-width: var(--maxw);
   margin: 0 auto;
   padding: 0 20px;
+}
+
+/* Focus visibility baseline */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* =========
@@ -85,7 +109,7 @@ a:hover, a:focus {
 }
 
 /* =========
-   Header / Nav
+   Header / Nav (alignment fix + resiliency)
    ========= */
 .site-header {
   position: sticky;
@@ -95,22 +119,23 @@ a:hover, a:focus {
   border-bottom: 1px solid var(--border);
   z-index: 50;
 }
+
+/* Three‑zone layout: brand | nav | actions */
 .header-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;                 /* vertical centering for all zones */
   gap: 14px;
-  min-height: 64px;
+  min-height: var(--header-h);
 }
 
+/* Brand group */
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px; /* ensures nice spacing with avatar */
+  gap: 12px;
 }
-.brand-mark {
-  color: var(--accent);
-}
+.brand-mark { color: var(--accent); }
 .brand-text .brand-name {
   font-weight: 700;
   font-size: 1.05rem;
@@ -125,38 +150,86 @@ a:hover, a:focus {
 .brand-headshot {
   width: 48px;
   height: 48px;
-  border-radius: 50%;      /* circular */
-  object-fit: cover;       /* crops nicely if not perfectly square */
+  border-radius: 50%;
+  object-fit: cover;
   border: 2px solid var(--border);
   box-shadow: var(--shadow-1);
 }
 
+/* Nav group */
 .nav {
   display: flex;
-  align-items: center;
+  align-items: center;                 /* keep items centered */
+  justify-content: center;             /* center links between brand & cta */
   gap: 14px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
+
 .nav-list {
   list-style: none;
   display: flex;
-  gap: 12px;
+  align-items: center;                 /* vertical align fix */
+  gap: 4px;                            /* tighter; padding lives on anchors */
   padding: 0;
   margin: 0;
 }
+
+/* Ensure uniform height & centering for nav links */
 .nav-list a {
-  padding: 8px 10px;
-  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;                 /* vertical centering */
+  justify-content: center;
+  height: var(--nav-item-h);           /* shared height */
+  padding: 0 var(--nav-item-px);
+  line-height: 1;                      /* avoid line-height offsets */
+  border-radius: var(--nav-item-radius);
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
 }
+
+/* Active indicator with subtle pill underline */
 .nav-list a.active {
-  border-bottom: 2px solid var(--accent);
+  position: relative;
+  color: var(--text);
 }
-.nav-list a:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
+.nav-list a.active::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 6px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--accent);
+  opacity: 0.9;
 }
+
+/* Hover styling (no layout shift) */
+.nav-list a:hover {
+  background: color-mix(in oklab, var(--card) 70%, var(--bg));
+  text-decoration: none;
+}
+
+/* Explicit keyboard outline already handled by :focus-visible above */
+
+/* Actions zone (e.g., resume button) */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Make the resume button match link height */
 .resume-btn {
-  margin-left: 6px;
+  height: var(--nav-item-h);
+  padding: 0 14px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--nav-item-radius);
+  margin-left: 0; /* no forced offset; layout grid handles spacing */
 }
 
 /* Mobile nav */
@@ -167,13 +240,38 @@ a:hover, a:focus {
   border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--bg);
+  line-height: 1;
 }
-@media (max-width: 768px) {
+
+/* Responsive header behavior */
+@media (max-width: 920px) {
+  .header-inner {
+    grid-template-columns: 1fr auto;   /* brand + toggle/actions */
+    grid-template-areas:
+      "brand actions";
+  }
+  .brand { grid-area: brand; }
+  .header-actions { grid-area: actions; }
   .menu-toggle { display: inline-block; }
-  .nav-list { display: none; width: 100%; }
+  .nav { width: 100%; order: 3; justify-content: flex-start; }
+  .nav-list {
+    display: none;
+    width: 100%;
+    margin-top: 8px;
+    gap: 0;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+  }
   .nav-list.open { display: block; }
   .nav-list li { margin: 6px 0; }
-  .resume-btn { width: 100%; margin-top: 8px; }
+  .nav-list a {
+    width: 100%;
+    justify-content: flex-start;
+    border-radius: 8px;
+    height: 44px;                      /* comfortable tap size */
+    padding: 0 12px;
+  }
+  .resume-btn { width: auto; }
 }
 
 /* =========
@@ -189,16 +287,22 @@ a:hover, a:focus {
   border: 1px solid var(--border);
   box-shadow: var(--shadow-1);
   font-weight: 600;
-  transition: transform .04s ease, box-shadow .2s ease;
+  transition: transform .04s ease, box-shadow .2s ease, background-color .2s ease, color .2s ease, border-color .2s ease;
+  line-height: 1; /* fixes vertical centering */
 }
 .btn:hover {
   transform: translateY(-1px);
   box-shadow: var(--shadow-2);
 }
+.btn:active { transform: translateY(0); }
+
 .btn-primary {
   background: var(--accent);
   color: #fff;
   border-color: color-mix(in oklab, var(--accent) 70%, #000);
+}
+.btn-primary:hover {
+  background: color-mix(in oklab, var(--accent) 90%, #000);
 }
 .btn-outline {
   background: transparent;
@@ -219,91 +323,3 @@ a:hover, a:focus {
 }
 .lead {
   color: var(--muted);
-  margin: 0 0 10px;
-}
-.cta-group {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-top: 12px;
-}
-
-/* =========
-   Sections
-   ========= */
-main {
-  padding: 22px 0 40px;
-}
-
-section h2 {
-  font-size: 1.5rem;
-  margin: 22px 0 10px;
-}
-section h3 {
-  font-size: 1.15rem;
-  margin: 14px 0 8px;
-}
-
-.divider {
-  border: 0;
-  border-top: 1px solid var(--border);
-  margin: 26px 0;
-}
-
-.note {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 12px 14px;
-  margin: 12px 0 18px;
-}
-
-/* =========
-   Lists / Grid
-   ========= */
-.list {
-  list-style: none;
-  padding-left: 0;
-  margin: 10px 0 0;
-}
-.list li {
-  margin: 10px 0;
-}
-.list .desc {
-  display: block;
-  color: var(--muted);
-  margin-top: 3px;
-}
-
-.grid.two {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px 22px;
-}
-@media (min-width: 760px) {
-  .grid.two {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/* =========
-   Contact / Footer
-   ========= */
-.contact-link {
-  padding: 4px 6px;
-  border-radius: 8px;
-}
-.site-footer {
-  border-top: 1px solid var(--border);
-  padding: 18px 0 30px;
-  color: var(--muted);
-  text-align: center;
-}
-
-/* =========
-   Print
-   ========= */
-@media print {
-  .site-header, .hero .cta-group, .nav, .btn { display: none !important; }
-  .divider { margin: 12px 0; }
-}
