@@ -19,11 +19,11 @@
 
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
 
-  /* Header alignment tokens */
+  /* Header rhythm */
   --header-h: 64px;
-  --nav-item-h: 40px;       /* uniform height for links/buttons */
-  --nav-item-px: 10px;      /* horizontal padding for links */
-  --nav-item-radius: 10px;  /* pill radius for nav links */
+  --nav-item-h: 40px;       /* uniform link height */
+  --nav-item-px: 10px;      /* horizontal padding */
+  --nav-item-radius: 10px;  /* link pill radius */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,14 +71,14 @@ a:hover, a:focus {
   padding: 0 20px;
 }
 
-/* Consistent, accessible outline */
+/* Accessible focus visible */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: 8px;
 }
 
-/* Respect reduced-motion user preference */
+/* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
@@ -109,7 +109,7 @@ a:hover, a:focus {
 }
 
 /* =========
-   Header / Nav (alignment fix + polish)
+   Header / Nav (aligned, no resume button)
    ========= */
 .site-header {
   position: sticky;
@@ -120,11 +120,11 @@ a:hover, a:focus {
   z-index: 50;
 }
 
-/* Flexible layout that works with your current HTML */
+/* Brand | Nav (two zones now) */
 .header-inner {
-  display: flex;
-  align-items: center;          /* vertical centering for everything */
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;        /* vertical centering */
   gap: 14px;
   min-height: var(--header-h);
 }
@@ -157,38 +157,38 @@ a:hover, a:focus {
   box-shadow: var(--shadow-1);
 }
 
-/* Nav container */
+/* Nav group */
 .nav {
   display: flex;
-  align-items: center;      /* keeps the row centered vertically */
+  align-items: center;
+  justify-content: center;  /* center nav between brand & right edge */
   gap: 14px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .nav-list {
   list-style: none;
   display: flex;
-  align-items: center;      /* key to link alignment */
+  align-items: center;      /* critical for link alignment */
   gap: 4px;                 /* spacing lives on anchors */
   padding: 0;
   margin: 0;
 }
 
-/* Uniform height + center for each link */
 .nav-list a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: var(--nav-item-h);     /* shared height with resume button */
-  padding: 0 var(--nav-item-px); /* horizontal padding only */
-  line-height: 1;                /* avoids font baseline drift */
+  height: var(--nav-item-h);     /* unified link height */
+  padding: 0 var(--nav-item-px);
+  line-height: 1;                /* avoid baseline drift */
   border-radius: var(--nav-item-radius);
   color: var(--text);
   text-decoration: none;
   white-space: nowrap;
 }
 
-/* Active indicator that doesn't shift layout */
+/* Active indicator (non-shifting) */
 .nav-list a.active {
   position: relative;
 }
@@ -204,29 +204,10 @@ a:hover, a:focus {
   opacity: 0.9;
 }
 
-/* Hover background (no layout shift) */
+/* Hover background without layout shift */
 .nav-list a:hover {
   background: color-mix(in oklab, var(--card) 70%, var(--bg));
   text-decoration: none;
-}
-
-/* Resume button aligns with links without HTML changes */
-.resume-btn {
-  height: var(--nav-item-h);
-  padding: 0 14px;
-  line-height: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: var(--nav-item-radius);
-  margin-left: 6px; /* keep your subtle spacing */
-}
-
-/* Optional wrapper if you introduce it later */
-.header-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 /* Mobile nav */
@@ -240,13 +221,13 @@ a:hover, a:focus {
   line-height: 1;
 }
 
-/* Responsive header behavior */
 @media (max-width: 768px) {
   .menu-toggle { display: inline-block; }
-  .nav-list { 
-    display: none; 
-    width: 100%; 
-    margin-top: 8px; 
+  .nav { width: 100%; justify-content: flex-start; }
+  .nav-list {
+    display: none;
+    width: 100%;
+    margin-top: 8px;
     border-top: 1px solid var(--border);
     padding-top: 8px;
   }
@@ -255,11 +236,10 @@ a:hover, a:focus {
   .nav-list a {
     width: 100%;
     justify-content: flex-start;
-    height: 44px;          /* accessible tap size */
+    height: 44px;          /* accessible tap target */
     padding: 0 12px;
     border-radius: 8px;
   }
-  .resume-btn { width: 100%; margin-top: 8px; }
 }
 
 /* =========
@@ -276,7 +256,7 @@ a:hover, a:focus {
   box-shadow: var(--shadow-1);
   font-weight: 600;
   transition: transform .04s ease, box-shadow .2s ease, background-color .2s ease, color .2s ease, border-color .2s ease;
-  line-height: 1; /* fixes vertical centering */
+  line-height: 1;
 }
 .btn:hover {
   transform: translateY(-1px);
@@ -408,3 +388,7 @@ section h3 {
    Print
    ========= */
 @media print {
+  .site-header, .hero .cta-group, .nav, .btn { display: none !important; }
+  .divider { margin: 12px 0; }
+}
+``
