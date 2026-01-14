@@ -1,189 +1,275 @@
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Liz Marlowe — Technical Writing Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Technical writing portfolio and documentation index by Liz Marlowe." />
-  style.css?v=clean-2026-01-13
+  <title>Liz Marlowe — Technical Writing Portfolio</title>
+  <meta name="description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption. Portfolio by Liz Marlowe, Senior Technical Writer." />
+  <style>
+    :root {
+      --bg: #0f172a;            /* slate-900 */
+      --panel: #111827;         /* gray-900 */
+      --text: #e5e7eb;          /* gray-200 */
+      --muted: #cbd5e1;         /* slate-300 */
+      --brand: #60a5fa;         /* blue-400 */
+      --brand-strong: #93c5fd;  /* blue-300 */
+      --divider: #1f2937;       /* gray-800 */
+      --link: #93c5fd;
+      --link-hover: #bfdbfe;
+      --badge: #1e293b;         /* slate-800 */
+      --shadow: rgba(0,0,0,0.25);
+    }
+
+    /* Base */
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: linear-gradient(180deg, var(--bg) 0%, #0b1226 100%);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a { color: var(--link); text-decoration: none; }
+    a:hover, a:focus { color: var(--link-hover); text-decoration: underline; }
+
+    /* Layout */
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+
+    header {
+      background: linear-gradient(180deg, rgba(96,165,250,0.15), rgba(96,165,250,0.06));
+      border: 1px solid rgba(148,163,184,0.2);
+      border-radius: 16px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px var(--shadow);
+    }
+
+    h1 {
+      margin: 0 0 .5rem 0;
+      font-size: clamp(1.6rem, 3vw + 1rem, 2.4rem);
+      line-height: 1.15;
+      letter-spacing: .2px;
+    }
+
+    .tagline {
+      margin: 0.25rem 0 1rem 0;
+      font-weight: 600;
+      color: var(--brand-strong);
+    }
+
+    .intro {
+      margin-top: .75rem;
+      color: var(--muted);
+    }
+
+    .meta {
+      margin-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem 1rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    .meta li {
+      background: var(--badge);
+      border: 1px solid var(--divider);
+      border-radius: 999px;
+      padding: .5rem .9rem;
+      font-size: 0.95rem;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--divider);
+      margin: 2rem 0;
+      border: 0;
+    }
+
+    section {
+      background: var(--panel);
+      border: 1px solid rgba(148,163,184,0.18);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-top: 1.25rem;
+      box-shadow: 0 6px 18px var(--shadow);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.35rem;
+    }
+
+    .callout {
+      background: rgba(148,163,184,0.1);
+      border-left: 4px solid var(--brand);
+      padding: .9rem 1rem;
+      border-radius: 8px;
+      color: var(--muted);
+      margin: .75rem 0 1rem;
+    }
+
+    .list {
+      margin: .25rem 0 0 0;
+      padding-left: 1.25rem;
+    }
+
+    .list li { margin: .5rem 0; }
+
+    .subtle {
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media (min-width: 720px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    footer {
+      color: var(--muted);
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    /* Accessibility: focus */
+    a:focus-visible {
+      outline: 3px solid var(--brand);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Accessibility: skip directly to main content -->
-  #mainSkip to content</a>
-
-  <!-- Header -->
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-
-      <!-- Brand -->
-      /
-        assets/headshot.jpg
-        <div class="brand-text">
-          <span class="brand-name">Liz Marlowe</span>
-          <span class="brand-role">Senior Technical Writer</span>
-        </div>
-      </a>
-
-      <!-- Primary navigation -->
-      <nav class="nav" aria-label="Primary">
-        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
-          Menu
-        </button>
-        <ul id="primary-nav" class="nav-list">
-          <li>#docs-indexDocs Index</a></li>
-          <li>#aboutAbout</a></li>
-          <li>#skillsSkills</a></li>
-          <li>#processProcess</a></li>
-          <li>#portfolioPortfolio</a></li>
-          <li>#contactContact</a></li>
-        </ul>
-      </nav>
-
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="container">
-      <h1>Liz Marlowe — Technical Writing Portfolio</h1>
-      <p class="lead">
-        Clear, user‑focused documentation that simplifies complexity and accelerates adoption.
+  <main class="wrap" role="main">
+    <header aria-labelledby="title">
+      <h1 id="title">Liz Marlowe — Technical Writing Portfolio</h1>
+      <p class="tagline"><strong>Clear, user-focused documentation that simplifies complexity and accelerates adoption.</strong></p>
+      <p class="intro">
+        I’m <strong>Liz Marlowe</strong>, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms.
+        This portfolio showcases structured documentation that improves usability and accelerates adoption, with samples demonstrating best practices—logical structures, actionable workflows, and real‑world context.
       </p>
-
-      <div class="cta-group">
-        resume.pdfView My Resume</a>
-        https://www.linkedin.com/LinkedIn</a>
-        mailto:liz@example.comEmail</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Main content -->
-  <main id="main" class="container" role="main">
-
-    <!-- Documentation Index -->
-    <section id="docs-index">
-      <h2>📚 Documentation Index</h2>
-      <p>Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
-      <div class="note">
-        <strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source,
-        commercial, or fictional products. They illustrate writing style, structure, and content development approach.
-      </div>
-
-      <div class="grid two">
-        <!-- User Guides -->
-        <div>
-          <h3>📘 User Guides</h3>
-          <ul class="list">
-            <li>
-              docs/user-guides/docmost-user-guide.htmlDocmost User Guide</a>
-              <span class="desc">Collaborative wiki platform — task‑based instructions with intuitive navigation.</span>
-            </li>
-            <li>
-              docs/user-guides/taiga-user-guide.htmlTaiga User Guide</a>
-              <span class="desc">Agile project management tool — workflows and clear outcomes for project leads.</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- API Guides -->
-        <div>
-          <h3>🔗 API Guides</h3>
-          <ul class="list">
-            <li>
-              docs/api/openweathermap.htmlOpenWeatherMap API Guide</a>
-              <span class="desc">Concepts, rate limits, authentication, tutorials, and endpoint references.</span>
-            </li>
-            <li>
-              docs/api/spotify.htmlSpotify API Guide</a>
-              <span class="desc">OAuth flows, pagination, errors, and practical use cases.</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      <ul class="meta" aria-label="Key links">
+        <li>📄 <a href="Liz%20Marlowe%20Resume.pdf">View My Resume</a></li>
+        <li>🔗 <a href="https://linkedin.com/in/liz-marlowe-3397833" rel="noopener noreferrer">linkedin.com/in/liz-marlowe-3397833</a></li>
+        <li>✉️ <a href="mailto:LizMarlowe@gmail.com">LizMarlowe@gmail.com</a></li>
+      </ul>
+    </header>
 
     <hr class="divider" />
 
-    <!-- About -->
-    <section id="about">
-      <h2>About</h2>
+    <section aria-labelledby="docs-index">
+      <h2 id="docs-index">📖 Documentation Index</h2>
+      <p class="subtle">Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
+      <div class="callout">
+        <strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.
+      </div>
+
+      <div class="grid" role="list">
+        <article role="listitem" aria-labelledby="user-guides">
+          <h3 id="user-guides">📚 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides">User Guides</a></h3>
+          <ul class="list">
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide">Docmost User Guide</a></strong><br />
+              <span class="subtle">Comprehensive guide for end users that describes a collaborative wiki platform—task‑based instructions with intuitive navigation.</span>
+            </li>
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide">Taiga User Guide</a></strong><br />
+              <span class="subtle">Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.</span>
+            </li>
+          </ul>
+        </article>
+
+        <article role="listitem" aria-labelledby="api-guides">
+          <h3 id="api-guides">🔗 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs">API Guides</a></h3>
+          <ul class="list">
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide">OpenWeatherMap API Guide</a></strong><br />
+              <span class="subtle">RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.</span>
+            </li>
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide">Spotify API Guide</a></strong><br />
+              <span class="subtle">Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.</span>
+            </li>
+          </ul>
+        </article>
+
+        <article role="listitem" aria-labelledby="kbase">
+          <h3 id="kbase">🛠️ <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article">Knowledge Base Article</a></h3>
+          <ul class="list">
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare">Create a relationship table in MadCap Flare</a></strong><br />
+              <span class="subtle">Step‑by‑step article with annotated screenshots and best practices.</span>
+            </li>
+          </ul>
+        </article>
+
+        <article role="listitem" aria-labelledby="tech-ref">
+          <h3 id="tech-ref">📖 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides">Technical Reference Guides</a></h3>
+          <ul class="list">
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide">Optiflow‑CloudSync CRM Integration Guide</a></strong><br />
+              <span class="subtle">Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.</span>
+            </li>
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes">Release Notes</a></strong><br />
+              <span class="subtle">Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="about-me">
+      <h2 id="about-me">👤 About Me</h2>
       <p>
-        I’m Liz Marlowe, a Senior Technical Writer specializing in clear, structured documentation that improves usability
-        and accelerates adoption. I focus on logical structures, actionable workflows, and real‑world context.
+        With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.
       </p>
+      <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
     </section>
 
-    <hr class="divider" />
+    <section aria-labelledby="skills">
+      <h2 id="skills">🛠 Skills &amp; Tools</h2>
+      <p><strong>Tools:</strong> MadCap Flare, GitHub Desktop, Git/GitHub, M365 Copilot, Swagger/OpenAPI, Jira, Confluence, Snagit, MadCap Capture, Adobe CC, Camtasia, Audacity, Zeplin, Figma, Pendo</p>
+      <p><strong>Languages:</strong> Markdown, HTML, XML</p>
+      <p><strong>Specialties:</strong> SaaS documentation, API guides, user guides, configuration guides, integration guides, release notes, UI/UX writing</p>
+    </section>
 
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
+    <section aria-labelledby="process">
+      <h2 id="process">🗂 Planning &amp; Process</h2>
+      <p>I approach every project with a repeatable framework that emphasizes clarity, consistency, and measurable outcomes:</p>
       <ul class="list">
-        <li>Information architecture, content strategy, and editorial review</li>
-        <li>API documentation (REST, OAuth, webhooks), SDKs, and code samples</li>
-        <li>Docs tools: Markdown, static sites, GitHub/Git, CI/CD</li>
+        <li><strong>Content Strategy:</strong> Define audience, goals, success criteria, and scope before writing.</li>
+        <li><strong>Information Architecture:</strong> Organize by content type (task, concept, reference) to support a structured, topic‑based/DITA‑informed approach.</li>
+        <li><strong>Tools &amp; Quality:</strong> Use <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates">templates</a>, <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists">editing checklists</a>, and version control to ensure consistency and maintainability.</li>
       </ul>
     </section>
 
-    <hr class="divider" />
+    <section aria-labelledby="about-portfolio">
+      <h2 id="about-portfolio">✅ About This Portfolio</h2>
+      <ul class="list">
+        <li><strong>Format:</strong> Markdown for portability and native GitHub rendering</li>
+        <li><strong>Tools Used:</strong> GitHub Wiki, Markdown, Snagit, MadCap Capture, Visio, Microsoft PowerPoint</li>
+        <li><strong>Focus Areas:</strong> User guides, API guides, knowledge base content, technical reference guides</li>
+      </ul>
+    </section>
 
-    <!-- Process -->
-    <section id="process">
-      <h2>Process</h2>
+    <section aria-labelledby="contact">
+      <h2 id="contact">📬 Contact</h2>
       <p>
-        Discovery, content planning, draft, stakeholder review, iteration, QA, and publish—with structured templates and
-        checklists to keep quality consistent.
+        <a href="https://linkedin.com/in/liz-marlowe-3397833" rel="noopener noreferrer">LinkedIn</a>
+        &middot;
+        <a href="mailto:LizMarlowe@gmail.com">Email</a>
       </p>
-    </section>
-
-    <hr class="divider" />
-
-    <!-- Portfolio -->
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <p>Selected work samples and links to live docs or repositories.</p>
-    </section>
-
-    <hr class="divider" />
-
-    <!-- Contact -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        mailto:liz@example.comEmail</a> ·
-        https://www.linkedin.com/LinkedIn</a>
-      </p>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      © <span id="year"></span> Liz Marlowe
-    </div>
-  </footer>
-
-  <!-- Minimal JS: mobile menu toggle & year -->
-  <script>
-    // Mobile nav toggle
-    (function () {
-      const toggle = document.querySelector('.menu-toggle');
-      const navList = document.getElementById('primary-nav');
-      if (toggle && navList) {
-        toggle.addEventListener('click', () => {
-          const open = navList.classList.toggle('open');
-          toggle.setAttribute('aria-expanded', String(open));
-        });
-      }
-    })();
-
-    // Footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-
-</body>
-</html>
