@@ -1,148 +1,219 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Liz Marlowe — Technical Writing Portfolio</title>
+  <meta name="description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption. Explore Liz Marlowe’s technical writing portfolio: user guides, API docs, knowledge base articles, and technical reference guides." />
 
-  <!-- Force light UI colors for form controls / UA rendering -->
-  <meta name="color-scheme" content="light">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Liz Marlowe — Technical Writing Portfolio" />
+  <meta property="og:description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://YOUR-DOMAIN-OR-GITHUB-PAGES-URL" />
+  <meta property="og:image" content="https://YOUR-DOMAIN-OR-GITHUB-PAGES-URL/og-image.png" />
 
-  <!-- Load ONLY this stylesheet (put it in the same folder as index.html) -->
-  <link rel="stylesheet" href="styles.css?v=20260113">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Liz Marlowe — Technical Writing Portfolio" />
+  <meta name="twitter:description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption." />
+  <meta name="twitter:image" content="https://YOUR-DOMAIN-OR-GITHUB-PAGES-URL/og-image.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://YOUR-DOMAIN-OR-GITHUB-PAGES-URL" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicons (optional) -->
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <!-- Schema.org: Person + CreativeWork -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Liz Marlowe",
+        "jobTitle": "Senior Technical Writer",
+        "email": "mailto:LizMarlowe@gmail.com",
+        "url": "https://YOUR-DOMAIN-OR-GITHUB-PAGES-URL",
+        "sameAs": [
+          "https://linkedin.com/in/liz-marlowe-3397833"
+        ]
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Technical Writing Portfolio",
+        "creator": {
+          "@type": "Person",
+          "name": "Liz Marlowe"
+        },
+        "about": "User guides, API guides, knowledge base content, and technical reference guides.",
+        "url": "https://YOUR-DOMAIN-OR-GITHUB-PAGES-URL"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <main class="wrap" role="main">
-    <header aria-labelledby="title" class="panel">
-      <h1 id="title">Liz Marlowe — Technical Writing Portfolio</h1>
-      <p class="tagline"><strong>Clear, user-focused documentation that simplifies complexity and accelerates adoption.</strong></p>
-      <p class="intro">
-        I’m <strong>Liz Marlowe</strong>, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms.
-        This portfolio showcases structured documentation that improves usability and accelerates adoption, with samples demonstrating best practices—logical structures, actionable workflows, and real‑world context.
-      </p>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-      <ul class="chips" aria-label="Key links">
-        <li><span class="emoji" aria-hidden="true">📄</span>
-          <strong>Resume:</strong> <a href="Liz%20Marlowe%20Resume.pdf">View My Resume</a>
-        </li>
-        <li><span class="emoji" aria-hidden="true">🔗</span>
-          <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/liz-marlowe-3397833">linkedin.com/in/liz-marlowe-3397833</a>
-        </li>
-        <li><span class="emoji" aria-hidden="true">✉️</span>
-          <strong>Email:</strong> <a href="mailto:LizMarlowe@gmail.com">LizMarlowe@gmail.com</a>
-        </li>
-      </ul>
-    </header>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="site-title">Liz Marlowe — <span class="muted">Technical Writing Portfolio</span></h1>
+        <p class="tagline">Clear, user-focused documentation that simplifies complexity and accelerates adoption.</p>
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#index">Documentation</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills &amp; Tools</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#about-portfolio">About This Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <hr class="divider" />
+  <main id="main" class="container" tabindex="-1">
+    <section class="intro callout" aria-labelledby="cta-heading">
+      <h2 id="cta-heading" class="sr-only">Calls to action</h2>
+      <div class="cta">
+        <a class="btn" href="Liz%20Marlowe%20Resume.pdf">📄 View My Resume</a>
+        <a class="btn secondary" href="https://linkedin.com/in/liz-marlowe-3397833" target="_blank" rel="noopener">🔗 LinkedIn</a>
+        <a class="btn secondary" href="mailto:LizMarlowe@gmail.com">✉️ Email</a>
+      </div>
+    </section>
 
-    <section aria-labelledby="docs-index" class="panel">
-      <h2 id="docs-index">📖 Documentation Index</h2>
-      <p class="subtle">Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
-      <div class="callout"><strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.</div>
+    <section id="index" aria-labelledby="docs-heading">
+      <h2 id="docs-heading">📖 Documentation Index</h2>
+      <p class="note"><strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.</p>
 
-      <div class="grid">
-        <article>
-          <h3>📚 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides">User Guides</a></h3>
-          <ul class="list">
+      <div class="grid cards">
+        <!-- User Guides -->
+        <article class="card">
+          <h3><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides" target="_blank" rel="noopener">📚 User Guides</a></h3>
+          <ul class="link-list">
             <li>
-              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide">Docmost User Guide</a></strong>
-              <span class="desc">Comprehensive guide for end users that describes a collaborative wiki platform—task‑based instructions with intuitive navigation.</span>
+              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide" target="_blank" rel="noopener"><strong>Docmost User Guide</strong></a>
+              <p>Comprehensive guide for end users that describes a collaborative wiki platform—task‑based instructions with intuitive navigation.</p>
             </li>
             <li>
-              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide">Taiga User Guide</a></strong>
-              <span class="desc">Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.</span>
-            </li>
-          </ul>
-        </article>
-
-        <article>
-          <h3>🔗 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs">API Guides</a></h3>
-          <ul class="list">
-            <li>
-              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide">OpenWeatherMap API Guide</a></strong>
-              <span class="desc">RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.</span>
-            </li>
-            <li>
-              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide">Spotify API Guide</a></strong>
-              <span class="desc">Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.</span>
+              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide" target="_blank" rel="noopener"><strong>Taiga User Guide</strong></a>
+              <p>Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.</p>
             </li>
           </ul>
         </article>
 
-        <article>
-          <h3>🛠️ <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article">Knowledge Base Article</a></h3>
-          <ul class="list">
+        <!-- API Guides -->
+        <article class="card">
+          <h3><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs" target="_blank" rel="noopener">🔗 API Guides</a></h3>
+          <ul class="link-list">
             <li>
-              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare">Create a relationship table in MadCap Flare</a></strong>
-              <span class="desc">Step‑by‑step article with annotated screenshots and best practices.</span>
+              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide" target="_blank" rel="noopener"><strong>OpenWeatherMap API Guide</strong></a>
+              <p>RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.</p>
+            </li>
+            <li>
+              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide" target="_blank" rel="noopener"><strong>Spotify API Guide</strong></a>
+              <p>Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.</p>
             </li>
           </ul>
         </article>
 
-        <article>
-          <h3>📖 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides">Technical Reference Guides</a></h3>
-          <ul class="list">
+        <!-- Knowledge Base -->
+        <article class="card">
+          <h3><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article" target="_blank" rel="noopener">🛠️ Knowledge Base Article</a></h3>
+          <ul class="link-list">
             <li>
-              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide">Optiflow‑CloudSync CRM Integration Guide</a></strong>
-              <span class="desc">Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.</span>
+              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare" target="_blank" rel="noopener"><strong>Create a relationship table in MadCap Flare</strong></a>
+              <p>Step‑by‑step article with annotated screenshots and best practices.</p>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Technical Reference -->
+        <article class="card">
+          <h3><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides" target="_blank" rel="noopener">📖 Technical Reference Guides</a></h3>
+          <ul class="link-list">
+            <li>
+              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide" target="_blank" rel="noopener"><strong>Optiflow‑CloudSync CRM Integration Guide</strong></a>
+              <p>Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.</p>
             </li>
             <li>
-              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes">Release Notes</a></strong>
-              <span class="desc">Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.</span>
+              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes" target="_blank" rel="noopener"><strong>Release Notes</strong></a>
+              <p>Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.</p>
             </li>
           </ul>
         </article>
       </div>
     </section>
 
-    <section aria-labelledby="about-me" class="panel">
-      <h2 id="about-me">👤 About Me</h2>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">👤 About Me</h2>
       <p>With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.</p>
       <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
     </section>
 
-    <section aria-labelledby="skills" class="panel">
-      <h2 id="skills">🛠 Skills &amp; Tools</h2>
-      <p><strong>Tools:</strong> MadCap Flare, GitHub Desktop, Git/GitHub, M365 Copilot, Swagger/OpenAPI, Jira, Confluence, Snagit, MadCap Capture, Adobe CC, Camtasia, Audacity, Zeplin, Figma, Pendo</p>
-      <p><strong>Languages:</strong> Markdown, HTML, XML</p>
-      <p><strong>Specialties:</strong> SaaS documentation, API guides, user guides, configuration guides, integration guides, release notes, UI/UX writing</p>
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">🛠 Skills &amp; Tools</h2>
+      <div class="grid two">
+        <div>
+          <h3>Tools</h3>
+          <p>MadCap Flare, GitHub Desktop, Git/GitHub, M365 Copilot, Swagger/OpenAPI, Jira, Confluence, Snagit, MadCap Capture, Adobe CC, Camtasia, Audacity, Zeplin, Figma, Pendo</p>
+        </div>
+        <div>
+          <h3>Languages &amp; Specialties</h3>
+          <p><strong>Languages:</strong> Markdown, HTML, XML</p>
+          <p><strong>Specialties:</strong> SaaS documentation, API guides, user guides, configuration guides, integration guides, release notes, UI/UX writing</p>
+        </div>
+      </div>
     </section>
 
-    <section aria-labelledby="process" class="panel">
-      <h2 id="process">🗂 Planning &amp; Process</h2>
-      <p>I approach every project with a repeatable framework that emphasizes clarity, consistency, and measurable outcomes:</p>
-      <ul>
+    <section id="process" aria-labelledby="process-heading">
+      <h2 id="process-heading">🗂 Planning &amp; Process</h2>
+      <ul class="checklist">
         <li><strong>Content Strategy:</strong> Define audience, goals, success criteria, and scope before writing.</li>
         <li><strong>Information Architecture:</strong> Organize by content type (task, concept, reference) to support a structured, topic‑based/DITA‑informed approach.</li>
-        <li><strong>Tools &amp; Quality:</strong> Use <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates">templates</a>, <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists">editing checklists</a>, and version control to ensure consistency and maintainability.</li>
+        <li><strong>Tools &amp; Quality:</strong> Use <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates" target="_blank" rel="noopener">templates</a>, <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists" target="_blank" rel="noopener">editing checklists</a>, and version control to ensure consistency and maintainability.</li>
       </ul>
     </section>
 
-    <section aria-labelledby="about-portfolio" class="panel">
-      <h2 id="about-portfolio">✅ About This Portfolio</h2>
-      <ul>
-        <li><strong>Format:</strong> Markdown for portability and native GitHub rendering</li>
-        <li><strong>Tools Used:</strong> GitHub Wiki, Markdown, Snagit, MadCap Capture, Visio, Microsoft PowerPoint</li>
-        <li><strong>Focus Areas:</strong> User guides, API guides, knowledge base content, technical reference guides</li>
-      </ul>
+    <section id="about-portfolio" aria-labelledby="about-portfolio-heading">
+      <h2 id="about-portfolio-heading">✅ About This Portfolio</h2>
+      <div class="grid two">
+        <ul>
+          <li><strong>Format:</strong> Markdown for portability and native GitHub rendering</li>
+          <li><strong>Tools Used:</strong> GitHub Wiki, Markdown, Snagit, MadCap Capture, Visio, Microsoft PowerPoint</li>
+        </ul>
+        <ul>
+          <li><strong>Focus Areas:</strong> User guides, API guides, knowledge base content, technical reference guides</li>
+        </ul>
+      </div>
     </section>
 
-    <section aria-labelledby="contact" class="panel">
-      <h2 id="contact">📬 Contact</h2>
-      <p>
-        <a href="https://linkedin.com/in/liz-marlowe-3397833">LinkedIn</a> ·
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">📬 Contact</h2>
+      <p class="contact-links">
+        <a href="https://linkedin.com/in/liz-marlowe-3397833" target="_blank" rel="noopener">LinkedIn</a> ·
         <a href="mailto:LizMarlowe@gmail.com">Email</a>
       </p>
     </section>
-
-    <footer aria-label="Footer">
-      <p>&copy; <span id="year"></span> Liz Marlowe</p>
-    </footer>
   </main>
 
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Liz Marlowe. All rights reserved.</p>
+    </div>
+  </footer>
+
   <script>
+    // Current year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
