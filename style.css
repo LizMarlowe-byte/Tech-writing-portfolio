@@ -351,6 +351,21 @@ main > section > h2 {
 section[id] { scroll-margin-top: 110px; }
 
 
+/* Ensure the avatar is perfectly round and neatly cropped */
+.avatar {
+  width: 72px;
+  height: 72px;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;           /* crops non-square images cleanly */
+  object-position: center;     /* center the face within the circle */
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 6px rgba(15, 23, 42, .08);
+}
+
+/* If you want a larger size, keep width/height equal, e.g., 80px */
+``
+
 
 /* Print */
 @media print {
