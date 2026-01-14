@@ -6,22 +6,20 @@
   <title>Liz Marlowe — Technical Writing Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Technical writing portfolio and documentation index by Liz Marlowe." />
-  <!-- Use the updated stylesheet; add a cache-buster once if needed -->
-  <link rel="stylesheet" href="style.css?v=doc-sidebar-2026-01-13" />
+  style.css?v=clean-2026-01-13
 </head>
 <body>
 
   <!-- Accessibility: skip directly to main content -->
-  <a class="skip-link" href="#main">Skip to content</a>
+  #mainSkip to content</a>
 
   <!-- Header -->
   <header class="site-header" role="banner">
     <div class="container header-inner">
 
       <!-- Brand -->
-      <a class="brand" href="/" aria-label="Home">
-        <!-- Replace with your actual headshot path -->
-        <img class="brand-headshot" src="assets/headshot.jpg" alt="Liz Marlowe headshot" />
+      /
+        assets/headshot.jpg
         <div class="brand-text">
           <span class="brand-name">Liz Marlowe</span>
           <span class="brand-role">Senior Technical Writer</span>
@@ -34,12 +32,12 @@
           Menu
         </button>
         <ul id="primary-nav" class="nav-list">
-          <li><a href="#docs-index" class="active">Docs Index</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#process">Process</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li>#docs-indexDocs Index</a></li>
+          <li>#aboutAbout</a></li>
+          <li>#skillsSkills</a></li>
+          <li>#processProcess</a></li>
+          <li>#portfolioPortfolio</a></li>
+          <li>#contactContact</a></li>
         </ul>
       </nav>
 
@@ -55,199 +53,111 @@
       </p>
 
       <div class="cta-group">
-        <!-- Keep this CTA; the header button is removed -->
-        <a href="resume.pdf" class="btn btn-primary">View My Resume</a>
-        <a href="https://www.linkedin.com/" class="btn btn-outline" rel="noopener">LinkedIn</a>
-        <a href="mailto:liz@example.com" class="btn btn-outline">Email</a>
+        resume.pdfView My Resume</a>
+        https://www.linkedin.com/LinkedIn</a>
+        mailto:liz@example.comEmail</a>
       </div>
     </div>
   </section>
 
-  <!-- Main content with Doc Index Sidebar -->
+  <!-- Main content -->
   <main id="main" class="container" role="main">
-    <div class="doc-layout">
 
-      <!-- Sticky Doc Index Sidebar -->
-      <aside class="doc-sidebar" aria-label="Documentation index">
-        <nav>
-          <h3>Documentation Index</h3>
-          <ul>
-            <li><a href="#user-guides">User Guides</a></li>
-            <li><a href="#api-guides">API Guides</a></li>
-            <li><a href="#tutorials">Tutorials</a></li>
-            <li><a href="#references">References</a></li>
-          </ul>
-        </nav>
-      </aside>
+    <!-- Documentation Index -->
+    <section id="docs-index">
+      <h2>📚 Documentation Index</h2>
+      <p>Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
+      <div class="note">
+        <strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source,
+        commercial, or fictional products. They illustrate writing style, structure, and content development approach.
+      </div>
 
-      <!-- Main doc content -->
-      <div class="doc-content">
-
-        <!-- Docs Index (overview) -->
-        <section id="docs-index">
-          <h2>📚 Documentation Index</h2>
-          <p>Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
-          <div class="note">
-            <strong>Note:</strong> To respect confidentiality from prior roles, samples are based on open‑source,
-            commercial, or fictional products. They illustrate writing style, structure, and content development approach.
-          </div>
-        </section>
-
-        <hr class="divider" />
-
+      <div class="grid two">
         <!-- User Guides -->
-        <section id="user-guides">
-          <h2>📘 User Guides</h2>
-          <div class="grid two">
-            <div>
-              <ul class="list">
-                <li>
-                  <a href="docs/user-guides/docmost-user-guide.html">Docmost User Guide</a>
-                  <span class="desc">Collaborative wiki platform — task‑based instructions with intuitive navigation.</span>
-                </li>
-                <li>
-                  <a href="docs/user-guides/taiga-user-guide.html">Taiga User Guide</a>
-                  <span class="desc">Agile project management tool — workflows and clear outcomes for project leads.</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <ul class="list">
-                <li>
-                  <a href="docs/user-guides/app-onboarding.html">App Onboarding Guide</a>
-                  <span class="desc">First‑run experience, guided tours, and self‑serve help patterns.</span>
-                </li>
-                <li>
-                  <a href="docs/user-guides/edge-cases.html">Edge Cases & FAQs</a>
-                  <span class="desc">Common pitfalls with step‑by‑step fixes and references.</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <hr class="divider" />
+        <div>
+          <h3>📘 User Guides</h3>
+          <ul class="list">
+            <li>
+              docs/user-guides/docmost-user-guide.htmlDocmost User Guide</a>
+              <span class="desc">Collaborative wiki platform — task‑based instructions with intuitive navigation.</span>
+            </li>
+            <li>
+              docs/user-guides/taiga-user-guide.htmlTaiga User Guide</a>
+              <span class="desc">Agile project management tool — workflows and clear outcomes for project leads.</span>
+            </li>
+          </ul>
+        </div>
 
         <!-- API Guides -->
-        <section id="api-guides">
-          <h2>🔗 API Guides</h2>
-          <div class="grid two">
-            <div>
-              <ul class="list">
-                <li>
-                  <a href="docs/api/openweathermap.html">OpenWeatherMap API Guide</a>
-                  <span class="desc">Concepts, rate limits, authentication, tutorials, and endpoint references.</span>
-                </li>
-                <li>
-                  <a href="docs/api/spotify.html">Spotify API Guide</a>
-                  <span class="desc">OAuth flows, pagination, errors, and practical use cases.</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <ul class="list">
-                <li>
-                  <a href="docs/api/webhooks.html">Webhooks Integration</a>
-                  <span class="desc">Event design, retries, signatures, and best practices.</span>
-                </li>
-                <li>
-                  <a href="docs/api/authentication.html">Authentication Deep Dive</a>
-                  <span class="desc">API keys vs OAuth vs JWTs, token lifecycles, and security trade‑offs.</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <hr class="divider" />
-
-        <!-- Tutorials -->
-        <section id="tutorials">
-          <h2>🧭 Tutorials</h2>
+        <div>
+          <h3>🔗 API Guides</h3>
           <ul class="list">
             <li>
-              <a href="docs/tutorials/getting-started.html">Getting Started</a>
-              <span class="desc">From zero to first request with local environment setup.</span>
+              docs/api/openweathermap.htmlOpenWeatherMap API Guide</a>
+              <span class="desc">Concepts, rate limits, authentication, tutorials, and endpoint references.</span>
             </li>
             <li>
-              <a href="docs/tutorials/advanced-topics.html">Advanced Topics</a>
-              <span class="desc">Pagination strategies, error handling, and testing patterns.</span>
+              docs/api/spotify.htmlSpotify API Guide</a>
+              <span class="desc">OAuth flows, pagination, errors, and practical use cases.</span>
             </li>
           </ul>
-        </section>
+        </div>
+      </div>
+    </section>
 
-        <hr class="divider" />
+    <hr class="divider" />
 
-        <!-- References -->
-        <section id="references">
-          <h2>📎 References</h2>
-          <ul class="list">
-            <li>
-              <a href="docs/reference/glossary.html">Glossary</a>
-              <span class="desc">Shared terminology across products and docs.</span>
-            </li>
-            <li>
-              <a href="docs/reference/style-guide.html">Style Guide</a>
-              <span class="desc">Voice & tone, formatting, and component usage notes.</span>
-            </li>
-          </ul>
-        </section>
+    <!-- About -->
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I’m Liz Marlowe, a Senior Technical Writer specializing in clear, structured documentation that improves usability
+        and accelerates adoption. I focus on logical structures, actionable workflows, and real‑world context.
+      </p>
+    </section>
 
-        <hr class="divider" />
+    <hr class="divider" />
 
-        <!-- About -->
-        <section id="about">
-          <h2>About</h2>
-          <p>
-            I’m Liz Marlowe, a Senior Technical Writer specializing in clear, structured documentation that improves usability
-            and accelerates adoption. I focus on logical structures, actionable workflows, and real‑world context.
-          </p>
-        </section>
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="list">
+        <li>Information architecture, content strategy, and editorial review</li>
+        <li>API documentation (REST, OAuth, webhooks), SDKs, and code samples</li>
+        <li>Docs tools: Markdown, static sites, GitHub/Git, CI/CD</li>
+      </ul>
+    </section>
 
-        <hr class="divider" />
+    <hr class="divider" />
 
-        <!-- Skills -->
-        <section id="skills">
-          <h2>Skills</h2>
-          <ul class="list">
-            <li>Information architecture, content strategy, and editorial review</li>
-            <li>API documentation (REST, OAuth, webhooks), SDKs, and code samples</li>
-            <li>Docs tools: Markdown, static sites, GitHub/Git, CI/CD</li>
-          </ul>
-        </section>
+    <!-- Process -->
+    <section id="process">
+      <h2>Process</h2>
+      <p>
+        Discovery, content planning, draft, stakeholder review, iteration, QA, and publish—with structured templates and
+        checklists to keep quality consistent.
+      </p>
+    </section>
 
-        <hr class="divider" />
+    <hr class="divider" />
 
-        <!-- Process -->
-        <section id="process">
-          <h2>Process</h2>
-          <p>
-            Discovery, content planning, draft, stakeholder review, iteration, QA, and publish—with structured templates and
-            checklists to keep quality consistent.
-          </p>
-        </section>
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Selected work samples and links to live docs or repositories.</p>
+    </section>
 
-        <hr class="divider" />
+    <hr class="divider" />
 
-        <!-- Portfolio -->
-        <section id="portfolio">
-          <h2>Portfolio</h2>
-          <p>Selected work samples and links to live docs or repositories.</p>
-        </section>
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        mailto:liz@example.comEmail</a> ·
+        https://www.linkedin.com/LinkedIn</a>
+      </p>
+    </section>
 
-        <hr class="divider" />
-
-        <!-- Contact -->
-        <section id="contact">
-          <h2>Contact</h2>
-          <p>
-            <a class="contact-link" href="mailto:liz@example.com">Email</a> ·
-            <a class="contact-link" href="https://www.linkedin.com/" rel="noopener">LinkedIn</a>
-          </p>
-        </section>
-
-      </div><!-- /.doc-content -->
-    </div><!-- /.doc-layout -->
   </main>
 
   <!-- Footer -->
@@ -274,29 +184,6 @@
     // Footer year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-
-  <!-- Optional scrollspy (uncomment to enable)
-  <script>
-    // Highlights the sidebar link for the section currently in view
-    (function () {
-      const links = Array.from(document.querySelectorAll('.doc-sidebar a'));
-      const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          const id = entry.target.id;
-          const link = map.get(id);
-          if (!link) return;
-          if (entry.isIntersecting) {
-            links.forEach(l => l.classList.remove('is-active'));
-            link.classList.add('is-active');
-          }
-        });
-      }, { rootMargin: '0px 0px -60% 0px', threshold: 0.25 });
-
-      document.querySelectorAll('section[id]').forEach(sec => observer.observe(sec));
-    })();
-  </script>
-  -->
 
 </body>
 </html>
