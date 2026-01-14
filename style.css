@@ -109,7 +109,7 @@ a:hover, a:focus {
 }
 
 /* =========
-   Header / Nav (aligned, no resume button)
+   Header / Nav (aligned, no download resume button)
    ========= */
 .site-header {
   position: sticky;
