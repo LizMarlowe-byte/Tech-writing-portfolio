@@ -109,7 +109,7 @@
       display: flex;
       align-items: center;
       gap: 1rem;
-      flex-wrap: wrap;
+      flex-wrap: nowrap; /* keep avatar + text on one row at desktop sizes */
     }
     /* NOTE: .hero__avatar no longer used after tweaks; leaving as-is is harmless */
 
@@ -142,15 +142,24 @@
       border-color: var(--rule);
     }
 
-    /* NEW: Headshot inside the H1, sized to heading line-height */
+    /* Headshot aligned to the left of text block */
     .h1-avatar {
-      width: 2.5em;           /* scales with the <h1> text size */
-      height: 2.5em;
+      width: 96px;            /* fixed size for consistent alignment */
+      height: 96px;
       border-radius: 50%;
       object-fit: cover;
       border: 2px solid var(--rule);
-      vertical-align: -0.2em; /* baseline alignment */
-      margin-right: 0.55rem;
+      flex: 0 0 auto;         /* ensures proper flex alignment */
+      margin-right: 1rem;     /* space between image and text block */
+    }
+
+    /* NEW: subtitle line under the name — single line */
+    .subtitle {
+      margin: 0 0 0.35rem;
+      font-size: clamp(1.2rem, 2vw, 1.4rem);
+      font-weight: 600;
+      color: var(--fg);
+      white-space: nowrap;    /* do not wrap */
     }
 
     /* UPDATED: Small avatar next to H2 headings, matching the old emoji size */
@@ -164,9 +173,19 @@
       margin-right: 0.35em;
     }
 
-    /* Small screens: slightly smaller hero image (not used after move, kept harmless) */
+    /* Make the byline single line in the hero */
+    .lead {
+      font-weight: 600;
+      color: var(--muted);
+      margin: 0;              /* tighten spacing under subtitle */
+      white-space: nowrap;    /* do not wrap */
+    }
+
+    /* Small screens: allow wrapping for safety */
     @media (max-width: 480px) {
-      .hero__avatar { width: 56px; height: 56px; }
+      .hero { flex-wrap: wrap; }
+      .subtitle, .lead { white-space: normal; }
+      .hero__avatar { width: 56px; height: 56px; } /* harmless if unused */
     }
   </style>
 
@@ -186,19 +205,19 @@
 <body>
   <main class="container" role="main">
     <header>
-      <!-- Hero with headshot inline in H1 (tweak #1) -->
+      <!-- Hero aligned with headshot; name on first line, subtitle second, byline third -->
       <div class="hero">
+        <img
+          src="assets/img/Liz-headshot.jpg"
+          alt=""
+          aria-hidden="true"
+          class="h1-avatar"
+          width="96" height="96"
+          decoding="async"
+        />
         <div>
-          <h1>
-            <img
-              src="assets/img/Liz-headshot.jpg"
-              alt=""
-              aria-hidden="true"
-              class="h1-avatar"
-              decoding="async"
-            />
-            Liz Marlowe — Technical Writing Portfolio
-          </h1>
+          <h1>Liz Marlowe</h1>
+          <p class="subtitle">Technical Writing Portfolio</p>
           <p class="lead">Clear, user-focused documentation that simplifies complexity and accelerates adoption.</p>
         </div>
       </div>
@@ -294,21 +313,20 @@
       <hr />
     </section>
 
-   
-<section aria-labelledby="about-me">
-  <h2 id="about-me">
-    <!-- Larger avatar next to heading -->
-    <img
-      src="assets/img/Liz-headshot.jpg"
-      alt=""
-      aria-hidden="true"
-      class="avatar--sm"
-      width="58" height="58"
-      loading="lazy"
-      decoding="async"
-    />
-    About Me
-  </h2>
+    <section aria-labelledby="about-me">
+      <h2 id="about-me">
+        <!-- Larger avatar next to heading -->
+        <img
+          src="assets/img/Liz-headshot.jpg"
+          alt=""
+          aria-hidden="true"
+          class="avatar--sm"
+          width="58" height="58"
+          loading="lazy"
+          decoding="async"
+        />
+        About Me
+      </h2>
 
       <p>With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.</p>
       <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
