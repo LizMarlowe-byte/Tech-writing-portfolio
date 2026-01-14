@@ -5,84 +5,199 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Liz Marlowe — Technical Writing Portfolio</title>
-  <meta name="description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption. Portfolio by Liz Marlowe, Senior Technical Writer." />
+
+  <!-- Absolutely force light mode for the UA and form controls -->
+  <meta name="color-scheme" content="light">
   <style>
-    /* =========
-       Light Theme (white background)
-       ========= */
-    :root{
-      --bg:#ffffff;
-      --text:#1f2937;         /* slate-800 */
-      --muted:#4b5563;        /* slate-600 */
-      --border:#e5e7eb;       /* gray-200 */
-      --card:#f7f9fc;         /* soft card */
-      --link:#0a66c2;         /* LinkedIn blue */
-      --accent:#007acc;       /* Azure-ish blue */
-      --chip-bg:#eaf6ff;      /* chips */
-      --chip-border:#cfeaff;
-      --chip-text:#0b3b66;
-
-      --maxw: 960px;
-      --radius: 14px;
-      --shadow-1: 0 1px 2px rgba(0,0,0,0.06);
-      --shadow-2: 0 8px 28px rgba(0,0,0,0.08);
+    /* 🔒 Nuclear light-mode lock */
+    :root { color-scheme: only light; }
+    @media (prefers-color-scheme: dark) {
+      :root { color-scheme: only light; }
     }
 
-    /* Base */
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      background:var(--bg);
-      color:var(--text);
+    /* ✅ Global light palette with !important to beat any leftover styles */
+    html, body {
+      background: #ffffff !important;
+      color: #1f2937 !important; /* slate-800 */
+      margin: 0;
       font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-    a{color:var(--link); text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:var(--maxw); margin:0 auto; padding:28px 20px 44px}
+    a { color: #0a66c2; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 960px; margin: 0 auto; padding: 28px 20px 44px; }
 
-    /* Header / hero */
-    header{
-      background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
-      border:1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 26px 24px 22px;
-      box-shadow: var(--shadow-1);
-    }
-    h1{margin:0 0 6px 0; font-size: clamp(1.8rem, 3vw + 1rem, 2.4rem); letter-spacing:.2px}
-    .tagline{margin:2px 0 12px; color:#0b3b66; font-weight:700}
-    .intro{color:var(--muted); margin:0}
-
-    /* Chips for key links */
-    .chips{display:flex; flex-wrap:wrap; gap:.6rem .6rem; padding:0; margin:14px 0 0; list-style:none}
-    .chips li{
-      display:inline-flex; align-items:center; gap:.5rem;
-      background:var(--chip-bg); color:var(--chip-text);
-      border:1px solid var(--chip-border);
-      padding:.55rem .9rem; border-radius:999px;
-      font-size:.95rem; box-shadow:0 2px 6px rgba(2,8,23,0.06);
-    }
-    .chips a{color:var(--chip-text)}
-    .emoji,.icon{font-weight:700; color:currentColor; line-height:1}
-
-    /* Dividers */
-    .divider{border:0; border-top:1px solid var(--border); margin:26px 0}
-
-    /* Sections as cards */
-    section{
-      background: var(--card);
-      border:1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-1);
-      padding: 18px 18px 14px;
+    /* Simple modern styling */
+    header, section {
+      background: #f7f9fc;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      padding: 18px;
       margin-top: 16px;
     }
-    section h2{margin:6px 0 6px; font-size:1.45rem}
-    section h3{margin:14px 0 6px; font-size:1.15rem}
-    .subtle{color:var(--muted)}
+    h1 { margin: 0 0 6px; font-size: clamp(1.8rem, 3vw + 1rem, 2.4rem); }
+    h2 { margin: 10px 0 8px; font-size: 1.45rem; }
+    h3 { margin: 12px 0 6px; font-size: 1.15rem; }
+    .tagline { margin: 4px 0 12px; color: #0b3b66; font-weight: 700; }
+    .intro, .subtle, .desc { color: #4b5563; } /* slate-600 */
 
-    .callout{
-      background:#f2f7fe;
-      border-left:4px solid var(--accent);
+    /* Chips/badges */
+    .chips { display: flex; flex-wrap: wrap; gap: .6rem; padding: 0; margin: 14px 0 0; list-style: none; }
+    .chips li {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: #eaf6ff; color: #0b3b66;
+      border: 1px solid #cfeaff; border-radius: 999px;
+      padding: .55rem .9rem; font-size: .95rem;
+    }
+    .chips a { color: #0b3b66; }
+    .emoji, .icon { color: currentColor; font-weight: 700; line-height: 1; }
+
+    /* Lists / layout */
+    ul { padding-left: 1.15rem; margin: .4rem 0; }
+    .list { margin: .25rem 0 0; }
+    .list li { margin: .55rem 0; }
+    .desc { display: block; margin-top: 3px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    @media (min-width: 760px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .divider { border: 0; border-top: 1px solid #e5e7eb; margin: 26px 0; }
+    .callout {
+      background: #f2f7fe; border-left: 4px solid #007acc;
+      padding: 10px 12px; border-radius: 10px; color: #27364a; margin: 10px 0 12px;
+    }
+    footer { color: #4b5563; text-align: center; margin-top: 26px; }
+    a:focus-visible { outline: 3px solid #007acc; outline-offset: 3px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header aria-labelledby="title">
+      <h1 id="title">Liz Marlowe — Technical Writing Portfolio</h1>
+      <p class="tagline"><strong>Clear, user-focused documentation that simplifies complexity and accelerates adoption.</strong></p>
+      <p class="intro">
+        I’m <strong>Liz Marlowe</strong>, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms.
+        This portfolio showcases structured documentation that improves usability and accelerates adoption, with samples demonstrating best practices—logical structures, actionable workflows, and real‑world context.
+      </p>
+      <ul class="chips" aria-label="Key links">
+        <li><span class="emoji" aria-hidden="true">📄</span>
+          <strong>Resume:</strong> <a href="Liz%20Marlowe%20Resume.pdf">View My Resume</a>
+        </li>
+        <li><span class="emoji" aria-hidden="true">🔗</span>
+          <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/liz-marlowe-3397833">linkedin.com/in/liz-marlowe-3397833</a>
+        </li>
+        <li><span class="emoji" aria-hidden="true">✉️</span>
+          <strong>Email:</strong> <a href="mailto:LizMarlowe@gmail.com">LizMarlowe@gmail.com</a>
+        </li>
+      </ul>
+    </header>
+
+    <hr class="divider" />
+
+    <section aria-labelledby="docs-index">
+      <h2 id="docs-index">📖 Documentation Index</h2>
+      <p class="subtle">Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
+      <div class="callout"><strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.</div>
+
+      <div class="grid">
+        <article>
+          <h3>📚 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides">User Guides</a></h3>
+          <ul class="list">
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide">Docmost User Guide</a></strong>
+              <span class="desc">Comprehensive guide for end users that describes a collaborative wiki platform—task‑based instructions with intuitive navigation.</span>
+            </li>
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide">Taiga User Guide</a></strong>
+              <span class="desc">Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.</span>
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>🔗 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs">API Guides</a></h3>
+          <ul class="list">
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide">OpenWeatherMap API Guide</a></strong>
+              <span class="desc">RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.</span>
+            </li>
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide">Spotify API Guide</a></strong>
+              <span class="desc">Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.</span>
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>🛠️ <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article">Knowledge Base Article</a></h3>
+          <ul class="list">
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare">Create a relationship table in MadCap Flare</a></strong>
+              <span class="desc">Step‑by‑step article with annotated screenshots and best practices.</span>
+            </li>
+          </ul>
+        </article>
+
+        <article>
+          <h3>📖 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides">Technical Reference Guides</a></h3>
+          <ul class="list">
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide">Optiflow‑CloudSync CRM Integration Guide</a></strong>
+              <span class="desc">Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.</span>
+            </li>
+            <li>
+              <strong><a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes">Release Notes</a></strong>
+              <span class="desc">Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.</span>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="about-me">
+      <h2 id="about-me">👤 About Me</h2>
+      <p>With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.</p>
+      <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
+    </section>
+
+    <section aria-labelledby="skills">
+      <h2 id="skills">🛠 Skills &amp; Tools</h2>
+      <p><strong>Tools:</strong> MadCap Flare, GitHub Desktop, Git/GitHub, M365 Copilot, Swagger/OpenAPI, Jira, Confluence, Snagit, MadCap Capture, Adobe CC, Camtasia, Audacity, Zeplin, Figma, Pendo</p>
+      <p><strong>Languages:</strong> Markdown, HTML, XML</p>
+      <p><strong>Specialties:</strong> SaaS documentation, API guides, user guides, configuration guides, integration guides, release notes, UI/UX writing</p>
+    </section>
+
+    <section aria-labelledby="process">
+      <h2 id="process">🗂 Planning &amp; Process</h2>
+      <p>I approach every project with a repeatable framework that emphasizes clarity, consistency, and measurable outcomes:</p>
+      <ul>
+        <li><strong>Content Strategy:</strong> Define audience, goals, success criteria, and scope before writing.</li>
+        <li><strong>Information Architecture:</strong> Organize by content type (task, concept, reference) to support a structured, topic‑based/DITA‑informed approach.</li>
+        <li><strong>Tools &amp; Quality:</strong> Use <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates">templates</a>, <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists">editing checklists</a>, and version control to ensure consistency and maintainability.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="about-portfolio">
+      <h2 id="about-portfolio">✅ About This Portfolio</h2>
+      <ul>
+        <li><strong>Format:</strong> Markdown for portability and native GitHub rendering</li>
+        <li><strong>Tools Used:</strong> GitHub Wiki, Markdown, Snagit, MadCap Capture, Visio, Microsoft PowerPoint</li>
+        <li><strong>Focus Areas:</strong> User guides, API guides, knowledge base content, technical reference guides</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">📬 Contact</h2>
+      <p>
+        <a href="https://linkedin.com/in/liz-marlowe-3397833">LinkedIn</a> ·
+        <a href="mailto:LizMarlowe@gmail.com">Email</a>
+      </p>
+    </section>
+
+    <footer aria-label="Footer">
+      <p>&copy; <span id="year"></span> Liz Marlowe</p>
+    </footer>
+  </main>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
