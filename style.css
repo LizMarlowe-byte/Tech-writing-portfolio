@@ -19,7 +19,8 @@
 
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
 
-  /* Header / Nav rhythm */
+  /* Header rhythm */
+  --header-h: 64px;
   --nav-item-h: 40px;       /* uniform link height */
   --nav-item-px: 10px;      /* horizontal padding */
   --nav-item-radius: 10px;  /* link pill radius */
@@ -59,8 +60,7 @@ a {
   color: var(--link);
   text-decoration: none;
 }
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: underline;
   outline: none;
 }
@@ -71,14 +71,14 @@ a:focus {
   padding: 0 20px;
 }
 
-/* Accessible focus ring */
+/* Accessible focus visible */
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: 8px;
 }
 
-/* Respect reduced motion */
+/* Reduced motion support */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
@@ -109,7 +109,7 @@ a:focus {
 }
 
 /* =========
-   Header / Nav
+   Header / Nav (aligned, no resume button)
    ========= */
 .site-header {
   position: sticky;
@@ -120,12 +120,13 @@ a:focus {
   z-index: 50;
 }
 
+/* Brand | Nav (two zones now) */
 .header-inner {
-  display: flex;
-  align-items: center;          /* vertical centering for brand + nav */
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;        /* vertical centering */
   gap: 14px;
-  min-height: 64px;
+  min-height: var(--header-h);
 }
 
 .brand {
@@ -133,9 +134,9 @@ a:focus {
   align-items: center;
   gap: 12px; /* ensures nice spacing with avatar */
 }
-
-.brand-mark { color: var(--accent); }
-
+.brand-mark {
+  color: var(--accent);
+}
 .brand-text .brand-name {
   font-weight: 700;
   font-size: 1.05rem;
@@ -156,41 +157,41 @@ a:focus {
   box-shadow: var(--shadow-1);
 }
 
-/* Nav */
+/* Nav group */
 .nav {
   display: flex;
   align-items: center;
+  justify-content: center;  /* center nav between brand & right edge */
   gap: 14px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .nav-list {
   list-style: none;
   display: flex;
-  align-items: center;      /* keeps link text vertically centered */
-  gap: 4px;
+  align-items: center;      /* critical for link alignment */
+  gap: 4px;                 /* spacing lives on anchors */
   padding: 0;
   margin: 0;
 }
 
 .nav-list a {
-  display: inline-flex;     /* enables vertical centering */
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: --nav-item-h;     /* consistent height across all links */
-  padding: 0 --nav-item-px; /* horizontal padding only */
-  line-height: 1;           /* avoid baseline drift */
-  border-radius: --nav-item-radius;
+  height: var(--nav-item-h);     /* unified link height */
+  padding: 0 var(--nav-item-px);
+  line-height: 1;                /* avoid baseline drift */
+  border-radius: var(--nav-item-radius);
   color: var(--text);
   text-decoration: none;
   white-space: nowrap;
 }
 
+/* Active indicator (non-shifting) */
 .nav-list a.active {
   position: relative;
 }
-
-/* Active underline that doesn't shift layout */
 .nav-list a.active::after {
   content: "";
   position: absolute;
@@ -200,8 +201,10 @@ a:focus {
   height: 2px;
   border-radius: 2px;
   background: var(--accent);
+  opacity: 0.9;
 }
 
+/* Hover background without layout shift */
 .nav-list a:hover {
   background: color-mix(in oklab, var(--card) 70%, var(--bg));
   text-decoration: none;
@@ -215,13 +218,15 @@ a:focus {
   border-radius: 8px;
   border: 1px solid var(--border);
   background: var(--bg);
+  line-height: 1;
 }
 
 @media (max-width: 768px) {
   .menu-toggle { display: inline-block; }
-  .nav-list { 
-    display: none; 
-    width: 100%; 
+  .nav { width: 100%; justify-content: flex-start; }
+  .nav-list {
+    display: none;
+    width: 100%;
     margin-top: 8px;
     border-top: 1px solid var(--border);
     padding-top: 8px;
@@ -347,7 +352,6 @@ section h3 {
   grid-template-columns: 1fr;
   gap: 16px 22px;
 }
-
 @media (min-width: 760px) {
   .grid.two {
     grid-template-columns: 1fr 1fr;
@@ -361,12 +365,23 @@ section h3 {
   padding: 4px 6px;
   border-radius: 8px;
 }
-
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 18px 0 30px;
   color: var(--muted);
   text-align: center;
+}
+
+/* =========
+   Utilities
+   ========= */
+.hidden { display: none !important; }
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
 }
 
 /* =========
@@ -376,13 +391,10 @@ section h3 {
   .site-header, .hero .cta-group, .nav, .btn { display: none !important; }
   .divider { margin: 12px 0; }
 }
+``
 
-/* =========
-   Safety net: keep any resume button hidden if a template re-injects it
-   (remove this block once you're sure it's gone at the source)
-   ========= */
-.site-header .resume-btn,
-.site-header a[href*="resume"],
-.site-header a[download][href$=".pdf"] {
+/* Quick fix: hide Download Resume button anywhere in header */
+.resume-btn,
+.site-header a[href*="resume"] {
   display: none !important;
 }
