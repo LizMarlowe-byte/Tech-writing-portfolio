@@ -1,278 +1,302 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <!-- Required meta -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta charset="utf-8" />
   <title>Liz Marlowe — Technical Writing Portfolio</title>
-  <meta name="description" content="Technical writing portfolio of Liz Marlowe — clear, user-focused documentation that simplifies complexity and accelerates adoption." />
-  <meta name="author" content="Liz Marlowe" />
-  <meta name="robots" content="index,follow" />
-  <meta name="theme-color" content="#0a66c2" />
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://lizmarlowe-byte.github.io/Tech-writing-portfolio/" />
-
-  <!-- Open Graph / LinkedIn / Facebook -->
-  <meta property="og:title" content="Liz Marlowe — Technical Writing Portfolio" />
-  <meta property="og:description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption. View user guides, API docs, technical references, and writing samples." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://lizmarlowe-byte.github.io/Tech-writing-portfolio/" />
-  <meta property="og:image" content="assets/img/og-preview.png" />
-
-  <!-- Twitter Cards -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Liz Marlowe — Technical Writing Portfolio" />
-  <meta name="twitter:description" content="Clear, user-focused documentation that simplifies complexity and accelerates adoption." />
-  <meta name="twitter:image" content="assets/img/og-preview.png" />
-
-  <!-- Favicons (add files in assets/img/) -->
-  <link rel="icon" href="assets/img/favicon.ico" sizes="any" />
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-
-  <!-- Styles (cache-busted) -->
-  <link rel="stylesheet" href="style.css?v=3" />
-
-  <!-- Structured data (SEO) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Liz Marlowe",
-    "jobTitle": "Senior Technical Writer",
-    "url": "https://lizmarlowe-byte.github.io/Tech-writing-portfolio/",
-    "email": "mailto:LizMarlowe@gmail.com",
-    "sameAs": [
-      "https://linkedin.com/in/liz-marlowe-3397833"
-    ]
-  }
-  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Technical writing portfolio and documentation index by Liz Marlowe." />
+  <!-- Use the updated stylesheet; add a cache-buster once if needed -->
+  <link rel="stylesheet" href="style.css?v=doc-sidebar-2026-01-13" />
 </head>
 <body>
-  <!-- Accessible skip link -->
+
+  <!-- Accessibility: skip directly to main content -->
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <!-- Site Header / Nav -->
+  <!-- Header -->
   <header class="site-header" role="banner">
     <div class="container header-inner">
-      <a class="brand" href="#top">
-        <!-- Headshot (replace with your own file) -->
-        <img
-          class="brand-headshot"
-          src="assets/img/headshot.jpg"
-          alt="Headshot of Liz Marlowe"
-          width="48" height="48"
-          loading="eager" decoding="async" />
+
+      <!-- Brand -->
+      <a class="brand" href="/" aria-label="Home">
+        <!-- Replace with your actual headshot path -->
+        <img class="brand-headshot" src="assets/headshot.jpg" alt="Liz Marlowe headshot" />
         <div class="brand-text">
           <span class="brand-name">Liz Marlowe</span>
           <span class="brand-role">Senior Technical Writer</span>
         </div>
       </a>
 
-      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">☰</button>
-
-      <nav class="nav" aria-label="Primary" id="primary-nav">
-        <ul class="nav-list">
-          <li><a href="#docs">Docs Index</a></li>
+      <!-- Primary navigation -->
+      <nav class="nav" aria-label="Primary">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+          Menu
+        </button>
+        <ul id="primary-nav" class="nav-list">
+          <li><a href="#docs-index" class="active">Docs Index</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#process">Process</a></li>
-          <li><a href="#portfolio-info">Portfolio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
     </div>
   </header>
 
   <!-- Hero -->
-  <section class="hero" role="region" aria-label="Intro">
+  <section class="hero" id="hero">
     <div class="container">
       <h1>Liz Marlowe — Technical Writing Portfolio</h1>
-      <p class="lead"><strong>Clear, user-focused documentation that simplifies complexity and accelerates adoption.</strong></p>
-      <p>I’m <strong>Liz Marlowe</strong>, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms. This portfolio showcases structured documentation that improves usability and accelerates adoption, with samples demonstrating best practices—logical structures, actionable workflows, and real‑world context.</p>
+      <p class="lead">
+        Clear, user‑focused documentation that simplifies complexity and accelerates adoption.
+      </p>
 
-      <div class="cta-group" role="group" aria-label="Key links">
-        <a class="btn btn-primary" href="Liz%20Marlowe%20Resume.pdf" target="_blank" rel="noopener">📄 View My Resume</a>
-        <a class="btn btn-outline" href="https://linkedin.com/in/liz-marlowe-3397833" target="_blank" rel="noopener">🔗 LinkedIn</a>
-        <a class="btn btn-outline" href="mailto:LizMarlowe@gmail.com">✉️ Email</a>
+      <div class="cta-group">
+        <!-- Keep this CTA; the header button is removed -->
+        <a href="resume.pdf" class="btn btn-primary">View My Resume</a>
+        <a href="https://www.linkedin.com/" class="btn btn-outline" rel="noopener">LinkedIn</a>
+        <a href="mailto:liz@example.com" class="btn btn-outline">Email</a>
       </div>
     </div>
   </section>
 
-  <main id="main" class="container">
+  <!-- Main content with Doc Index Sidebar -->
+  <main id="main" class="container" role="main">
+    <div class="doc-layout">
 
-    <!-- Documentation Index -->
-    <section id="docs" aria-labelledby="docs-title">
-      <h2 id="docs-title">📖 Documentation Index</h2>
-      <p>Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
-
-      <div class="note" role="note">
-        <strong>Note:</strong> To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.
-      </div>
-
-      <div class="grid two">
-        <!-- User Guides -->
-        <section aria-labelledby="user-guides">
-          <h3 id="user-guides">📚 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides" target="_blank" rel="noopener">User Guides</a></h3>
-          <ul class="list">
-            <li>
-              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide" target="_blank" rel="noopener"><strong>Docmost User Guide</strong></a>
-              <span class="desc">Comprehensive guide for end users that describes a collaborative wiki platform—task‑based instructions with intuitive navigation.</span>
-            </li>
-            <li>
-              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide" target="_blank" rel="noopener"><strong>Taiga User Guide</strong></a>
-              <span class="desc">Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.</span>
-            </li>
+      <!-- Sticky Doc Index Sidebar -->
+      <aside class="doc-sidebar" aria-label="Documentation index">
+        <nav>
+          <h3>Documentation Index</h3>
+          <ul>
+            <li><a href="#user-guides">User Guides</a></li>
+            <li><a href="#api-guides">API Guides</a></li>
+            <li><a href="#tutorials">Tutorials</a></li>
+            <li><a href="#references">References</a></li>
           </ul>
+        </nav>
+      </aside>
+
+      <!-- Main doc content -->
+      <div class="doc-content">
+
+        <!-- Docs Index (overview) -->
+        <section id="docs-index">
+          <h2>📚 Documentation Index</h2>
+          <p>Browse by category below or use the GitHub Wiki sidebar for full navigation.</p>
+          <div class="note">
+            <strong>Note:</strong> To respect confidentiality from prior roles, samples are based on open‑source,
+            commercial, or fictional products. They illustrate writing style, structure, and content development approach.
+          </div>
         </section>
+
+        <hr class="divider" />
+
+        <!-- User Guides -->
+        <section id="user-guides">
+          <h2>📘 User Guides</h2>
+          <div class="grid two">
+            <div>
+              <ul class="list">
+                <li>
+                  <a href="docs/user-guides/docmost-user-guide.html">Docmost User Guide</a>
+                  <span class="desc">Collaborative wiki platform — task‑based instructions with intuitive navigation.</span>
+                </li>
+                <li>
+                  <a href="docs/user-guides/taiga-user-guide.html">Taiga User Guide</a>
+                  <span class="desc">Agile project management tool — workflows and clear outcomes for project leads.</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="list">
+                <li>
+                  <a href="docs/user-guides/app-onboarding.html">App Onboarding Guide</a>
+                  <span class="desc">First‑run experience, guided tours, and self‑serve help patterns.</span>
+                </li>
+                <li>
+                  <a href="docs/user-guides/edge-cases.html">Edge Cases & FAQs</a>
+                  <span class="desc">Common pitfalls with step‑by‑step fixes and references.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <hr class="divider" />
 
         <!-- API Guides -->
-        <section aria-labelledby="api-guides">
-          <h3 id="api-guides">🔗 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs" target="_blank" rel="noopener">API Guides</a></h3>
+        <section id="api-guides">
+          <h2>🔗 API Guides</h2>
+          <div class="grid two">
+            <div>
+              <ul class="list">
+                <li>
+                  <a href="docs/api/openweathermap.html">OpenWeatherMap API Guide</a>
+                  <span class="desc">Concepts, rate limits, authentication, tutorials, and endpoint references.</span>
+                </li>
+                <li>
+                  <a href="docs/api/spotify.html">Spotify API Guide</a>
+                  <span class="desc">OAuth flows, pagination, errors, and practical use cases.</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul class="list">
+                <li>
+                  <a href="docs/api/webhooks.html">Webhooks Integration</a>
+                  <span class="desc">Event design, retries, signatures, and best practices.</span>
+                </li>
+                <li>
+                  <a href="docs/api/authentication.html">Authentication Deep Dive</a>
+                  <span class="desc">API keys vs OAuth vs JWTs, token lifecycles, and security trade‑offs.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <hr class="divider" />
+
+        <!-- Tutorials -->
+        <section id="tutorials">
+          <h2>🧭 Tutorials</h2>
           <ul class="list">
             <li>
-              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide" target="_blank" rel="noopener"><strong>OpenWeatherMap API Guide</strong></a>
-              <span class="desc">RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.</span>
+              <a href="docs/tutorials/getting-started.html">Getting Started</a>
+              <span class="desc">From zero to first request with local environment setup.</span>
             </li>
             <li>
-              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide" target="_blank" rel="noopener"><strong>Spotify API Guide</strong></a>
-              <span class="desc">Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.</span>
+              <a href="docs/tutorials/advanced-topics.html">Advanced Topics</a>
+              <span class="desc">Pagination strategies, error handling, and testing patterns.</span>
             </li>
           </ul>
         </section>
 
-        <!-- Knowledge Base -->
-        <section aria-labelledby="kb-article">
-          <h3 id="kb-article">🛠️ <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article" target="_blank" rel="noopener">Knowledge Base Article</a></h3>
+        <hr class="divider" />
+
+        <!-- References -->
+        <section id="references">
+          <h2>📎 References</h2>
           <ul class="list">
             <li>
-              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare" target="_blank" rel="noopener"><strong>Create a relationship table in MadCap Flare</strong></a>
-              <span class="desc">Step‑by‑step article with annotated screenshots and best practices.</span>
+              <a href="docs/reference/glossary.html">Glossary</a>
+              <span class="desc">Shared terminology across products and docs.</span>
+            </li>
+            <li>
+              <a href="docs/reference/style-guide.html">Style Guide</a>
+              <span class="desc">Voice & tone, formatting, and component usage notes.</span>
             </li>
           </ul>
         </section>
 
-        <!-- Technical Reference Guides -->
-        <section aria-labelledby="tech-reference">
-          <h3 id="tech-reference">📖 <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides" target="_blank" rel="noopener">Technical Reference Guides</a></h3>
+        <hr class="divider" />
+
+        <!-- About -->
+        <section id="about">
+          <h2>About</h2>
+          <p>
+            I’m Liz Marlowe, a Senior Technical Writer specializing in clear, structured documentation that improves usability
+            and accelerates adoption. I focus on logical structures, actionable workflows, and real‑world context.
+          </p>
+        </section>
+
+        <hr class="divider" />
+
+        <!-- Skills -->
+        <section id="skills">
+          <h2>Skills</h2>
           <ul class="list">
-            <li>
-              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide" target="_blank" rel="noopener"><strong>Optiflow‑CloudSync CRM Integration Guide</strong></a>
-              <span class="desc">Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.</span>
-            </li>
-            <li>
-              <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes" target="_blank" rel="noopener"><strong>Release Notes</strong></a>
-              <span class="desc">Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.</span>
-            </li>
+            <li>Information architecture, content strategy, and editorial review</li>
+            <li>API documentation (REST, OAuth, webhooks), SDKs, and code samples</li>
+            <li>Docs tools: Markdown, static sites, GitHub/Git, CI/CD</li>
           </ul>
         </section>
-      </div>
-    </section>
 
-    <hr class="divider" />
+        <hr class="divider" />
 
-    <!-- About Me -->
-    <section id="about" aria-labelledby="about-title">
-      <h2 id="about-title">👤 About Me</h2>
-      <p>With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.</p>
-      <p>My goal is simple: <strong>simplify complex technology and make it usable.</strong></p>
-    </section>
+        <!-- Process -->
+        <section id="process">
+          <h2>Process</h2>
+          <p>
+            Discovery, content planning, draft, stakeholder review, iteration, QA, and publish—with structured templates and
+            checklists to keep quality consistent.
+          </p>
+        </section>
 
-    <hr class="divider" />
+        <hr class="divider" />
 
-    <!-- Skills & Tools -->
-    <section id="skills" aria-labelledby="skills-title">
-      <h2 id="skills-title">🛠 Skills &amp; Tools</h2>
-      <ul class="list">
-        <li><strong>Tools:</strong> MadCap Flare, GitHub Desktop, Git/GitHub, M365 Copilot, Swagger/OpenAPI, Jira, Confluence, Snagit, MadCap Capture, Adobe CC, Camtasia, Audacity, Zeplin, Figma, Pendo</li>
-        <li><strong>Languages:</strong> Markdown, HTML, XML</li>
-        <li><strong>Specialties:</strong> SaaS documentation, API guides, user guides, configuration guides, integration guides, release notes, UI/UX writing</li>
-      </ul>
-    </section>
+        <!-- Portfolio -->
+        <section id="portfolio">
+          <h2>Portfolio</h2>
+          <p>Selected work samples and links to live docs or repositories.</p>
+        </section>
 
-    <hr class="divider" />
+        <hr class="divider" />
 
-    <!-- Planning & Process -->
-    <section id="process" aria-labelledby="process-title">
-      <h2 id="process-title">🗂 Planning &amp; Process</h2>
-      <p>I approach every project with a repeatable framework that emphasizes clarity, consistency, and measurable outcomes:</p>
-      <ul class="list">
-        <li><strong>Content Strategy:</strong> Define audience, goals, success criteria, and scope before writing.</li>
-        <li><strong>Information Architecture:</strong> Organize by content type (task, concept, reference) to support a structured, topic‑based/DITA‑informed approach.</li>
-        <li><strong>Tools &amp; Quality:</strong> Use <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/tree/main/Templates" target="_blank" rel="noopener">templates</a>, <a href="https://github.com/LizMarlowe-byte/Tech-writing-portfolio/blob/main/Editing_Checklists" target="_blank" rel="noopener">editing checklists</a>, and version control to ensure consistency and maintainability.</li>
-      </ul>
-    </section>
+        <!-- Contact -->
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>
+            <a class="contact-link" href="mailto:liz@example.com">Email</a> ·
+            <a class="contact-link" href="https://www.linkedin.com/" rel="noopener">LinkedIn</a>
+          </p>
+        </section>
 
-    <hr class="divider" />
-
-    <!-- About This Portfolio -->
-    <section id="portfolio-info" aria-labelledby="portfolio-title">
-      <h2 id="portfolio-title">✅ About This Portfolio</h2>
-      <ul class="list">
-        <li><strong>Format:</strong> Markdown for portability and native GitHub rendering</li>
-        <li><strong>Tools Used:</strong> GitHub Wiki, Markdown, Snagit, MadCap Capture, Visio, Microsoft PowerPoint</li>
-        <li><strong>Focus Areas:</strong> User guides, API guides, knowledge base content, technical reference guides</li>
-      </ul>
-    </section>
-
-    <hr class="divider" />
-
-    <!-- Contact -->
-    <section id="contact" aria-labelledby="contact-title">
-      <h2 id="contact-title">📬 Contact</h2>
-      <p>
-        <a class="contact-link" href="https://linkedin.com/in/liz-marlowe-3397833" target="_blank" rel="noopener">LinkedIn</a>
-        &middot;
-        <a class="contact-link" href="mailto:LizMarlowe@gmail.com">Email</a>
-      </p>
-    </section>
+      </div><!-- /.doc-content -->
+    </div><!-- /.doc-layout -->
   </main>
 
+  <!-- Footer -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <small>&copy; 2026 Liz Marlowe. All rights reserved.</small>
+      © <span id="year"></span> Liz Marlowe
     </div>
   </footer>
 
-  <!-- Minimal JS: mobile menu + scrollspy for active nav -->
+  <!-- Minimal JS: mobile menu toggle & year -->
   <script>
-    // Mobile menu toggle
-    const toggleBtn = document.querySelector('.menu-toggle');
-    const navList = document.querySelector('.nav-list');
-    toggleBtn?.addEventListener('click', () => {
-      const isOpen = navList.classList.toggle('open');
-      toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    });
+    // Mobile nav toggle
+    (function () {
+      const toggle = document.querySelector('.menu-toggle');
+      const navList = document.getElementById('primary-nav');
+      if (toggle && navList) {
+        toggle.addEventListener('click', () => {
+          const open = navList.classList.toggle('open');
+          toggle.setAttribute('aria-expanded', String(open));
+        });
+      }
+    })();
 
-    // Scrollspy: highlight current section in nav
-    const sections = document.querySelectorAll('main section[id]');
-    const navLinks = document.querySelectorAll('.nav-list a');
-
-    const spy = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        const id = entry.target.getAttribute('id');
-        const link = document.querySelector('.nav-list a[href="#' + id + '"]');
-        if (!link) return;
-        if (entry.isIntersecting) {
-          navLinks.forEach(l => {
-            l.classList.remove('active');
-            l.removeAttribute('aria-current');
-          });
-          link.classList.add('active');
-          link.setAttribute('aria-current', 'page');
-        }
-      });
-    }, { rootMargin: '0px 0px -60% 0px', threshold: 0.25 });
-
-    sections.forEach(section => spy.observe(section));
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
+  <!-- Optional scrollspy (uncomment to enable)
+  <script>
+    // Highlights the sidebar link for the section currently in view
+    (function () {
+      const links = Array.from(document.querySelectorAll('.doc-sidebar a'));
+      const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          const id = entry.target.id;
+          const link = map.get(id);
+          if (!link) return;
+          if (entry.isIntersecting) {
+            links.forEach(l => l.classList.remove('is-active'));
+            link.classList.add('is-active');
+          }
+        });
+      }, { rootMargin: '0px 0px -60% 0px', threshold: 0.25 });
+
+      document.querySelectorAll('section[id]').forEach(sec => observer.observe(sec));
+    })();
+  </script>
+  -->
+
 </body>
 </html>
