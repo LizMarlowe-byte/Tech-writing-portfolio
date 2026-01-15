@@ -64,7 +64,7 @@ h2 {
   display: flex;
   align-items: center;
   gap: .5rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 /* --- Note/blockquote as a callout --- */
@@ -203,3 +203,32 @@ section[aria-labelledby="docs-index"] > h2 + p {
   section[aria-labelledby="docs-index"] > .category:nth-of-type(4) { grid-column: 2; } /* Technical Reference Guides */
 }
 ``
+
+/* ==== SPACING TIGHTENERS (append-only) ==== */
+
+/* Reduce global <hr> space to bring sections closer */
+hr {
+  margin: 1rem 0 !important; /* was 2rem in the inline <style> */
+}
+
+/* Pull the Documentation Index up a bit relative to the <hr> above it */
+hr + section[aria-labelledby="docs-index"] {
+  margin-top: 0.5rem; /* gentle nudge */
+}
+
+/* Pull the Skills & Tools section closer to the preceding <hr> */
+hr + section[aria-labelledby="skills-tools"] {
+  margin-top: 0.5rem; /* reduces the big gap before Skills & Tools */
+}
+
+/* Optional: tighten the gap after the intro’s <hr> only */
+.intro + hr {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* Optional: ensure the first paragraph under each H2 doesn’t add extra top gap */
+h2 + p,
+h2 + ul {
+  margin-top: 0.5rem; /* small, consistent spacing under headings */
+}
