@@ -233,3 +233,8 @@ h2 + p,
 h2 + ul {
   margin-top: 0.5rem; /* small, consistent spacing under headings */
 }
+
+section[aria-labelledby="docs-index"] hr {
+  grid-column: 1 / -1 !important;
+}
+
