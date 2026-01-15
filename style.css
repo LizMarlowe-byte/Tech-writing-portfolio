@@ -28,9 +28,7 @@ html, body {
 }
 
 /* keep your existing max-width but allow a bit more room if desired */
-.container {
-  max-width: 980px;
-}
+.container { max-width: 980px; }
 
 /* --- Headings / text refinements (non-destructive) --- */
 h1, h2, h3 { font-weight: 800; line-height: 1.2; }
@@ -94,7 +92,7 @@ section[aria-labelledby="docs-index"] > h2 + p {
 }
 
 /* Style each .category as a light card */
-section[aria-labelledby="docs-index"] .category {
+section[aria-labelledby="docs-index"] > .category {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
@@ -102,14 +100,14 @@ section[aria-labelledby="docs-index"] .category {
   padding: 1rem 1.25rem;
   margin-top: .75rem; /* slight spacing on mobile */
 }
-section[aria-labelledby="docs-index"] .category h3 {
+section[aria-labelledby="docs-index"] > .category h3 {
   margin: 0 0 .5rem 0;
   font-size: 1.05rem; /* keep your emoji size feel */
 }
-section[aria-labelledby="docs-index"] .category ul {
+section[aria-labelledby="docs-index"] > .category ul {
   margin: .25rem 0 0 1.1rem;
 }
-section[aria-labelledby="docs-index"] .category li + li {
+section[aria-labelledby="docs-index"] > .category li + li {
   margin-top: .4rem;
 }
 
@@ -162,3 +160,46 @@ section[aria-labelledby="contact"] > p {
   .container { padding: 2rem 1rem 3rem; }
   .button-row { gap: .6rem; }
 }
+
+/* ==== TWEAKS: Documentation Index spacing, Note alignment, 2x2 card layout ==== */
+
+/* 1) Move the whole Documentation Index section slightly closer to the intro */
+section[aria-labelledby="docs-index"] {
+  margin-top: -8px;   /* adjust to -6px or -10px if you want a bit more or less */
+}
+
+/* 2) Keep the Note block directly UNDER the “Browse by category…” line,
+      full-width, aligned with it in the same column span */
+section[aria-labelledby="docs-index"] > h2 + p {
+  margin-top: .5rem; /* (already carded above) */
+}
+
+@media (min-width: 900px) {
+  section[aria-labelledby="docs-index"] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.25rem;
+    row-gap: 1.25rem;
+    grid-auto-flow: row;
+  }
+
+  /* H2 and the “Browse by category…” line span both columns (full width) */
+  section[aria-labelledby="docs-index"] > h2 { grid-column: 1 / -1; }
+  section[aria-labelledby="docs-index"] > h2 + p { grid-column: 1 / -1; }
+
+  /* Make the Note (blockquote) sit right under the browse line, also full width */
+  section[aria-labelledby="docs-index"] > blockquote {
+    grid-column: 1 / -1;
+    margin-top: .75rem;
+  }
+
+  /* 3) Force the four category cards into a 2x2 grid in the desired order:
+        Row 1: User Guides | API Guides
+        Row 2: Knowledge Base Article | Technical Reference Guides
+     (Assumes the four .category elements are the next four direct children.) */
+  section[aria-labelledby="docs-index"] > .category:nth-of-type(1) { grid-column: 1; } /* User Guides */
+  section[aria-labelledby="docs-index"] > .category:nth-of-type(2) { grid-column: 2; } /* API Guides */
+  section[aria-labelledby="docs-index"] > .category:nth-of-type(3) { grid-column: 1; } /* Knowledge Base Article */
+  section[aria-labelledby="docs-index"] > .category:nth-of-type(4) { grid-column: 2; } /* Technical Reference Guides */
+}
+``
