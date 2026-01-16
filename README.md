@@ -28,7 +28,7 @@ Explore a curated list of writing samples grouped by content type—user guides,
 - **[Spotify API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide)**  
   Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.
 
-### 🛠️ [Knowledge Base Article](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article)
+### 🛠️ [How To Article](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article)
 - **[Create a relationship table in MadCap Flare](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare)**  
   Step‑by‑step article with annotated screenshots and best practices.
 
