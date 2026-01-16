@@ -24,19 +24,19 @@ Explore a curated list of writing samples grouped by content type—user guides,
 
 ### 🔗 [API Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Guides)
 - **[OpenWeatherMap API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide)**  
-  RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.
+  RESTful API documentation for developers—including a conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.
 - **[Spotify API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide)**  
-  Developer documentation integrating music metadata, playback control, and user data via OAuth—authentication flows, pagination, errors, and practical use cases.
+  Developer documentation integrating music metadata, playback control, and user data through OAuth—authentication flows, pagination, errors, and practical use cases.
 
 ### 🛠️ [How To Article](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-To-Article)
 - **[Create a relationship table in MadCap Flare](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/How-to-create-a-relationship-table-in-MadCap-Flare)**  
-  Step‑by‑step article with annotated screenshots and best practices.
+  Step‑by‑step how-to article with annotated screenshots and best practices.
 
 ### 📖 [Technical Reference Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides)
 - **[Optiflow‑CloudSync CRM Integration Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide)**  
-  Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.
+  Technical guide for technical users that describes a system integration, including data flows and a customer onboarding workflow.
 - **[AuroraOps Platform 5.2.0 Release Notes](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/AuroraOps-Platform-5.2.0-Release-Notes)**  
-  Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.
+  Release Notes document that summarizes new features, resolved and known issues, and hotfixes, an actionable communication deliverable for diverse audiences.
 
 ---
 
