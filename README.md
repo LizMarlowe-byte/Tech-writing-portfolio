@@ -2,7 +2,7 @@
 # Liz Marlowe — Technical Writing Portfolio
 **Clear, user-focused documentation that simplifies complexity and accelerates adoption.**
 
-I’m **Liz Marlowe**, a Senior Technical Writer specializing in crafting impactful documentation across diverse platforms. This portfolio showcases structured documentation that improves usability and accelerates adoption, with samples demonstrating best practices—logical structures, actionable workflows, and real‑world context.
+I’m **Liz Marlowe**, a Senior Technical Writer with 20+ years of experience creating clear, task-focused documentation that empowers users and accelerates product adoption. I specialize in simplifying complex technology and delivering structured, actionable content that improves usability and enhances the user experience. This portfolio highlights best practices—logical organization, clarity, and real-world context.
 
 - 📄 **Resume:** [View My Resume](Liz%20Marlowe%20Resume.pdf)
 - 🔗 **LinkedIn:** [linkedin.com/in/liz-marlowe-3397833](https://linkedin.com/in/liz-marlowe-3397833)
@@ -12,9 +12,9 @@ I’m **Liz Marlowe**, a Senior Technical Writer specializing in crafting impact
 
 ## 📖 Documentation Index
 
-Browse by category below or use the GitHub Wiki sidebar for full navigation.
+Explore a curated list of writing samples grouped by content type—user guides, API documentation, knowledge base articles, and technical reference guides.
 
-> **Note:** To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products. They illustrate my writing style, structure, and content development approach.
+> **Note:** To respect confidentiality from prior roles, all samples are based on open‑source, commercial, or fictional products.
 
 ### 📚 [User Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/User-Guides)
 - **[Docmost User Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docmost-User-Guide)**  
@@ -37,14 +37,6 @@ Browse by category below or use the GitHub Wiki sidebar for full navigation.
   Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.
 - **[AuroraOps Platform 5.2.0 Release Notes](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/AuroraOps-Platform-5.2.0-Release-Notes)**  
   Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.
-
----
-
-## 👤 About Me
-
-With 20+ years in technical content development, I deliver clear, task‑focused, accessible documentation that empowers users and accelerates product adoption.
-
-My goal is simple: **simplify complex technology and make it usable.**
 
 ---
 
