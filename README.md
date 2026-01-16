@@ -34,7 +34,7 @@ Explore a curated list of writing samples grouped by content type—user guides,
 
 ### 📖 [Technical Reference Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides)
 - **[Optiflow‑CloudSync CRM Integration Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide)**  
-  Technical guide for technical users that describes a system integration, including data flows and a customer onboarding workflow.
+  Integration guide for technical users that describes a system integration, including data flows and a customer onboarding workflow.
 - **[AuroraOps Platform 5.2.0 Release Notes](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/AuroraOps-Platform-5.2.0-Release-Notes)**  
   Release Notes document that summarizes new features, resolved and known issues, and hotfixes, an actionable communication deliverable for diverse audiences.
 
