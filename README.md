@@ -35,7 +35,7 @@ Browse by category below or use the GitHub Wiki sidebar for full navigation.
 ### 📖 [Technical Reference Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Technical-Reference-Guides)
 - **[Optiflow‑CloudSync CRM Integration Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Optiflow%E2%80%90CloudSync-CRM-Integration-Guide)**  
   Technical guide for services and support teams—system integration via data feeds, diagrams, and structured workflows.
-- **[Release Notes](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Release-Notes)**  
+- **[AuroraOps Platform 5.2.0 Release Notes](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/AuroraOps-Platform-5.2.0-Release-Notes)**  
   Reference that summarizes new features, fixes, and known issues—concise, actionable communication for diverse audiences.
 
 ---
