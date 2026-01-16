@@ -22,7 +22,7 @@ Explore a curated list of writing samples grouped by content type—user guides,
 - **[Taiga User Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Taiga-User-Guide)**  
   Agile project management tool guide for project leads—emphasizing usability, workflows, and clear outcomes.
 
-### 🔗 [API Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Docs)
+### 🔗 [API Guides](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/API-Guides)
 - **[OpenWeatherMap API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/OpenWeatherMap-API-Guide)**  
   RESTful API documentation for developers—conceptual overview, authentication, rate limits, tutorials, and curated endpoint references.
 - **[Spotify API Guide](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Spotify-API-Guide)**  
