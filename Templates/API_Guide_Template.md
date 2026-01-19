@@ -327,7 +327,7 @@ The API reference provides curated examples of {Name of API} API endpoints for p
 Each endpoint includes the following data:
 
 - Description or purpose of the endpoint
-- HTTP method (GET for all OpenWeatherMap API endpoints)
+- HTTP method (for example, GET for all endpoints)
 - Endpoint
 - Request syntax
 - Query parameters
@@ -348,7 +348,7 @@ The {Name of API} API {explain any headers used in requests}.
 
 ### Error responses
 
-OpenWeather errors {describe error messages and syntax}.
+The {Name of API} returns errors in the following format...
 
 ## {Name of resource group}
 
