@@ -9,7 +9,7 @@ This API guide is based on a real commercial API and was created exclusively for
 
 # Table of Contents
 1. [Overview](#overview)
-2. [Base URL](#base-URL)
+2. [Base URL](#base-url)
 3. [Authentication](#authentication)
 4. [Rate Limits](#rate-limits)
 5. [Status and Error Codes](#status-and-error-codes)
@@ -318,7 +318,7 @@ A successful response returns a 201 Created status code and a JSON object contai
 
 # API Reference
 
-The OpenWeatherMap API is designed to {explain purpose of API}.
+The {Name of API} API is designed to {explain purpose of API}.
 
 ## API reference overview
 
@@ -358,6 +358,8 @@ Endpoints related to {describe the purpose of the endpoints in this resource gro
 
 - [Endpoint 1](#endpoint-1)
 - [Endpoint 2](#endpoint-2)
+
+Repeat this structure for each endpoint in the resource group:
 
 ### Endpoint 1
 
