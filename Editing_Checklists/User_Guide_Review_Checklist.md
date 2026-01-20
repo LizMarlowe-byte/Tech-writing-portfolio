@@ -1,70 +1,63 @@
+_Use this checklist to make sure that a user guide follows the defined style, structure and writing guidelines_.
 
 ## User Guide Review Checklist
-Use this checklist to make sure that a user guide follows the defined style, structure and writing guidelines.
 
-### Global User Guide Checklist
+### 🧭 Global Guide Checklist
 
-- [ ] Verify open source application disclaimer is at the top of the guide:
+- [ ] Verify the **About this guide** section appears at the top of the guide.
+- [ ] Verify the **Table of Contents** comes immediately after the About section and includes all accurate Heading 1s.
+- [ ] Verify the **Introduction to the application** chapter includes:
+  - [ ] Overview
+  - [ ] Concept topics (as needed)
+  - [ ] Key features
+  - [ ] Target audience
+- [ ] Confirm the **Key features** topic:
+  - [ ] Uses bulleted list format
+  - [ ] Starts each feature with a short **bolded title**, followed by a colon
+  - [ ] Includes a clear explanation of each feature  
+    **Example:** **Collaborative real-time editor**: Work with others on shared pages in real time.
+- [ ] Confirm the **Target audience** topic uses standardized syntax:  
+      _“This guide is designed for users who {describe what the users need to do, their role or permissions}.”_
+- [ ] Verify all proprietary UI elements are **initial‑capped**.
+- [ ] Review all graphics for:
+  - [ ] Alt text that is descriptive and action‑oriented when appropriate
+  - [ ] `---` separators above and below each graphic
+  - [ ] Visual clarity and relevance to the topic
+  - [ ] Appropriate size and readability
 
-   :warning: **DISCLAIMER**  
-This user guide is based on a real open-source application and was created exclusively for portfolio purposes. Some content has been modified to showcase technical writing best practices and might not represent the application’s current functionality. For accurate and up-to-date information, refer to the official project repository and documentation for the application.
+---
 
-- [ ] Verify Table of Contents comes after the disclaimer, and includes all accurate heading 1s in the guide.
-      
-- [ ] Verify that the Introduction to the application chapter includes an **Overview**, any other relevant concept topics, **Key features**, and **Target audience**.
+### 🏷 Heading 1s Checklist
 
-- [ ] Verify that the Key features topic only includes a bulleted list of features, where the feature is summed up in a few words and bold, then colon (:), and then there's a detailed explanation of the feature. For example: **Collaborative real-time, rich text editor**: Work together with other users on the same pages in real time using a rich text editor.
+- [ ] Verify Heading 1 titles start with a **gerund** (e.g., *Managing Users*) or a **noun** (e.g., *User Management*).
+- [ ] Confirm each Heading 1 includes:
+  - [ ] A short (1–2 sentence) description of the topic
+  - [ ] A **Topics:** label
+  - [ ] A bulleted list of all Heading 2s within that section
 
-- [ ] Verify that the **Target audience** topic has the following syntax: This guide is designed for users who {describe what the users need to do, their role, permissions, etc.}. For example: This guide is designed for users who want to create and share content in a wiki format and collaborate with other users.
+---
 
-- [ ] For all proprietary UI elements, make sure they are initial-capped.
-      
-- [ ] Review all graphics:
-      
-   - [ ] Confirm accessibility for all graphics - Alt Text is logical, in verb form if actionable.
-         
-   - [ ] Verify there's a --- and --- separating the graphic from text.
-     
-   - [ ] Make sure the graphic is visually appealing, complements the text, and adds to user comprehension.
+### 💡 Heading 2s — Concept Topic Checklist
 
-### Heading 1s Checklist
-   
-- [ ] Verify heading 1s start with a gerund or noun.
-      
-- [ ] Verify the structure of heading 1 topics include:
-      
-    - [ ] Heading 1
-          
-    - [ ] 1-2 short description of the topic
-          
-    - [ ] **Topics:**
-          
-    - [ ] Bulleted list of all heading 2s within the heading 1 topic.
-     
-### Heading 2s Concept Topic Checklist
+- [ ] Heading 2 titles are **nouns**, not verbs.
+- [ ] Paragraphs are:
+  - [ ] Short and concise
+  - [ ] Focused on the “why” or conceptual understanding
+  - [ ] Supported by examples or use cases when helpful
+- [ ] Determine whether a diagram or image would improve comprehension.
 
-- [ ] Verify heading 2 concept topic names are nouns.
+---
 
-- [ ] Verify that paragraphs are short, concise and provide the "why" about the application and/or include practical use cases and examples.
+### 🛠 Heading 2s — Task Topic Checklist
 
-- [ ] To aid in user comprehension, determine whether an image or diagram would be helpful.
-     
-### Heading 2s Task Topic Checklist
-
-- [ ] Verify the structure of all tasks includes:
-      
-   - [ ] Short description, which should be 1-2 sentences and provide the "why" of the task. If overly obvious, this can be omitted.
-      
-   - [ ] **Procedure** tag
-         
-   - [ ] 1 space between numbered steps
-         
-   - [ ] --- and --- between text and graphics
-         
-   - [ ] From the x screen: with a bulleted or numbered list of actions.
-     
-   - [ ] Make sure bulleted lists within procedures represent non-sequential steps.
-     
-   - [ ] Make sure numbered lists within procedures represent sequential steps.
-     
-   - [ ] Make sure all numbered steps are correct.
+- [ ] Confirm all task topics follow the standard structure:
+  - [ ] 1–2 sentence description explaining the “why” (omit only if truly obvious)
+  - [ ] A **Procedure** tag
+  - [ ] One blank line between numbered steps
+  - [ ] `---` separators before and after any graphics
+  - [ ] “From the {screen name}:” when applicable
+- [ ] Validate list types:
+  - [ ] **Numbered lists** are used for sequential steps
+  - [ ] **Bulleted lists** are used for non‑sequential actions or options
+- [ ] Verify all step numbering is correct and sequential.
+``
