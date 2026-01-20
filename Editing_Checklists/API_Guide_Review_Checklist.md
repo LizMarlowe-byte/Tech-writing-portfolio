@@ -1,28 +1,78 @@
+_Use this checklist to make sure that an API Guide follows the defined style, structure and writing guidelines in your tech writing portfolio_.
+
 ## API Guide Review Checklist
-Use this checklist to make sure that an API Guide follows the defined style, structure and writing guidelines in your tech writing portfolio.
 
-### Global API Guide Checklist
+### 🧭 Global Guide Checklist
 
-- [ ] Verify application disclaimer is at the top of the guide.
+- [ ] Verify the **About this guide** section appears at the top.
+- [ ] Ensure the **Table of Contents** follows the About section and accurately reflects all Heading 1s.
+- [ ] Confirm the Introduction includes:
+  - [ ] Overview of the API
+  - [ ] Use cases
+  - [ ] API standards or conventions used (REST, GraphQL, versioning, etc.)
+  - [ ] Target audience
+- [ ] Ensure all endpoint names, HTTP methods, and parameters use consistent technical formatting:
+  - [ ] Code formatting for endpoints (e.g., `/v1/users`)
+  - [ ] Uppercase for HTTP verbs (e.g., GET, POST)
+  - [ ] Snake_case, camelCase, or kebab-case consistently applied
+- [ ] Verify all examples are accurate and runnable (if applicable):
+  - [ ] Request examples
+  - [ ] Response payloads
+  - [ ] Error examples
+- [ ] Review all diagrams and graphics for:
+  - [ ] Clear alt text
+  - [ ] `---` separators above and below
+  - [ ] Readability and accurate representation
 
-- [ ] Verify Table of Contents comes after the disclaimer, and includes all accurate heading 1s in the guide.
-      
-- [ ] Verify that the Overview includes the sub-sections: **Common Use Cases** and **Technical Details** and that these sub-sections have bulleted lists of the information.
+---
 
-- [ ] Test all JSON code syntax to make sure it's valid using a proper [JSON formatter](https://www.freeformatter.com/json-formatter.html).
+### 🧩 Heading 1s Checklist
 
-- [ ] Adhere to the API Guide template, even if the information for a specific section is limited. For example, for the Pagination section, if the API does not support traditional pagination mechanisms, state that in this section. In addition, provide information about another way the API controls the number of returned results.
+- [ ] Heading 1 names should be nouns (e.g., “Authentication,” “Endpoints,” “Schemas”).
+- [ ] Each Heading 1 contains:
+  - [ ] 1–2 sentence summary
+  - [ ] **Topics:** label
+  - [ ] Bulleted list of included Heading 2s
 
-- [ ] Make sure to use the proper Note Markdown syntax throughout the guide: > **Note:** {TEXT OF NOTE}
- 
-- [ ] Make sure all topic titles are initial-capped and not in sentence case.
+---
 
- - [ ] Make sure parameter names are included in the `backtick` style.
+### 🔐 Authentication & Authorization Checklist
 
- - [ ] Make sure parameter values are in **bold**.
+- [ ] Confirm authentication flow is clearly described:
+  - [ ] OAuth, API keys, JWT, etc.
+- [ ] Include examples of:
+  - [ ] Token retrieval
+  - [ ] Token refresh (if applicable)
+  - [ ] Required headers
+- [ ] Verify security requirements are clearly stated:
+  - [ ] Rate limits
+  - [ ] Scopes
+  - [ ] Permissions
 
- - [ ] For top-level parameters, the description should be: "Top-level x key" where "x" is the top-level key for the object. For example, "Top-level weather key."
+---
 
- - [ ] Make sure all related parameters are described using similar language with similarly constructed sentences.
+### 🔧 Endpoint Documentation Checklist
 
- - [ ] If there are no "notes" for a table of parameters or elements, remove the **Notes** column.
+- [ ] For each endpoint:
+  - [ ] Clear summary of what it does
+  - [ ] Supported HTTP method(s)
+  - [ ] Endpoint path formatted in code style
+  - [ ] Required and optional parameters documented
+  - [ ] Request example provided
+  - [ ] Response example provided
+  - [ ] Status codes explained
+  - [ ] Error scenarios included
+- [ ] Ensure sequential workflows reference relevant endpoints.
+
+---
+
+### 📘 Schema & Data Model Checklist
+
+- [ ] Object models include:
+  - [ ] Field names
+  - [ ] Types
+  - [ ] Descriptions
+  - [ ] Constraints
+  - [ ] Examples where helpful
+
+- [ ] Verify all sample JSON is valid and properly formatted.
