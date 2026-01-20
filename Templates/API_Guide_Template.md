@@ -1,6 +1,6 @@
-# {API Name} Guide
-
 _Use this template for documenting REST APIs, including endpoints, authentication methods, error handling, pagination, and examples._
+
+# {API Name} Guide
 
 ## ℹ️ About this guide
 
