@@ -1,9 +1,22 @@
 # {Application Name} User Guide
 
-_Use this template for documenting all types of user guides, and include task-based instructions, emphasizing usability, workflows, and clear outcomes._
+_Use this template for documenting all types of user guides, focusing on task-based instructions, usability, workflows, and clear outcomes._
 
-:warning: **DISCLAIMER**  
-This user guide is based on a real open-source application and was created exclusively for portfolio purposes. Some content has been modified to showcase technical writing best practices and might not represent the application’s current functionality. For accurate and up-to-date information, refer to the official project repository and documentation for the application.
+## ℹ️ About this guide
+
+I created this user guide for {Name of application}, a {describe the application in a few words}, to demonstrate a structured, task-oriented approach that improves clarity and usability beyond the official documentation. It provides step-by-step instructions, logical workflows, and visuals that help users get up and running quickly.
+
+Unlike the official {Name of application} documentation, this guide {describes what is improved in this guide from the official documentation}.
+
+I chose {Name of application} because it {state why you chose it, such as: _it represents a modern, open-source platform that benefits from clear, user-friendly documentation_}.
+
+To achieve this, I focused on the following:
+
+- {bulleted list that indicates the types of things you did to improve the official version, such as: _Applied best practices for user guides, including task-oriented content, clear headings, and purposeful visuals_}.
+-
+-
+
+> _**Note:** This user guide is based on a real open-source application and was created exclusively for portfolio purposes. Some content has been modified to showcase technical writing best practices and may not represent the application’s current functionality. For accurate and up-to-date information, refer to the official {Name of application} documentation._
 
 ***
 
