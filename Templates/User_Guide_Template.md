@@ -1,4 +1,4 @@
-# {Application Name] User Guide
+# {Application Name} User Guide
 
 _Use this template for documenting all types of user guides, and include task-based instructions, emphasizing usability, workflows, and clear outcomes._
 
