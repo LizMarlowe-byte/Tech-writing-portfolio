@@ -2,7 +2,6 @@ _Use this template for documenting all types of user guides, focusing on task-ba
 
 # {Application Name} User Guide
 
----
 
 ## ℹ️ About this guide
 
