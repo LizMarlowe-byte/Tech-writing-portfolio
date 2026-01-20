@@ -1,163 +1,209 @@
+_Use this template for documenting all types of user guides, focusing on task-based instructions, usability, workflows, and clear outcomes._
+
 # {Application Name} User Guide
 
-_Use this template for documenting all types of user guides, focusing on task-based instructions, usability, workflows, and clear outcomes._
+---
 
 ## ℹ️ About this guide
 
-I created this user guide for {Name of application}, a {describe the application in a few words}, to demonstrate a structured, task-oriented approach that improves clarity and usability beyond the official documentation. It provides step-by-step instructions, logical workflows, and visuals that help users get up and running quickly.
+I created this user guide for **{Name of application}**, a {brief description}, to demonstrate a structured, task‑oriented approach that improves clarity and usability beyond the official documentation. It provides step‑by‑step instructions, logical workflows, and visuals that help users get up and running quickly.
 
-Unlike the official {Name of application} documentation, this guide {describes what is improved in this guide from the official documentation}.
+Unlike the official {Name of application} documentation, this guide {state what is improved vs. official docs—e.g., task grouping by user workflow, separation of concepts from tasks, clearer visuals}.
 
-I chose {Name of application} because it {state why you chose it, such as: _it represents a modern, open-source platform that benefits from clear, user-friendly documentation_}.
+I chose {Name of application} because it {why you chose it—e.g., open-source, modern UX, benefits from clearer docs}.
 
-To achieve this, I focused on the following:
+**What I focused on:**
+- Task-first structure with purposeful visuals and clear headings
+- Consistency and accessibility (plain English, descriptive alt text, logical navigation)
+- Workflow organization that mirrors how users actually work
 
-- {bulleted list that indicates the types of things you did to improve the official version, such as: _Applied best practices for user guides, including task-oriented content, clear headings, and purposeful visuals_}.
--
--
+> [!NOTE]  
+> This user guide is based on a real application and was created exclusively for portfolio purposes. Some content may be modified to showcase technical writing best practices and may not reflect the application’s current functionality. For accurate and up‑to‑date information, refer to the official documentation.
 
-> _**Note:** This user guide is based on a real open-source application and was created exclusively for portfolio purposes. Some content has been modified to showcase technical writing best practices and may not represent the application’s current functionality. For accurate and up-to-date information, refer to the official {Name of application} documentation._
+---
 
-***
+# Table of contents
+1. [Introduction to {Name of application}](#introduction-to-name-of-application)  
+   1.1. [Overview](#overview)  
+   1.2. [Key concepts](#key-concepts)  
+   1.3. [Key features](#key-features)  
+   1.4. [Target audience](#target-audience)  
+2. [Prerequisites](#prerequisites)  
+3. [Getting started](#getting-started)  
+   3.1. [Set up your account](#set-up-your-account)  
+   3.2. [Set your profile](#set-your-profile)  
+   3.3. [Set your preferences](#set-your-preferences)  
+4. [Managing {area 1}](#managing-area-1)  
+5. [Managing {area 2}](#managing-area-2)  
+6. [Managing {area 3}](#managing-area-3)  
+7. [Managing {area 4}](#managing-area-4)  
+8. [Troubleshooting](#troubleshooting)  
+9. [FAQ](#faq)  
+10. [Glossary](#glossary)  
+11. [Style conventions used in this guide](#style-conventions-used-in-this-guide)  
+12. [Version history](#version-history)
 
-# Table of Contents
-1. [Introduction to {Name of application}](#introduction-to-{Name-of-application})
-2. [Getting started with {Name of application}](#getting-started-with-{Name-of-application}))
-3. [Group of similar tasks 1](#group-of-similar=-tasks-1)
-4. [Group of similar tasks 2](#group-of-similar=-tasks-2)
-5. [Group of similar tasks 3](#group-of-similar=-tasks-3)
-6. [Group of similar tasks 4](#group-of-similar=-tasks-4)
+---
 
 # Introduction to {Name of application}
 
-{Name of application} is {describe in 1-2 sentences what the application is and what it's used for. Example: _Docmost_ is an open-source collaborative wiki that provides easy and robust content creation and real-time collaboration.}
+{One‑to‑two sentence description of what the application is and what it’s used for.}
 
-**Topics**:
-
-* [Overview](#overview)
-* [Heading 2a Concept topic](#heading-2a-Concept-topic)
-* [Key features](#Key-features)
-* [Target audience](#Target-audience)
+**Topics**
+- [Overview](#overview)  
+- [Key concepts](#key-concepts)  
+- [Key features](#key-features)  
+- [Target audience](#target-audience)
 
 ## Overview
+{What it lets users do, highlighted benefits and unique capabilities. Optionally mention integrations, import/export, etc.}
 
-{Name of application} {describe what the application does, what it allows users to do, highlighted features, etc.}.
-
-## Heading 2a Concept topic
-
-{Optional topic that provides additional conceptual information that the user needs to understand about the application, including use cases, examples, etc.}
+## Key concepts
+{Define the core entities and how they relate—e.g., workspaces, projects, pages; permissions; roles. Provide a simple example.}
 
 ## Key features
-
-- **Short description of feature**: Feature details.
-- **Short description of feature**: Feature details.
-- **Short description of feature**: Feature details.
+- **{Feature name}** — {One‑line explanation}.  
+- **{Feature name}** — {One‑line explanation}.  
+- **{Feature name}** — {One‑line explanation}.
 
 ## Target audience
+This guide is for {audience—e.g., team contributors, admins, knowledge managers}, with {assumed knowledge or none}.
 
-This guide is designed for {type of users the guide is for - such as: "users who want to create and share content in a wiki format and collaborate with other users."}
+---
 
-# Getting started with {Name of application}
+# Prerequisites
+- {Account or license requirements}  
+- {Supported browsers/OS}  
+- {Required permissions/roles}  
+- {Network/firewall/proxy, if applicable}
 
-{1-2 sentences that describe how to get started using this application, such as set up your account, profile and preferences, etc.]
+> [!TIP]  
+> Include links to official install/IT guides when advanced setup is needed.
 
-**Topics**:
+---
 
-* [Set up your account](#set-up-your-account)
-* [Set your profile](#Set-your-profile)
-* [Set your preferences](#Set-your-preferences)
+# Getting started
+
+{Brief summary: set up account, profile, and preferences.}
+
+**Topics**
+- [Set up your account](#set-up-your-account)  
+- [Set your profile](#set-your-profile)  
+- [Set your preferences](#set-your-preferences)
 
 ## Set up your account
-
-{1-2 sentences that describe the task.}
+{1–2 sentence goal statement}
 
 **Procedure**
+1. {Step}  
+2. On **{Screen}**, do one of the following:  
+   - {Option A}  
+   - {Option B}  
+3. {Next step}
 
-1. {Describe the step.}
+> [!NOTE]  
+> {Any caveat, plan limits, or timing detail.}
 
-2. From the **x** screen:
+## Set your profile
+{1–2 sentence goal statement}
 
-   1. {Describe what to do on the screen.}
+**Procedure**
+1. {Step}  
+2. {Step}
 
-   2. {Describe what to do on the screen.}
-     
-   3. {Describe what to do on the screen.}
-  
-      > **Note:** {Text of note}
-  
-3. Do one of the following:
+> [!TIP]  
+> {Optional helpful hint}
 
-   - Describe what to do (option)
-  
-   - Describe what to do (option)
+## Set your preferences
+{1–2 sentence goal statement}
 
-> 💡 **Tip:** {Provide an alternate way of doing something or something  that helps the user in another way.}
+**Procedure**
+1. {Step}  
+2. {Step}  
+3. {Step}
+
+**Fields**
+| Field | Description |
+|---|---|
+| {Name} | {Description} |
+| {Name} | {Description} |
+| {Name} | {Description} |
 
 ---
 
-![Create workspace](https://raw.githubusercontent.com/LizMarlowe-byte/Tech-writing-portfolio/main/Images/DocMost2.png "Create workspace")
+# Managing {area 1}
+{1–2 sentence summary of what users can accomplish here.}
 
----
-
-
-
-## Set up your profile
-{1-2 sentences that describe the task.}
-
-**Procedure**
-
-1. {Describe the step.}
-
-2. {Describe the step.}
-
->[!NOTE]
-> {Text of the note.}
-
-## Set up your preferences
-{1-2 sentences that describe the task.}
-
-**Procedure**
-
-1. {Describe the step.}
-
-2. {Describe the step.}
-
-3. {Describe the step.}
-
-|Field          |Description|
-|:--------------|:----------| 
-|{Name of field}|{Description of field}
-|{Name of field}|{Description of field}
-|{Name of field}|{Description of field}
-|{Name of field}|The values can be one of the following:<ul><li>**Value**:{Description of value}</li><li>**Value**:{Description of value}</li><li>**Value**: {Description of value}</li></ul>
-
-# Group of similar tasks 1
-
-{1-2 sentences that summarize the tasks that you're doing within this heading 1.]
-
-**Topics**:
-
-* [Task 1](#task-1)
-* [Task 2](#task-2)
-* [Task 3](#task-3)
+**Topics**
+- [Task 1](#task-1)  
+- [Task 2](#task-2)  
+- [Task 3](#task-3)
 
 ## Task 1
-{1-2 sentences that describe the task.}
+{Short intro}
 
 **Procedure**
-
-{Numbered steps}
+1. {Step}  
+2. {Step}
 
 ## Task 2
-{1-2 sentences that describe the task.}
-
 **Procedure**
-
-{Numbered steps}
+1. {Step}
 
 ## Task 3
-{1-2 sentences that describe the task.}
-
 **Procedure**
+1. {Step}
 
-{Numbered steps}
+---
+
+# Managing {area 2}
+{Repeat pattern from area 1}
+
+---
+
+# Managing {area 3}
+{Repeat pattern from area 1}
+
+---
+
+# Managing {area 4}
+{Repeat pattern from area 1}
+
+---
+
+# Troubleshooting
+
+| Symptom | Possible cause | Resolution |
+|---|---|---|
+| {Issue} | {Cause} | {Steps to resolve} |
+| {Issue} | {Cause} | {Steps to resolve} |
+
+---
+
+# FAQ
+**Q:** {Question}?  
+**A:** {Answer.}
+
+**Q:** {Question}?  
+**A:** {Answer.}
+
+---
+
+# Glossary
+- **{Term}** — {Definition}  
+- **{Term}** — {Definition}
+
+---
+
+# Style conventions used in this guide
+- UI labels are **bold** (for example, **Save**).  
+- Menus use **bold** with arrows (**File > Export**).  
+- Notes use `[!NOTE]`; tips use `[!TIP]`.  
+- Images include descriptive alt text and optional captions.  
+- Procedures use numbered steps; options use bullet lists.  
+- Sentence case for headings; match product UI capitalization.
+
+---
+
+# Version history
+- **{1.0} — {Month DD, YYYY}:** Initial portfolio release.
