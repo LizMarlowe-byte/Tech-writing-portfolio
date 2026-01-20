@@ -1,3 +1,7 @@
+# {Application Name] User Guide
+
+_Use this template for documenting all types of user guides, and include task-based instructions, emphasizing usability, workflows, and clear outcomes._
+
 :warning: **DISCLAIMER**  
 This user guide is based on a real open-source application and was created exclusively for portfolio purposes. Some content has been modified to showcase technical writing best practices and might not represent the application’s current functionality. For accurate and up-to-date information, refer to the official project repository and documentation for the application.
 
