@@ -11,14 +11,14 @@ If applicable, note your role and what you contributed (e.g., creating internal 
 ---
 
 # Table of Contents
-1. #overview
-2. #target-audience
-3. #key-concepts
-4. #before-you-begin
-5. #steps
-6. #tips
-7. #result
-8. #additional-resources
+1. [Overview](#overview)
+2. [Target audience](#target-audience)
+3. [Key concepts](#key-concepts)
+4. [Before you begin](#before-you-begin)
+5. [Steps](#steps)
+6. [Tips](#tips)
+7. [Result](#result)
+8. [Additional resources](#additional-resources)
 
 <h1 id="overview">📝 Overview</h1>
 
