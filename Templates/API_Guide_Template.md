@@ -2,8 +2,21 @@
 
 _Use this template for documenting REST APIs, including endpoints, authentication methods, error handling, pagination, and examples._
 
-:warning: **DISCLAIMER**  
-This API guide is based on a real commercial API and was created exclusively for portfolio purposes. Certain details have been adapted to showcase technical writing best practices and might not represent the API's current or complete functionality. For comprehensive, accurate and up-to-date information, refer to the official project repository and documentation for the API.
+## ℹ️ About this guide
+
+I created this guide for the {Name of API} API, a {describe the API}, to demonstrate my ability to produce clear, developer-focused documentation that improves on the official version. 
+
+To improve on the official documentation, I {state what you did to improve it, such as: _I added clear conceptual explanations (hosts, authentication, rate limits, pagination), a practical onboarding tutorial, and a curated API reference organized by resource group. Weather APIs can be complex and fragmented, so this guide emphasizes accuracy, accessibility, and developer workflows—from retrieving coordinates to fetching forecasts and historical data. This sample demonstrates strengths in API information architecture, developer empathy, and high-quality reference documentation_}.
+
+I chose {Name of API} because it {state why you chose it, such as: _it represents a real-world API that developers frequently integrate into applications, requiring precise, task-oriented documentation for successful implementation_}.
+
+To achieve this, I focused on the following:
+
+- {bulleted list that indicates the types of things you did to improve the official version, such as: _Applied best practices for API documentation, including clear examples, logical structure, and consistent terminology_}.
+-
+-
+
+> _**Note:** This guide is based on a real API and was created exclusively for portfolio purposes. Some content has been modified to showcase technical writing best practices and might not represent the API's current functionality. For accurate and up-to-date information, refer to the official {Name of API} API documentation._
 
 ***
 
