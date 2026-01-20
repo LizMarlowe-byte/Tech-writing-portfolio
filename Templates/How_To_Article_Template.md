@@ -82,9 +82,9 @@ Organize steps into numbered, named sections.
 [1. Step One Title](#1-step-one-title)  
 [2. Step Two Title](#2-step-two-title)  
 [3. Step Three Title](#3-step-three-title)<br>
-[4. Step Four Title](#3-step-four-title)<br>
-[5. Step Five Title](#3-step-five-title)<br>
-[6. Final Steps](#3-final-steps)<br>
+[4. Step Four Title](#4-step-four-title)<br>
+[5. Step Five Title](#5-step-five-title)<br>
+[6. Final Steps](#6-final-steps)<br>
 
 ---
 
