@@ -1,4 +1,4 @@
-_Use this checklist to make sure that an API Guide follows the defined style, structure and writing guidelines in your tech writing portfolio_.
+_Use this checklist to make sure that an API Guide follows the defined style, structure and writing guidelines_.
 
 ## API Guide Review Checklist
 
