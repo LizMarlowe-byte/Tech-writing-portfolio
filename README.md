@@ -15,7 +15,7 @@ I’m **Liz Marlowe**, a Senior Technical Writer with 20+ years of experience cr
 I contribute to open‑source projects with a focus on improving documentation quality, structure, and clarity.
 
 ### Current Contributions
-- **Docmost Documentation** — Submitted a pull request improving user-facing documentation, including clearer task-based instructions and workflow explanations.  
+- **Docmost Documentation** — Submitted a pull request improving user-facing documentation, including clearer conceptual explanations of workspaces, spaces, and pages.
   **PR (Pending Review):** https://github.com/docmost/docs/pull/19
 
 ---
