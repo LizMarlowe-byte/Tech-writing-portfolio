@@ -16,7 +16,7 @@ I contribute to open‑source projects with a focus on improving documentation q
 
 ### Current Contributions
 - **Docmost Documentation** — Submitted a pull request improving user-facing documentation, including clearer conceptual explanations of workspaces, spaces, and pages.
-  **PR (Pending Review):** https://github.com/docmost/docs/pull/19
+  <br>**PR (Pending Review):** https://github.com/docmost/docs/pull/19
 
 ---
 
