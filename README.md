@@ -19,21 +19,21 @@ I contribute to open‑source projects by strengthening documentation clarity, s
 - **Docmost — Conceptual Documentation Additions**  
   Added two new conceptual topics to improve user understanding of Docmost’s core information architecture.  
   - Introduced a new concept page explaining *workspaces*, *spaces*, and *pages*, supported by a visual diagram.  
-  - Added an example-driven topic showing how an organization might structure its documentation using these concepts.  
+  - Added an example-driven topic showing how an organization might structure its company wiki using these concepts.  
   This contribution helps new users form accurate mental models and navigate the product more effectively.  
   **PR (Pending Review):** [![Docmost PR #19 badge](https://img.shields.io/badge/Docmost-PR%20%2319-0a66c2.svg)](https://github.com/docmost/docs/pull/19)
 
 - **Taiga — Complete End‑User Guide (New Creation)**  
   Authored an entirely new user guide for Taiga, addressing a significant gap in the project’s documentation. While Taiga provides strong developer-focused docs (installation, backup & restore, webhooks/APIs), it lacked a comprehensive guide for end users.  
   The guide introduces the platform and documents an end‑to‑end Scrum workflow with detailed, task‑based procedures, including:
-  - Backlog management: creating epics, user stories, and tasks  
-  - Sprint planning: creating sprints and assigning user stories  
-  - Sprint execution: tracking progress, updating work, and completing user stories  
+  - Backlog management: Creating epics, user stories, and tasks  
+  - Sprint planning: Creating sprints and assigning user stories  
+  - Sprint execution: Tracking progress, updating work, and completing user stories  
   **PR (Pending Review):** [![Taiga PR #25 badge](https://img.shields.io/badge/Taiga-PR%20%2325-0a66c2.svg)](https://github.com/taigaio/taiga-doc/pull/25)
 
 ### Why I Contribute to Open Source
 
-Open‑source projects allow me to collaborate with diverse teams, improve documentation in the places it’s needed most, and contribute to tools that support real users. I’m especially drawn to projects where strong developer content exists but end‑user guidance is missing—an opportunity to create clarity, structure, and onboarding paths that help the community thrive.
+Open‑source projects allow me to collaborate with diverse teams, improve documentation where it’s needed most, and contribute to tools that support real users. I’m especially drawn to projects where strong developer content exists but end‑user guidance is missing—an opportunity to create clarity, structure, and onboarding paths that help the community thrive.
 
 ---
 
