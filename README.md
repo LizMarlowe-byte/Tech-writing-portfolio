@@ -2,7 +2,7 @@
 # Liz Marlowe — Technical Writing Portfolio
 **Clear, user-focused documentation that simplifies complexity and accelerates adoption.**
 
-I’m **Liz Marlowe**, a Senior Technical Writer with 20+ years of experience creating clear, task-focused documentation that empowers users and accelerates product adoption. I specialize in simplifying complex technology and delivering structured, actionable content that improves usability and enhances the user experience. This portfolio highlights best practices—logical organization, clarity, and real-world context.
+I’m **Liz Marlowe**, a Senior Technical Writer with 20+ years of experience creating clear, task-focused documentation that empowers users and accelerates product adoption. I specialize in simplifying complex technology and delivering structured, actionable content that improves usability and enhances the user experience. This portfolio highlights best practices—logical organization, clarity, and real-world context. It also includes recent contributions to open‑source projects where I strengthen conceptual documentation and end‑user workflows.
 
 📄 [**Resume**](Liz%20Marlowe%20Resume.pdf)
 🔗 [**LinkedIn**](https://linkedin.com/in/liz-marlowe-3397833)
