@@ -44,8 +44,7 @@ Explore a curated list of writing samples grouped by content type—user guides,
 
 Hands‑on documentation sites built with static site generators (SSGs). Each project demonstrates real docs‑as‑code workflows using Markdown and Git/GitHub.
 
-- **Docusaurus** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-docusaurus/)  
-  *• IA & theming; versioning‑ready*
+- **Docusaurus** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-docusaurus/) — IA & theming; versioning‑ready*
 
 - **Jekyll** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-jekyll/)  
   *• Layout & theme customization*
