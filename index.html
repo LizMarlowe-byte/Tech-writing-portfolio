@@ -189,6 +189,19 @@
     }
   </style>
 <link rel="stylesheet" href="style.css" />
+  
+/* Keep all shortcut buttons on one row (desktop) */
+  .button-row {
+    flex-wrap: nowrap;
+  }
+
+  /* Allow wrapping on smaller screens */
+  @media (max-width: 640px) {
+    .button-row {
+      flex-wrap: wrap;
+    }
+  }
+
   <!-- Minimal Person schema for SEO -->
   <script type="application/ld+json">
   {
