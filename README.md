@@ -40,6 +40,24 @@ Explore a curated list of writing samples grouped by content type—user guides,
 
 ---
 
+## 🧩 Docs‑as‑Code Projects
+
+Hands‑on documentation sites built with static site generators (SSGs). Each project demonstrates real docs‑as‑code workflows using Markdown and Git/GitHub.
+
+- **Docusaurus** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-docusaurus/)  
+  *• IA & theming; versioning‑ready*
+
+- **Jekyll** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-jekyll/)  
+  *• Layout & theme customization*
+
+- **MkDocs** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-mkdocs/)  
+  *• Material theme & search*
+
+- **Hugo (WIP)** — https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/  
+  *• Shortcodes & fast builds*
+
+  ---
+
 ## 🌱 Open Source Contributions
 
 I contribute to open‑source projects by strengthening documentation clarity, structure, and discoverability. My work ranges from introducing new conceptual topics to building large‑scale, end‑user guides that fill major gaps in project documentation.
