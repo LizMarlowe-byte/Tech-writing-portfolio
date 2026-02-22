@@ -53,7 +53,7 @@ Hands‑on documentation sites built with static site generators (SSGs). Each pr
 - **MkDocs** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-mkdocs/)  
   *• Material theme & search*
 
-- **Hugo (WIP)** — https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/  
+- **Hugo (WIP)** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/)  
   *• Shortcodes & fast builds*
 
   ---
