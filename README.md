@@ -49,13 +49,13 @@ How I built four doc sites using MkDocs, Docusaurus, Hugo, and Jekyll, each with
 
 ### Live Documentation Sites
 
-- [Docusaurus Doc Site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-docusaurus/) — IA & theming; versioning‑ready
+- **[Docusaurus Doc Site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-docusaurus/)** — IA & theming; versioning‑ready
 
-- [Jekyll Doc Site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-jekyll/) — Layout & theme customization
+- **[Jekyll Doc Site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-jekyll/)** — Layout & theme customization
 
-- [MkDocs Doc Site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-mkdocs/) — Material theme & search
+- **[MkDocs Doc Site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-mkdocs/)** — Material theme & search
 
-- [Hugo Doc Site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/) — Shortcodes & fast builds
+- **[Hugo Doc Site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/)** — Shortcodes & fast builds
 
   ---
 
