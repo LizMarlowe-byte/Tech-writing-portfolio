@@ -42,7 +42,12 @@ Explore a curated list of writing samples grouped by content type—user guides,
 
 ## 🧩 Docs‑as‑Code Projects
 
-Hands‑on documentation sites built with static site generators (SSGs). Each project demonstrates real docs‑as‑code workflows using Markdown and Git/GitHub.
+Explore a modern documentation ecosystem case study and four live documentation sites that demonstrate my end‑to‑end docs‑as‑code workflow, tooling, and automation skills.
+
+### Docs-as-Code Workflow Case Study
+How I built four doc sites using MkDocs, Docusaurus, Hugo, and Jekyll, each with CI/CD, GH Pages deploy, and documentation quality automation.
+
+### Live Documentation Sites
 
 - **Docusaurus** — [View site](https://lizmarlowe-byte.github.io/docs-as-code-portfolio-docusaurus/) — IA & theming; versioning‑ready
 
