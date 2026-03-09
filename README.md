@@ -44,7 +44,7 @@ Explore a curated list of writing samples grouped by content type—user guides,
 
 Explore a modern documentation ecosystem case study and four live documentation sites that demonstrate my end‑to‑end docs‑as‑code workflow, tooling, and automation skills.
 
-### Docs-as-Code Workflow Case Study
+### [Docs-as-Code Workflow Case Study](https://github.com/LizMarlowe-byte/Tech-writing-portfolio/wiki/Docs%E2%80%90as%E2%80%90Code-Workflow-Case-Study-(2026))
 How I built four doc sites using MkDocs, Docusaurus, Hugo, and Jekyll, each with CI/CD, GH Pages deploy, and documentation quality automation.
 
 ### Live Documentation Sites
